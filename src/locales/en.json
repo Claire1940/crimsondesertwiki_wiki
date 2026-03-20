@@ -527,31 +527,60 @@
         "icon": "Skull",
         "layout": "bosses",
         "title": "Crimson Desert Boss Guide",
-        "summary": "Boss coverage on the homepage starts as a preparation-focused overview: how encounters look, how pressure changes across phases, and what players should bring into major fights.",
-        "items": [
+        "summary": "Crimson Desert has officially revealed four major boss encounters, each built around a distinct visual theme and combat identity.",
+        "cards": [
           {
-            "title": "Preparation matters before damage racing",
-            "detail": "The game pushes players to arrive with the right rhythm, tools, and defensive habits.",
-            "tag": "Planning"
+            "title": "Officially revealed bosses",
+            "value": "4",
+            "detail": "The official lineup currently lists four named major boss encounters."
           },
           {
-            "title": "Boss identity is highly visual",
-            "detail": "Silhouette, arena pressure, and move readability all help define the fight.",
-            "tag": "Readability"
+            "title": "Public boss battle footage",
+            "value": "gamescom 2024 gameplay trailers",
+            "detail": "Official boss battle trailers were published during the gamescom 2024 showcase cycle."
           },
           {
-            "title": "Phase shifts change tempo",
-            "detail": "Encounters reward adaptation instead of one solved pattern from start to finish.",
-            "tag": "Phases"
-          },
-          {
-            "title": "Guide pages can split later by individual boss",
-            "detail": "Homepage coverage is built as a launch pad for deeper single-boss walkthroughs.",
-            "tag": "Expansion"
+            "title": "Boss lineup",
+            "value": "White Horn, Staglord, Reed Devil, Queen Stoneback Crab",
+            "detail": "Each confirmed boss highlights a different region tone and encounter style in Pywel."
           }
         ],
-        "note": "This block is intentionally light on spoilers and heavy on practical expectations for major encounters.",
-        "ctaLabel": "Watch Boss Battle Trailers",
+        "panels": [
+          {
+            "title": "White Horn",
+            "subtitle": "Mountain spirit",
+            "details": [
+              "The first boss shown in the official boss battle trailer series.",
+              "Presented as a towering spirit encounter with a heavy fantasy-monster feel."
+            ]
+          },
+          {
+            "title": "Staglord",
+            "subtitle": "Fallen king",
+            "details": [
+              "Described by Pearl Abyss as a fallen king seated upon a forsaken throne.",
+              "Fits the game's darker royal ruin aesthetic and set-piece style boss design."
+            ]
+          },
+          {
+            "title": "Reed Devil",
+            "subtitle": "Hernand outcast",
+            "details": [
+              "Introduced as a slum-dweller of Hernand trying to rewrite his fate.",
+              "Ties the boss roster directly to one of the key early cities in Pywel."
+            ]
+          },
+          {
+            "title": "Queen Stoneback Crab",
+            "subtitle": "Gem-covered creature",
+            "details": [
+              "Presented as a monster adorned with some of the rarest gems in Pywel.",
+              "Adds a large creature-style encounter to the revealed boss lineup."
+            ]
+          }
+        ],
+        "note": "The current official boss set includes White Horn, Staglord, Reed Devil, and Queen Stoneback Crab.",
+        "ctaLabel": "Watch the official boss battle trailers",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=28"
       },
       {
@@ -559,126 +588,214 @@
         "icon": "WifiOff",
         "layout": "qa",
         "title": "Crimson Desert Multiplayer and Offline",
-        "summary": "This is one of the most common launch questions, so the homepage answers it directly: Crimson Desert is a single-player game with offline support after initial setup.",
+        "summary": "Crimson Desert is built as a single-player action-adventure. After the initial setup and day-one patch, the game can be played offline.",
         "cards": [
           {
-            "title": "Multiplayer",
-            "value": "No",
-            "detail": "Crimson Desert is not a co-op or online multiplayer release."
+            "title": "Game type",
+            "value": "Single Player",
+            "detail": "Official storefront and FAQ pages position the game as a solo campaign experience."
           },
           {
-            "title": "Single Player",
-            "value": "Yes",
-            "detail": "The core experience is built around a solo campaign."
+            "title": "Offline play",
+            "value": "Available after initial setup and day-one patch",
+            "detail": "An internet connection is needed first, but gameplay can continue offline afterward."
           },
           {
-            "title": "Offline After Setup",
-            "value": "Yes",
-            "detail": "Players can continue offline after first-time setup and the day one patch."
+            "title": "Cross-save",
+            "value": "Not supported",
+            "detail": "Progress does not transfer between supported platform ecosystems."
           },
           {
-            "title": "Cross-Save",
-            "value": "No",
-            "detail": "There is no supported cross-platform save migration."
+            "title": "PC controller support",
+            "value": "Xbox controllers and DualSense via USB",
+            "detail": "PC players can use Xbox controllers or a wired DualSense setup."
           }
         ],
-        "note": "This module exists specifically for searches like 'Is Crimson Desert multiplayer?' and 'Can Crimson Desert be played offline?'",
-        "ctaLabel": "Open Launch FAQ",
+        "panels": [
+          {
+            "title": "Can you play offline?",
+            "subtitle": "Yes, after setup",
+            "details": [
+              "An internet connection is required for the initial setup and day-one patch.",
+              "Once installation is complete, the game can be enjoyed offline."
+            ]
+          },
+          {
+            "title": "Is there multiplayer or co-op?",
+            "subtitle": "No multiplayer listed",
+            "details": [
+              "The Epic Games Store product page lists Crimson Desert as Single Player.",
+              "Official FAQ materials focus on solo play across supported platforms."
+            ]
+          },
+          {
+            "title": "Does it support cross-save?",
+            "subtitle": "No",
+            "details": [
+              "Cross-save is not available between platforms."
+            ]
+          },
+          {
+            "title": "Where can you play?",
+            "subtitle": "Current platform list",
+            "details": [
+              "PlayStation 5 and PlayStation 5 Pro",
+              "Xbox Series X|S and Xbox on PC",
+              "Steam on PC and Mac, Epic Games Store, Mac App Store, and GeForce NOW"
+            ]
+          }
+        ],
+        "note": "This module answers the most searched launch question directly: single-player first, offline after setup, and no cross-save.",
+        "ctaLabel": "See the launch FAQ and platform details",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
       },
       {
         "id": "system-requirements",
         "icon": "MonitorCog",
-        "layout": "specs",
+        "layout": "comparison",
         "title": "Crimson Desert System Requirements and Performance",
-        "summary": "Performance coverage needs to answer three player questions fast: where to find the specs, which technologies are supported, and what controller or platform details matter before launch week troubleshooting begins.",
+        "summary": "On PC, Crimson Desert requires 150 GB of SSD storage, 16 GB RAM, and DirectX 12. The official FAQ also confirms support for DLSS, FSR, PSSR, and MetalFX depending on platform.",
         "cards": [
           {
-            "title": "PC Specs",
-            "value": "Official Tables",
-            "detail": "The official notice provides recommended PC targets and guidance."
+            "title": "PC storage",
+            "value": "150 GB SSD required",
+            "detail": "Storage planning is straightforward: an SSD with at least 150 GB free is required."
           },
           {
-            "title": "Console Support",
-            "value": "Current Gen",
-            "detail": "PlayStation 5, PlayStation 5 Pro, and Xbox Series X|S are in scope."
+            "title": "PC memory",
+            "value": "16 GB RAM minimum and recommended",
+            "detail": "Both minimum and recommended official targets list 16 GB system memory."
           },
           {
-            "title": "Mac Support",
-            "value": "Available",
-            "detail": "Mac players have both storefront and performance guidance to review."
+            "title": "Graphics API",
+            "value": "DirectX 12",
+            "detail": "Windows builds are specified against DirectX 12 support."
           },
           {
-            "title": "Controller Support",
-            "value": "Supported",
-            "detail": "Xbox controllers and wired DualSense are supported on PC."
+            "title": "Intel Arc support",
+            "value": "Not supported",
+            "detail": "Current official FAQ notes do not list Intel Arc GPU support."
           }
         ],
-        "items": [
+        "panels": [
           {
-            "title": "DLSS",
-            "detail": "Upscaling support for supported PC hardware."
+            "title": "PC Minimum",
+            "subtitle": "Entry requirement",
+            "details": [
+              "OS: Windows 10 64-bit",
+              "CPU: Ryzen 5 2600X / Intel i5-8500",
+              "Memory: 16 GB RAM",
+              "GPU: RX 5500 XT / GTX 1060",
+              "DirectX: Version 12",
+              "Storage: 150 GB available space, SSD required"
+            ]
           },
           {
-            "title": "FSR",
-            "detail": "Alternative upscaling path for broader PC configurations."
+            "title": "PC Recommended",
+            "subtitle": "Smoother baseline",
+            "details": [
+              "OS: Windows 10 64-bit",
+              "CPU: Ryzen 5 5600 / Intel i5-11600K",
+              "Memory: 16 GB RAM",
+              "GPU: RX 6700 XT / RTX 2080",
+              "DirectX: Version 12",
+              "Storage: 150 GB available space, SSD required"
+            ]
           },
           {
-            "title": "PSSR",
-            "detail": "PlayStation 5 Pro performance feature coverage."
+            "title": "Performance Tech by Platform",
+            "subtitle": "Upscaling and frame generation",
+            "details": [
+              "PC: FSR 3/4, DLSS 4/4.5, AMD FSR Ray Regeneration, NVIDIA DLSS Ray Reconstruction",
+              "PS5 Pro: Upgraded PSSR",
+              "PS5 base model and Xbox Series X|S: FSR 3",
+              "Mac: MetalFX Upscaler, Frame Generation, and Denoiser"
+            ]
           },
           {
-            "title": "MetalFX",
-            "detail": "Mac-specific performance tooling support."
+            "title": "Extra Notes",
+            "subtitle": "Useful setup info",
+            "details": [
+              "Frame generation is supported on PC and Mac.",
+              "Recommended drivers: AMD 25.9.2+ and NVIDIA 581.29+.",
+              "Mac recommendation: macOS 26 Tahoe or later."
+            ]
           }
         ],
-        "note": "This homepage module is designed to become the launch point for a future PC optimization page.",
-        "ctaLabel": "Read Official Performance Specs",
+        "note": "This module consolidates PC baseline requirements and platform performance technologies into one launch troubleshooting checkpoint.",
+        "ctaLabel": "Check full PC, console, and Mac performance specs",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=62"
       },
       {
-        "id": "patch-notes",
-        "icon": "BadgeAlert",
-        "layout": "patches",
-        "title": "Crimson Desert Patch Notes and Known Issues",
-        "summary": "Patch coverage is one of the most practical post-launch homepage modules because it helps returning players see what changed before loading back into Pywel.",
-        "items": [
-          {
-            "title": "Version 1.00.02 Patch Notes",
-            "detail": "The launch-period update is the headline build reference for balance, fixes, and early polish work.",
-            "meta": "Current Patch"
-          },
-          {
-            "title": "Known Issues Notice",
-            "detail": "Track active launch-period problems before assuming a bug is local to your setup.",
-            "meta": "Current Issues"
-          },
-          {
-            "title": "Official Notices Index",
-            "detail": "Use the announcements archive to scan new maintenance posts, fixes, or live communication.",
-            "meta": "Ongoing Tracking"
-          }
-        ],
+        "id": "editions-bonuses",
+        "icon": "Package",
+        "layout": "editions",
+        "title": "Crimson Desert Editions and Bonuses",
+        "summary": "Crimson Desert is sold in Standard, Deluxe, and Collector's packages, with platform bonuses and add-on packs split across editions.",
         "cards": [
           {
-            "title": "Best Use",
-            "value": "Before You Return",
-            "detail": "Check patch notes and known issues before continuing a saved session."
+            "title": "Core editions",
+            "value": "Standard Edition, Deluxe Edition, Collector's Edition",
+            "detail": "The launch catalog is split into three main package tiers."
           },
           {
-            "title": "Update Type",
-            "value": "Live Notices",
-            "detail": "Official communications sit in a single notice stream."
+            "title": "Pre-order bonus",
+            "value": "Khaled Shield",
+            "detail": "Players pre-ordering the game can claim the Khaled Shield bonus item."
           },
           {
-            "title": "Homepage Role",
-            "value": "High-Value SEO",
-            "detail": "The module is useful both for players and for search visibility after launch."
+            "title": "PlayStation exclusive bonus",
+            "value": "Grotevant Plate Set",
+            "detail": "PlayStation purchase paths include a platform-exclusive armor set bonus."
+          },
+          {
+            "title": "Separate post-launch add-on",
+            "value": "Deluxe Pack",
+            "detail": "Players owning the base game can buy the Deluxe Pack separately after launch."
           }
         ],
-        "note": "This section should stay close to the top of the site's live maintenance routine after launch month.",
-        "ctaLabel": "Open Official Announcements",
-        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
+        "panels": [
+          {
+            "title": "Standard Edition",
+            "subtitle": "Physical and digital",
+            "details": [
+              "Includes the full game.",
+              "Pre-order bonus: Khaled Shield.",
+              "PlayStation editions add the Grotevant Plate Set.",
+              "The Mac version is available only in the Digital Standard Edition and does not include the pre-order bonus."
+            ]
+          },
+          {
+            "title": "Deluxe Edition",
+            "subtitle": "Physical and digital",
+            "details": [
+              "Includes the full game plus the Deluxe Pack.",
+              "Deluxe Pack items: Balgran Shield, Kairos Plate Set, Exclaire Horse Tack Set.",
+              "Physical Deluxe Edition also includes a SteelBook, Map of Pywel, Letter from the Developer, 3 Character Photo Cards, Greymane Brooch Pin, and 3 Patches."
+            ]
+          },
+          {
+            "title": "Collector's Edition",
+            "subtitle": "Physical only",
+            "details": [
+              "Includes the full game, Deluxe Pack, and Ultimate Pack content.",
+              "Ultimate Pack items: Tormented Soul Bow, Derictus Spear, Sielos Longsword, Shroud Lantern, Hyperion Horse Tack Set.",
+              "Physical collector goods include a 17 x 11 x 10 inch diorama, Limited SteelBook, Fabric Map of Pywel, Letter from the Developer, 3 Character Photo Cards, Greymane Brooch Pin, and 3 Patches."
+            ]
+          },
+          {
+            "title": "Extra Bonus Notes",
+            "subtitle": "Store and upgrade details",
+            "details": [
+              "The Deluxe Pack can be purchased separately after launch by players who already own the full game.",
+              "The Ultimate Pack from the Collector's Edition is not sold separately.",
+              "Epic Games Store buyers can also receive the Kliff Outfit in Fortnite as a gift-with-purchase offer shown on the store page."
+            ]
+          }
+        ],
+        "note": "This module gives players a direct package comparison before purchase, including bonus boundaries and add-on availability.",
+        "ctaLabel": "Compare packages and claim your bonus items",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=49"
       }
     ],
     "faq": {

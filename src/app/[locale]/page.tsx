@@ -3,7 +3,6 @@ import { getMessages } from 'next-intl/server'
 import {
   ArrowRight,
   Axe,
-  BadgeAlert,
   CheckCircle2,
   Clapperboard,
   ExternalLink,
@@ -11,6 +10,7 @@ import {
   Footprints,
   Map,
   MonitorCog,
+  Package,
   ScrollText,
   Skull,
   Sparkles,
@@ -39,6 +39,12 @@ type ModuleCard = {
   detail: string
 }
 
+type ModulePanel = {
+  title: string
+  subtitle?: string
+  details: string[]
+}
+
 type ModuleItem = {
   title: string
   detail: string
@@ -59,6 +65,8 @@ type ModuleLayout =
   | 'qa'
   | 'specs'
   | 'patches'
+  | 'comparison'
+  | 'editions'
 
 type IconName =
   | 'Flag'
@@ -72,7 +80,7 @@ type IconName =
   | 'Skull'
   | 'WifiOff'
   | 'MonitorCog'
-  | 'BadgeAlert'
+  | 'Package'
 
 type HomepageModule = {
   id: string
@@ -81,6 +89,7 @@ type HomepageModule = {
   title: string
   summary: string
   cards?: ModuleCard[]
+  panels?: ModulePanel[]
   items?: ModuleItem[]
   note: string
   ctaLabel: string
@@ -157,7 +166,7 @@ const moduleIcons: Record<IconName, LucideIcon> = {
   Skull,
   WifiOff,
   MonitorCog,
-  BadgeAlert,
+  Package,
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -269,6 +278,38 @@ function renderFeatureItems(items: ModuleItem[]) {
   )
 }
 
+function renderPanelCards(panels: ModulePanel[], emphasize = false) {
+  return (
+    <div className={`grid gap-4 ${emphasize ? 'lg:grid-cols-2' : 'md:grid-cols-2 xl:grid-cols-4'}`}>
+      {panels.map((panel) => (
+        <article
+          key={`${panel.title}-${panel.subtitle ?? 'panel'}`}
+          className="rounded-2xl border border-[hsl(var(--nav-theme)/0.18)] bg-background/90 p-5 shadow-[0_24px_60px_-40px_hsl(var(--nav-theme)/0.45)]"
+        >
+          <div className="space-y-3">
+            <div className="space-y-1">
+              <h3 className="text-lg font-semibold text-foreground">{panel.title}</h3>
+              {panel.subtitle ? (
+                <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                  {panel.subtitle}
+                </p>
+              ) : null}
+            </div>
+            <ul className="space-y-2">
+              {panel.details.map((detail, index) => (
+                <li key={`${panel.title}-${index + 1}`} className="flex items-start gap-2 text-sm leading-7 text-muted-foreground">
+                  <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-[hsl(var(--nav-theme-light))]" />
+                  <span>{detail}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  )
+}
+
 function renderPillItems(items: ModuleItem[]) {
   return (
     <div className="flex flex-wrap gap-3">
@@ -306,12 +347,32 @@ function renderSectionBody(module: HomepageModule) {
     case 'steps':
       return module.items ? renderTimelineItems(module.items, true) : null
     case 'qa':
-      return module.cards ? renderCardGrid(module.cards) : null
+      return (
+        <div className="space-y-6">
+          {module.cards ? renderCardGrid(module.cards) : null}
+          {module.panels ? renderPanelCards(module.panels) : null}
+        </div>
+      )
     case 'specs':
       return (
         <div className="space-y-6">
           {module.cards ? renderCardGrid(module.cards) : null}
+          {module.panels ? renderPanelCards(module.panels, true) : null}
           {module.items ? renderPillItems(module.items) : null}
+        </div>
+      )
+    case 'comparison':
+      return (
+        <div className="space-y-6">
+          {module.cards ? renderCardGrid(module.cards) : null}
+          {module.panels ? renderPanelCards(module.panels, true) : null}
+        </div>
+      )
+    case 'editions':
+      return (
+        <div className="space-y-6">
+          {module.cards ? renderCardGrid(module.cards, true) : null}
+          {module.panels ? renderPanelCards(module.panels, true) : null}
         </div>
       )
     case 'profiles':
@@ -322,6 +383,7 @@ function renderSectionBody(module: HomepageModule) {
       return (
         <div className="space-y-6">
           {module.cards ? renderCardGrid(module.cards, true) : null}
+          {module.panels ? renderPanelCards(module.panels, true) : null}
           {module.items ? renderFeatureItems(module.items) : null}
         </div>
       )
