@@ -319,7 +319,12 @@ function renderSectionBody(module: HomepageModule) {
     case 'guide':
     case 'weapons':
     case 'bosses':
-      return module.items ? renderFeatureItems(module.items) : null
+      return (
+        <div className="space-y-6">
+          {module.cards ? renderCardGrid(module.cards, true) : null}
+          {module.items ? renderFeatureItems(module.items) : null}
+        </div>
+      )
     default:
       return null
   }

@@ -246,41 +246,73 @@
         "icon": "Users",
         "layout": "profiles",
         "title": "Crimson Desert Characters",
-        "summary": "The cast is anchored by Kliff and the Greymanes, then widened through allies, rival factions, and later playable perspectives that deepen the campaign.",
+        "summary": "Meet the core faces of Crimson Desert, from Kliff and his Greymane comrades to the enemies and factions driving the war across Pywel.",
+        "cards": [
+          {
+            "title": "Confirmed protagonist",
+            "value": "Kliff",
+            "detail": "Kliff is the central protagonist and a surviving Greymane determined to reunite his scattered comrades."
+          },
+          {
+            "title": "Confirmed Greymane comrades",
+            "value": "Oongka, Yann, Naira",
+            "detail": "The official story setup confirms Oongka, Yann, and Naira as Kliff's core companions before the Black Bears' assault."
+          },
+          {
+            "title": "Confirmed additional named character",
+            "value": "Damiane",
+            "detail": "Official cast materials confirm Damiane as a named character with dedicated voice performance."
+          },
+          {
+            "title": "Main enemy faction",
+            "value": "Black Bears",
+            "detail": "The Black Bears are the faction responsible for shattering the Greymanes and escalating the war."
+          },
+          {
+            "title": "Named enemy leader",
+            "value": "Myurdin",
+            "detail": "Myurdin is identified as the leader driving the Black Bears' campaign against the Greymanes."
+          },
+          {
+            "title": "Core region in the opening conflict",
+            "value": "Pailune",
+            "detail": "The early conflict begins in Pailune, where rival factions once held a fragile balance."
+          }
+        ],
         "items": [
           {
             "title": "Kliff",
-            "detail": "The central viewpoint character and battlefield anchor for the campaign.",
-            "tag": "Lead"
+            "detail": "A Greymane survivor who sets out to reunite his comrades, rebuild the fallen group, and reclaim what was lost.",
+            "tag": "Protagonist"
           },
           {
             "title": "Oongka",
-            "detail": "A Greymane companion who also becomes playable later in the story.",
-            "tag": "Playable"
-          },
-          {
-            "title": "Naira",
-            "detail": "A core Greymane survivor tied closely to the faction's recovery arc.",
-            "tag": "Greymane"
+            "detail": "One of Kliff's confirmed companions on the official story page and one of the characters highlighted in official cast materials.",
+            "tag": "Greymane Comrade"
           },
           {
             "title": "Yann",
-            "detail": "Another important Greymane name to track as the scattered band regroups.",
-            "tag": "Greymane"
+            "detail": "Listed on the official main site as one of the Greymanes who stood beside Kliff before the Black Bears struck.",
+            "tag": "Greymane Comrade"
+          },
+          {
+            "title": "Naira",
+            "detail": "Listed on the official main site as one of Kliff's close Greymane allies in the opening story setup.",
+            "tag": "Greymane Comrade"
           },
           {
             "title": "Damiane",
-            "detail": "A later playable perspective who broadens the campaign structure.",
-            "tag": "Playable"
+            "detail": "Featured in official cast materials and later referenced in patch notes tied to greatsword skill updates.",
+            "tag": "Named Character"
           },
           {
-            "title": "Black Bears",
-            "detail": "The antagonistic force that turns faction instability into open conflict.",
-            "tag": "Rival Faction"
+            "title": "Myurdin",
+            "detail": "The leader of the Black Bears and the figure behind the attack that left the Greymanes dead or scattered.",
+            "tag": "Black Bears Leader"
           }
         ],
-        "note": "This module is built as a cast overview first, with room to expand into later character and faction profile pages.",
-        "ctaLabel": "Meet the Cast",
+        "note": "This module keeps cast and faction identity explicit so users can jump from names to deeper story and relationship pages.",
+        "ctaLabel": "View the character hub",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=60"
       },
       {
@@ -288,35 +320,73 @@
         "icon": "Map",
         "layout": "regions",
         "title": "Crimson Desert Open World and Regions",
-        "summary": "Pywel mixes cities, wild frontiers, ruins, and supernatural space into an exploration loop driven by landmarks, hidden spots, quests, and combat points of interest.",
+        "summary": "Explore Pywel through its cities, wilderness, ruins, floating mysteries, and settlement hubs that shape the game's main journey and side content.",
+        "cards": [
+          {
+            "title": "World name",
+            "value": "Pywel",
+            "detail": "Pywel is the seamless world where cities, frontiers, ruins, and high-conflict zones connect into one travel loop."
+          },
+          {
+            "title": "Official world type",
+            "value": "A vast, seamless open world",
+            "detail": "Official materials describe the world as broad, contiguous, and built for cross-region exploration."
+          },
+          {
+            "title": "Early city area",
+            "value": "Hernand",
+            "detail": "Hernand is identified as an early bustling city area filled with quests, encounters, and side activities."
+          },
+          {
+            "title": "Home region tied to the Greymanes",
+            "value": "Pailune",
+            "detail": "Pailune is tied to the Greymanes and the opening conflict that drives the campaign."
+          },
+          {
+            "title": "Camp location",
+            "value": "Howling Hill",
+            "detail": "Howling Hill is a named camp location tied to dispatches, upgrades, and resource routines."
+          },
+          {
+            "title": "Major realm beyond the surface",
+            "value": "The Abyss",
+            "detail": "The Abyss is presented as a floating mystery realm linked to artifacts, traversal, and puzzle elements."
+          }
+        ],
         "items": [
           {
-            "title": "Cities",
-            "detail": "Urban hubs act as story anchors, merchant clusters, and route reset points."
+            "title": "Hernand",
+            "detail": "A busy starting-area city where quests, outlaw strongholds, and side activities quickly open up.",
+            "tag": "Early City"
           },
           {
-            "title": "Wilderness",
-            "detail": "Open traversal space supports combat encounters, gathering, and discovery-heavy travel."
+            "title": "Howling Hill",
+            "detail": "Location of the Greymane camp, a core base tied to dispatches, upgrades, and resource loops.",
+            "tag": "Camp Base"
           },
           {
-            "title": "Ruins",
-            "detail": "Ancient structures frame puzzle solving, environmental storytelling, and hidden rewards."
+            "title": "Pailune",
+            "detail": "A core region in the story conflict and the Greymanes' home region later tied to reconstruction.",
+            "tag": "Northern Homeland"
           },
           {
             "title": "The Abyss",
-            "detail": "A floating and otherworldly space that shifts the campaign beyond grounded frontier conflict."
+            "detail": "A realm of floating islands, strange technology, magical artifacts, puzzles, and traversal-focused powers.",
+            "tag": "Mystery Realm"
           },
           {
-            "title": "Landmarks",
-            "detail": "Named locations guide navigation and turn broad regions into recognizable routes."
+            "title": "Demeniss and Delesyia",
+            "detail": "Named destinations referenced in published game guides and item-location routes.",
+            "tag": "Settlements and Routes"
           },
           {
-            "title": "Exploration Points",
-            "detail": "Combat spots, side activities, and hidden objectives reward players who leave the main trail."
+            "title": "Tomasso, Varnia, and Urdavah",
+            "detail": "Additional confirmed locations tied to books, gear references, and broader exploration paths.",
+            "tag": "Exploration Targets"
           }
         ],
-        "note": "This homepage block works as a regional overview before dedicated Pywel subpages exist.",
-        "ctaLabel": "Open the World Overview",
+        "note": "This module gives a clear regional spine for Pywel so readers can move from world-level context into location-specific guides.",
+        "ctaLabel": "Browse Pywel's regions",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
       },
       {
@@ -324,27 +394,63 @@
         "icon": "Swords",
         "layout": "guide",
         "title": "Crimson Desert Combat Guide",
-        "summary": "Crimson Desert combat emphasizes weapon-driven rhythm, close-range pressure, strong defensive reads, and precise reactions against heavier enemies and bosses.",
-        "items": [
+        "summary": "Crimson Desert uses fast, pressure-heavy melee combat built around timing, weapon choice, chained skills, and reading powerful enemies in close-range fights.",
+        "cards": [
           {
-            "title": "Fast and heavy attacks work as the core rhythm",
-            "detail": "Use them together to control tempo instead of spamming a single string."
+            "title": "Combat style",
+            "value": "Fast-paced melee action",
+            "detail": "Official combat coverage describes a quick and visceral pace that rewards decisive execution."
           },
           {
-            "title": "Blocking and parrying decide high-pressure fights",
-            "detail": "The game rewards tight defensive timing when enemy aggression spikes."
+            "title": "Core defensive tools",
+            "value": "Block and parry",
+            "detail": "Defensive timing is critical when enemies pressure from multiple angles."
           },
           {
-            "title": "Grabs and throws widen the action set",
-            "detail": "The toolkit is broader than a basic light-heavy combo loop."
+            "title": "Core offensive tools",
+            "value": "Fast strikes, heavy slashes, grabs, throws",
+            "detail": "The offensive toolkit supports both chained pressure and hard punish windows."
           },
           {
-            "title": "Enemy reading matters as much as damage output",
-            "detail": "Spacing, reaction windows, and counterplay define higher-pressure encounters."
+            "title": "Enemy pressure",
+            "value": "Foes can surround and overwhelm Kliff",
+            "detail": "Positioning and tempo control matter because encounters escalate quickly."
+          },
+          {
+            "title": "Build system",
+            "value": "No class-based build system",
+            "detail": "Combat identity is driven by weapons and move choices rather than fixed class roles."
+          },
+          {
+            "title": "Boss combat focus",
+            "value": "Read abilities, parry well, punish openings",
+            "detail": "Boss encounters reward pattern reading and precise counterplay under pressure."
           }
         ],
-        "note": "This module is tuned for players searching for core combat feel rather than late-game optimization spreadsheets.",
-        "ctaLabel": "Read Combat and Progression",
+        "items": [
+          {
+            "title": "Pressure Fighting",
+            "detail": "Combat rewards constant movement and quick decisions because enemies actively crowd, flank, and pressure the player.",
+            "tag": "Battle Flow"
+          },
+          {
+            "title": "Parry Timing",
+            "detail": "A well-timed block can knock enemies off-balance and create windows for follow-up attacks.",
+            "tag": "Defense"
+          },
+          {
+            "title": "Freeform Offense",
+            "detail": "Combat is not locked into one rhythm; weapon choice, skill chains, grabs, and directional freedom shape each encounter.",
+            "tag": "Offense"
+          },
+          {
+            "title": "Boss Readiness",
+            "detail": "Stronger enemies and bosses demand pattern reading, heavy punish windows, and confidence against artifact-powered attacks.",
+            "tag": "Advanced Play"
+          }
+        ],
+        "note": "This module gives a combat-first reference layer that helps users bridge from core mechanics into deeper encounter-specific strategy.",
+        "ctaLabel": "Learn the combat basics",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=58"
       },
       {
@@ -352,42 +458,69 @@
         "icon": "Axe",
         "layout": "weapons",
         "title": "Crimson Desert Weapons and Skills",
-        "summary": "There is no fixed class system. Your fighting style changes through weapon choice, learned moves, and the way upgrades expand your combat toolkit.",
+        "summary": "Weapons and skills define how Crimson Desert plays: no fixed classes, a broad melee toolkit, ranged options, skill-tree growth, and learn-by-observing progression.",
+        "cards": [
+          {
+            "title": "Default early weapon setup",
+            "value": "Sword and shield",
+            "detail": "The baseline setup supports balanced offense, defense, and parry-focused combat flow."
+          },
+          {
+            "title": "Other confirmed melee weapons",
+            "value": "Great swords, spears, axes",
+            "detail": "Melee options shift range, timing windows, and punish profiles across encounters."
+          },
+          {
+            "title": "Confirmed ranged weapons",
+            "value": "Bow and guns",
+            "detail": "Ranged tools add flexibility for hunting, spacing, and encounter control."
+          },
+          {
+            "title": "Skill growth methods",
+            "value": "Skill tree unlocks and Watch and Learn",
+            "detail": "Growth combines progression unlocks with combat observation to expand Kliff's move set."
+          },
+          {
+            "title": "Named utility power",
+            "value": "Force Current",
+            "detail": "A Spirit-branch ability tied to Axiom Force that supports exploration and gathering utility."
+          },
+          {
+            "title": "Force Current requirement",
+            "value": "Axiom Force Level 2, Force Palm Level 2, and 1 Abyss Artifact",
+            "detail": "This requirement snapshot gives players a practical upgrade target for unlocking the skill."
+          }
+        ],
         "items": [
           {
             "title": "Sword and Shield",
-            "detail": "The early anchor set for players learning defense, positioning, and control.",
-            "tag": "Starter"
+            "detail": "Kliff begins with a sword-and-shield setup that supports balanced offense, defense, and parry-focused play.",
+            "tag": "Baseline Style"
           },
           {
-            "title": "Greatswords",
-            "detail": "A heavier option for broader swings, weightier pressure, and commitment-based offense.",
-            "tag": "Heavy"
+            "title": "Heavy Weapons",
+            "detail": "Great swords, spears, and axes shift combat approach toward different ranges, timings, and punish patterns.",
+            "tag": "Power Style"
           },
           {
-            "title": "Spears",
-            "detail": "Useful when reach, precision, and spacing matter more than raw brawling tempo.",
-            "tag": "Reach"
+            "title": "Ranged Utility",
+            "detail": "Kliff's bow and Damiane's guns are confirmed ranged options, with hunting specifically called out in current guides.",
+            "tag": "Field Use"
           },
           {
-            "title": "Axes",
-            "detail": "A direct route into stronger impact and punishing exchanges.",
-            "tag": "Power"
+            "title": "Watch and Learn",
+            "detail": "Kliff can gain moves by observing other fighters, including in combat, adding new actions directly to his repertoire.",
+            "tag": "Skill Growth"
           },
           {
-            "title": "Ranged Options",
-            "detail": "Supplement melee pressure with distance control and encounter flexibility.",
-            "tag": "Range"
-          },
-          {
-            "title": "Abyss Artifact Upgrades",
-            "detail": "Upgrade currency that unlocks stronger abilities and new skill expression.",
-            "tag": "Progression"
+            "title": "Force Current",
+            "detail": "A Spirit-branch ability that can break trees and mineral deposits after charging a heavy Axiom Force attack.",
+            "tag": "Axiom Force Skill"
           }
         ],
-        "note": "The best way to read the system is by weapons and movesets, not by traditional RPG class labels.",
-        "ctaLabel": "Read the Official Crafting Guide",
-        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-crafting-cooking-recipes"
+        "note": "This module is organized around weapon identity and skill growth so users can quickly map their combat style and upgrade priorities.",
+        "ctaLabel": "See weapons and skill paths",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=69"
       },
       {
         "id": "boss-guide",
