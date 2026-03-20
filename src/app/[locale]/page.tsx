@@ -3,8 +3,11 @@ import { getMessages } from 'next-intl/server'
 import {
   ArrowRight,
   Axe,
+  Bug,
   CheckCircle2,
+  ChefHat,
   Clapperboard,
+  Compass,
   ExternalLink,
   Flag,
   Footprints,
@@ -15,6 +18,7 @@ import {
   Skull,
   Sparkles,
   Swords,
+  Tent,
   Users,
   WifiOff,
   type LucideIcon,
@@ -81,6 +85,10 @@ type IconName =
   | 'WifiOff'
   | 'MonitorCog'
   | 'Package'
+  | 'ChefHat'
+  | 'Tent'
+  | 'Compass'
+  | 'Bug'
 
 type HomepageModule = {
   id: string
@@ -167,6 +175,10 @@ const moduleIcons: Record<IconName, LucideIcon> = {
   WifiOff,
   MonitorCog,
   Package,
+  ChefHat,
+  Tent,
+  Compass,
+  Bug,
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -460,10 +472,26 @@ export default async function HomePage() {
   const homepage = messages.homepage
   const siteUrl = getSiteUrl()
   const heroImageUrl = toAbsoluteUrl(SITE.heroImage)
-  const moduleGroups = [
-    homepage.modules.slice(0, 4),
-    homepage.modules.slice(4, 8),
-    homepage.modules.slice(8, 12),
+  const moduleGroups = homepage.modules.reduce<HomepageModule[][]>((groups, module, index) => {
+    if (index % 4 === 0) {
+      groups.push([])
+    }
+    groups[groups.length - 1].push(module)
+    return groups
+  }, [])
+  const moduleSectionAds = [
+    {
+      type: 'banner-320x50' as const,
+      adKey: process.env.NEXT_PUBLIC_AD_MOBILE_320X50,
+    },
+    {
+      type: 'banner-468x60' as const,
+      adKey: process.env.NEXT_PUBLIC_AD_BANNER_468X60,
+    },
+    {
+      type: 'banner-300x250' as const,
+      adKey: process.env.NEXT_PUBLIC_AD_BANNER_300X250,
+    },
   ]
 
   const structuredData = {
@@ -704,35 +732,26 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <div className="px-4 py-8">
-        <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
-      </div>
+      {moduleGroups.map((group, groupIndex) => {
+        const adSlot = moduleSectionAds[Math.min(groupIndex, moduleSectionAds.length - 1)]
+        const moduleStartIndex = groupIndex * 4
 
-      <section className="px-4 py-6">
-        <div className="container mx-auto space-y-8">
-          {moduleGroups[0].map((module, index) => renderModuleSection(module, index))}
-        </div>
-      </section>
+        return (
+          <div key={`homepage-group-${groupIndex + 1}`}>
+            <div className="px-4 py-8">
+              <AdBanner type={adSlot.type} adKey={adSlot.adKey} />
+            </div>
 
-      <div className="px-4 py-8">
-        <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
-      </div>
-
-      <section className="px-4 py-6">
-        <div className="container mx-auto space-y-8">
-          {moduleGroups[1].map((module, index) => renderModuleSection(module, index + 4))}
-        </div>
-      </section>
-
-      <div className="px-4 py-8">
-        <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
-      </div>
-
-      <section className="px-4 py-6">
-        <div className="container mx-auto space-y-8">
-          {moduleGroups[2].map((module, index) => renderModuleSection(module, index + 8))}
-        </div>
-      </section>
+            <section className="px-4 py-6">
+              <div className="container mx-auto space-y-8">
+                {group.map((module, moduleIndex) =>
+                  renderModuleSection(module, moduleStartIndex + moduleIndex)
+                )}
+              </div>
+            </section>
+          </div>
+        )
+      })}
 
       <section className="px-4 py-16 md:py-20">
         <div className="container mx-auto">

@@ -70,7 +70,7 @@
     },
     "moduleNav": {
       "title": "Crimson Desert Homepage Modules",
-      "subtitle": "Jump from the trailer straight into the sections players actually search for."
+      "subtitle": "Jump from the trailer straight into 16 homepage sections players actually search for."
     },
     "modules": [
       {
@@ -796,6 +796,272 @@
         "note": "This module gives players a direct package comparison before purchase, including bonus boundaries and add-on availability.",
         "ctaLabel": "Compare packages and claim your bonus items",
         "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=49"
+      },
+      {
+        "id": "crafting-cooking",
+        "icon": "ChefHat",
+        "layout": "specs",
+        "title": "Crimson Desert Crafting and Cooking",
+        "summary": "Learn recipes, gather materials, craft stronger gear, and prepare better meals by combining town vendors, field tools, and camp support systems.",
+        "cards": [
+          {
+            "title": "Recipe learning method",
+            "value": "Books and scrolls",
+            "detail": "Recipes are mainly learned from books and scrolls, then added to the Knowledge menu after examination."
+          },
+          {
+            "title": "Vendor refresh cycle",
+            "value": "Roughly 24 in-game hours",
+            "detail": "Town vendor inventory refreshes on a daily in-game rhythm, making restock routes reliable."
+          },
+          {
+            "title": "Meal quality tiers",
+            "value": "Modest, Filling, Satisfying, Hearty",
+            "detail": "Recovery meals scale by quality tier and become a practical progression lever."
+          },
+          {
+            "title": "Confirmed gathering tools",
+            "value": "Fishing Rod, Pickaxe, Logging Axe",
+            "detail": "These tools form the baseline loop for ingredient and material gathering."
+          }
+        ],
+        "panels": [
+          {
+            "title": "Core Gear Vendors",
+            "subtitle": "Town supply layer",
+            "details": [
+              "Smithy",
+              "Equipment Shop",
+              "Tailor Shop",
+              "Tannery",
+              "Contribution Shop"
+            ]
+          },
+          {
+            "title": "Core Food Sources",
+            "subtitle": "Ingredient layer",
+            "details": [
+              "Butchery",
+              "Grocer",
+              "Fishing Shop",
+              "Street Shops",
+              "Wandering Merchants"
+            ]
+          },
+          {
+            "title": "Force Current Gathering Unlock",
+            "subtitle": "Axiom Force route",
+            "details": [
+              "Axiom Force Level 2",
+              "Force Palm Level 2",
+              "1 Abyss Artifact",
+              "Enables tree and mineral gathering through Force Current"
+            ]
+          },
+          {
+            "title": "Early Recipe Samples",
+            "subtitle": "Practical starters",
+            "details": [
+              "Fish Porridge and Pickled Vegetable",
+              "Braised Fish and Pan-Fried Rice Cakes",
+              "Fishball Soup",
+              "Meat and Vegetable Porridge and Braised Ribs"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "Fish Porridge",
+            "detail": "Early recovery option from basic fish and staple ingredients."
+          },
+          {
+            "title": "Braised Fish",
+            "detail": "A stronger cooked dish commonly used in the early-to-mid progression loop."
+          },
+          {
+            "title": "Fishball Soup",
+            "detail": "A practical meal for sustained field activity and quest routing."
+          },
+          {
+            "title": "Braised Ribs",
+            "detail": "A higher-value recipe worth tracking once ingredient supply stabilizes."
+          }
+        ],
+        "note": "This module links recipes, tools, vendors, and quality tiers into one practical loop so players can scale both survivability and crafting momentum.",
+        "ctaLabel": "Open the full Crafting and Cooking guide",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-crafting-cooking-recipes"
+      },
+      {
+        "id": "greymane-camp-guide",
+        "icon": "Tent",
+        "layout": "timeline",
+        "title": "Crimson Desert Greymane Camp Guide",
+        "summary": "Build up Howling Hill, recruit scattered Greymanes, run dispatch missions, and turn the camp into a long-term resource and inventory engine.",
+        "cards": [
+          {
+            "title": "Camp unlock chapter",
+            "value": "Chapter 3: Howling Hill - Homestead",
+            "detail": "The camp loop begins in Chapter 3 and becomes a core progression layer."
+          },
+          {
+            "title": "First expansion requirement",
+            "value": "2 recruits, 100 food, 250 money, 18 in-game hours",
+            "detail": "This is the first major threshold for expanding Howling Hill operations."
+          },
+          {
+            "title": "Dispatch skill tags",
+            "value": "14 confirmed tags",
+            "detail": "Tags include Escort, Farmer, Rancher, Fisherman, Smith, Logger, Miner, Craftsman, Jeweler, Engineer, Cook, Explorer, Painter, and Weaver."
+          },
+          {
+            "title": "Inventory reward chain",
+            "value": "+81 slots from 27 commissions",
+            "detail": "Greymane Commissions can reward Medium Bags worth +3 slots each."
+          }
+        ],
+        "items": [
+          {
+            "title": "Open Howling Hill and secure the first tent",
+            "detail": "Start by securing your first tent, placing the banner, cooking 2 Modest Clear Soup, and bringing Marius back to camp.",
+            "meta": "Early Setup"
+          },
+          {
+            "title": "Work through the three faction tabs",
+            "detail": "Camp progression is structured around Scattered Embers, Grounds of the Sunrise, and Greymane Commissions.",
+            "meta": "Quest Structure"
+          },
+          {
+            "title": "Establish the camp management loop",
+            "detail": "Cycle through Supply Chest rewards, Camp Provisions donations, recruit recovery, and dispatch missions to keep growth steady.",
+            "meta": "Core Loop"
+          },
+          {
+            "title": "Scale dispatches by role and mission type",
+            "detail": "Confirmed mission categories include Escort, Harvesting and Farming, Mining, and Logging.",
+            "meta": "Dispatch Ops"
+          },
+          {
+            "title": "Push expansion and inventory upgrades",
+            "detail": "Complete commissions to stack Medium Bag rewards and reach larger settlement growth targets.",
+            "meta": "Growth"
+          }
+        ],
+        "note": "This module frames camp management as a repeatable progression engine that feeds materials, roster strength, and inventory growth.",
+        "ctaLabel": "See the full Greymane Camp and Recruits guide",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-greymane-camp-management-recruits"
+      },
+      {
+        "id": "side-activities-exploration",
+        "icon": "Compass",
+        "layout": "guide",
+        "title": "Crimson Desert Side Activities and Exploration",
+        "summary": "Explore Pywel beyond the main story with liberated outposts, fishing loops, traversal upgrades, Abyss puzzle spaces, and organic world encounters.",
+        "cards": [
+          {
+            "title": "Liberation impact",
+            "value": "Outposts reopen local activity",
+            "detail": "Clearing outlaw-held spots restores civilian access and unlocks fresh quests and activity routes."
+          },
+          {
+            "title": "Traversal kit",
+            "value": "Climb, glide, swim, sprint",
+            "detail": "Movement systems share stamina management and shape how fast players can map new routes."
+          },
+          {
+            "title": "Long-range mobility",
+            "value": "On-demand horse summon",
+            "detail": "Mount mobility supports rapid cross-region travel while mount and glider stamina improve over time."
+          },
+          {
+            "title": "Upgrade catalyst",
+            "value": "Abyss Artifacts",
+            "detail": "Exploration rewards feed progression by unlocking stronger abilities and systems."
+          }
+        ],
+        "items": [
+          {
+            "title": "Outpost Liberation",
+            "detail": "Reclaim outlaw-controlled areas to reopen locations for townspeople and trigger additional activity chains.",
+            "tag": "World State"
+          },
+          {
+            "title": "Fish Market Recovery Loop",
+            "detail": "A reclaimed fish market in Hernand brings fishermen back and opens the path for learning fishing by observation.",
+            "tag": "City Activity"
+          },
+          {
+            "title": "Abyss Puzzle Systems",
+            "detail": "The Abyss introduces device-based puzzles, weight mechanics, heavy-object movement, and glider-driven traversal paths.",
+            "tag": "Puzzle Layer"
+          },
+          {
+            "title": "Short-Form Encounter Hunting",
+            "detail": "Exploration naturally surfaces cliff rescues, hidden chests, and trade-related discoveries during normal travel.",
+            "tag": "Encounter Layer"
+          },
+          {
+            "title": "Seamless World Discovery",
+            "detail": "Official positioning emphasizes a vast seamless world spanning cities, wilderness, ruins, and Abyss routes.",
+            "tag": "Macro View"
+          }
+        ],
+        "note": "This module shows why exploration is not filler: each activity loop contributes to quests, resources, and long-term progression options.",
+        "ctaLabel": "Browse exploration, activities, and region guides",
+        "ctaHref": "https://blog.playstation.com/2026/03/04/crimson-desert-hands-on-report-four-hours-in-the-rpgs-massive-open-world/"
+      },
+      {
+        "id": "patch-notes-known-issues",
+        "icon": "Bug",
+        "layout": "patches",
+        "title": "Crimson Desert Patch Notes and Known Issues",
+        "summary": "Track live fixes, active issues, platform rollout timing, and the biggest gameplay, boss, UI, and performance changes after launch.",
+        "cards": [
+          {
+            "title": "Latest published patch",
+            "value": "Version 1.00.02",
+            "detail": "The newest public patch entry is Version 1.00.02."
+          },
+          {
+            "title": "Patch post date",
+            "value": "March 19, 2026",
+            "detail": "Version 1.00.02 was published on March 19, 2026."
+          },
+          {
+            "title": "Current issue board",
+            "value": "10 active issues, 1 solved item",
+            "detail": "The Known Issues notice tracks current open items and solved updates."
+          },
+          {
+            "title": "Known Issues timestamp",
+            "value": "2026/03/20 6:15 UTC",
+            "detail": "The public Known Issues page displays this latest update timestamp."
+          }
+        ],
+        "items": [
+          {
+            "title": "Version 1.00.02 posted with platform rollout updates",
+            "detail": "The notice states PlayStation and Epic Games Store availability was updated to March 20, 2026 at 01:00 UTC, with rollout notes tracked by platform.",
+            "meta": "Patch Timeline"
+          },
+          {
+            "title": "Patch content grouped into eight update areas",
+            "detail": "Quests, Content, Skills, Boss Fights, NPC & NPC Dialogue, Localization, UI, and Performance are tracked as separate change sections.",
+            "meta": "Scope"
+          },
+          {
+            "title": "Gameplay and boss adjustments shipped",
+            "detail": "Highlights include Abyss Gears tutorial additions, faster cutscene fast-forwarding, Watch and Learn usability changes, and multiple boss flow fixes.",
+            "meta": "Gameplay"
+          },
+          {
+            "title": "Known Issues actively tracks performance and progression blockers",
+            "detail": "Current open entries include Abyss-related frame drops, quest progression blockers, control lockups, settings save problems, and storefront-specific claim issues.",
+            "meta": "Issue Board"
+          }
+        ],
+        "note": "This module combines patch deltas and issue status in one checkpoint so players can quickly verify what changed and what is still under investigation.",
+        "ctaLabel": "Check the latest patch notes and known issues",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
       }
     ],
     "faq": {
