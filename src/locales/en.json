@@ -2,12 +2,12 @@
   "seo": {
     "home": {
       "title": "Crimson Desert Wiki - Bosses, Map & Gear Guide",
-      "description": "Crimson Desert Wiki with boss guides, map walkthroughs, gear tips, puzzles, quests, and patch updates for Kliff's journey across the world of Pywel.",
-      "keywords": "Crimson Desert, Crimson Desert Wiki, boss guide, map, quests, gear, puzzles, Kliff, Pywel",
+      "description": "Crimson Desert Wiki with release details, boss guides, story notes, map references, combat tips, and patch updates for Kliff's journey across Pywel.",
+      "keywords": "Crimson Desert, Crimson Desert Wiki, release date, platforms, boss guide, story, map, combat, Kliff, Pywel",
       "ogTitle": "Crimson Desert Wiki - Bosses, Map & Gear Guide",
-      "ogDescription": "Track bosses, quests, puzzles, map routes, gear, and patch changes for Crimson Desert in one focused wiki.",
+      "ogDescription": "Track launch details, combat systems, bosses, regions, and patch updates for Crimson Desert in one focused wiki.",
       "twitterTitle": "Crimson Desert Wiki - Bosses, Map & Gear Guide",
-      "twitterDescription": "Track bosses, quests, puzzles, map routes, gear, and patch changes for Crimson Desert."
+      "twitterDescription": "Track launch details, combat systems, bosses, regions, and patch updates for Crimson Desert."
     }
   },
   "nav": {},
@@ -25,776 +25,610 @@
     "relatedArticles": "Related Articles",
     "readMore": "Read More"
   },
-  "hero": {
-    "badge": "Open-World Action Adventure",
-    "title": "Crimson Desert Wiki",
-    "description": "Track bosses, quests, map routes, puzzle solutions, gear upgrades, and patch changes for Kliff's journey across the continent of Pywel.",
-    "getFreeCodesCTA": "Visit Official Site",
-    "playOnRobloxCTA": "Join Official Discord",
-    "stats": {
-      "stat1": {
-        "value": "3M",
-        "label": "Wishlists"
-      },
-      "stat2": {
-        "value": "8",
-        "label": "Launch Platforms"
-      },
-      "stat3": {
-        "value": "14",
-        "label": "UI Languages"
-      },
-      "stat4": {
-        "value": "1.00.02",
-        "label": "Latest Patch"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Official Launch Trailer",
-    "description": "Watch the latest official Crimson Desert trailer and follow the current media push, community channels, and update cadence from Pearl Abyss."
-  },
-  "tools": {
-    "title": "Slayerbound",
-    "titleHighlight": "Resources",
-    "subtitle": "Jump to any section below",
-    "codes": {
-      "title": "Codes",
-      "description": "Get free rewards"
-    },
-    "redeemGuide": {
-      "title": "Redeem Guide",
-      "description": "Learn how to redeem codes"
-    },
-    "trainingPaths": {
-      "title": "Training Paths",
-      "description": "Choose your path"
-    },
-    "breathingTier": {
-      "title": "Breathing Tier List",
-      "description": "Best breathing styles"
-    },
-    "demonArtTier": {
-      "title": "Demon Art Tier List",
-      "description": "Top demon arts"
-    },
-    "oniRoute": {
-      "title": "Oni Route",
-      "description": "Transform to Oni"
-    },
-    "controls": {
-      "title": "Controls",
-      "description": "Master the keys"
-    },
-    "questMap": {
-      "title": "Quest Map",
-      "description": "Find NPCs and quests"
-    },
-    "bossDrops": {
-      "title": "Boss Drops",
-      "description": "Boss loot guide"
-    },
-    "currencyFarm": {
-      "title": "Currency Farm",
-      "description": "Earn Yen fast"
-    },
-    "resetPlanner": {
-      "title": "Reset Planner",
-      "description": "Plan your resets"
-    },
-    "buildPlanner": {
-      "title": "Build Planner",
-      "description": "Optimize your build"
-    },
-    "thunderBreathing": {
-      "title": "Thunder Breathing",
-      "description": "Unlock Thunder style"
-    },
-    "fastLeveling": {
-      "title": "Fast Leveling",
-      "description": "Level up quickly"
-    },
-    "finalSelection": {
-      "title": "Final Selection",
-      "description": "Become a Slayer"
-    },
-    "clanSystem": {
-      "title": "Clan System",
-      "description": "Clan tiers & buffs"
-    }
-  },
-  "whatIs": {
-    "title": "What is",
-    "titleHighlight": "Slayerbound?",
-    "description": "Slayerbound is a Demon Slayer-themed action RPG on Roblox. Master breathing styles, unlock powerful clans, and battle demons in intense combat.",
-    "features": [
-      {
-        "title": "Breathing Styles",
-        "description": "Master powerful breathing techniques like Flame, Wind, and Water"
-      },
-      {
-        "title": "Clan System",
-        "description": "Unlock and upgrade powerful clans with unique abilities"
-      },
-      {
-        "title": "Demon Battles",
-        "description": "Fight challenging demons and bosses to earn rewards"
-      }
-    ]
-  },
-  "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Slayerbound",
-    "questions": [
-      {
-        "question": "How do I attack and block in Slayerbound?",
-        "answer": "LMB = Attack, RMB = Heavy Attack, F = Block."
-      },
-      {
-        "question": "How do I run in Slayerbound?",
-        "answer": "Double-tap W (W+W) to run."
-      },
-      {
-        "question": "How do I open menu and breathing in Slayerbound?",
-        "answer": "M = Menu, G = Breathing."
-      },
-      {
-        "question": "How do I use skill keys in Slayerbound?",
-        "answer": "Use 1-9 for skills."
-      },
-      {
-        "question": "How do I redeem Slayerbound codes?",
-        "answer": "Open the Codes button/menu, input code, then redeem/enter."
-      },
-      {
-        "question": "Why does a Slayerbound code not work?",
-        "answer": "Most common reasons: expired, typo, already used."
-      },
-      {
-        "question": "Are Slayerbound codes case-sensitive?",
-        "answer": "Treat them as case-sensitive and paste exactly as listed."
-      },
-      {
-        "question": "What rewards do Slayerbound codes usually give?",
-        "answer": "Common rewards include Spins, Yen, and specific reset effects."
-      },
-      {
-        "question": "Where should I track new Slayerbound codes first?",
-        "answer": "Official Discord, Roblox game page/community posts, and active guide trackers."
-      },
-      {
-        "question": "Is there an official Slayerbound Trello?",
-        "answer": "Yes, an official Slayerbound Trello link is publicly shared."
-      },
-      {
-        "question": "What training paths are available in Slayerbound?",
-        "answer": "Flame, Wind, and Water are the main training paths."
-      },
-      {
-        "question": "What does Slayerbound Flame training require?",
-        "answer": "Collect 40 Oni Horns and defeat strong Oni enemies."
-      },
-      {
-        "question": "What does Slayerbound Wind training require?",
-        "answer": "Fight Giga Horn boss in Demon Camp until the horn drops."
-      },
-      {
-        "question": "What does Slayerbound Water training require?",
-        "answer": "Complete parkour challenge and break the rock. Final step costs 2,000 Yen per attempt."
-      },
-      {
-        "question": "Which Slayerbound code can reset breathing/demon art?",
-        "answer": "Example: 1KLIKES resets breathing/demon art and may also reset race."
-      },
-      {
-        "question": "Are there stats-reset codes in Slayerbound?",
-        "answer": "Yes, milestone codes include stats reset entries."
-      },
-      {
-        "question": "Do Slayerbound code pools change often?",
-        "answer": "Yes, lists update frequently around milestones and bug-fix windows."
-      },
-      {
-        "question": "Are exact boss drop rates known in Slayerbound?",
-        "answer": "Drop rates are not publicly confirmed by developers."
-      },
-      {
-        "question": "What is the best Yen farming route in Slayerbound?",
-        "answer": "Redeem active codes first, then follow progression routes while managing costs."
-      },
-      {
-        "question": "Should I commit to one build early in Slayerbound?",
-        "answer": "Not recommended—test routes and controls first, then use resets strategically."
-      }
-    ]
-  },
-  "cta": {
-    "title": "Keep Tracking Crimson Desert",
-    "description": "Use the official trailer, X feed, and community channels alongside this wiki to stay current on bosses, maps, quests, and patch updates.",
-    "joinCommunity": "Watch on YouTube",
-    "joinGame": "Follow on X"
-  },
-  "footer": {
-    "title": "Crimson Desert",
-    "description": "Your focused Crimson Desert resource hub for boss guides, quest routes, puzzles, map references, and gear notes.",
-    "resources": "Resources",
-    "activeCodes": "Active Codes",
-    "trainingGuides": "Training Guides",
-    "breathingStyles": "Breathing Styles",
-    "clanGuides": "Clan Guides",
-    "moreTools": "Community",
-    "discord": "Official Discord",
-    "trello": "Official Trello",
-    "playNow": "Play on Roblox",
-    "copyright": "© 2026 Crimson Desert Wiki. Unofficial fan site and not affiliated with Pearl Abyss.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
-  },
   "homepage": {
-    "codes": {
-      "title": "Slayerbound",
-      "titleHighlight": "Codes",
-      "subtitle": "Get free spins, yen, and resets to boost your progression",
-      "cta": "View All Codes & Redemption Guide",
-      "table": {
-        "headers": {
-          "code": "Code",
-          "reward": "Reward",
-          "status": "Status"
-        },
-        "items": [
-          {"code": "morespins", "reward": "20 Spins", "status": "active"},
-          {"code": "100KVISITS", "reward": "15 Spins", "status": "active"},
-          {"code": "1KLIKES", "reward": "Breathing/Demon Art Reset", "status": "active"},
-          {"code": "guizerayt", "reward": "10 Spins", "status": "active"},
-          {"code": "RELEASE", "reward": "10 Spins", "status": "active"}
-        ]
-      }
-    },
-    "redeemGuide": {
-      "title": "Slayerbound",
-      "titleHighlight": "Redeem Guide",
-      "subtitle": "Follow these steps to redeem codes successfully",
-      "steps": [
+    "hero": {
+      "badge": "Open-World Action Adventure",
+      "title": "Crimson Desert Wiki",
+      "description": "Track launch details, boss encounters, world regions, combat systems, and patch updates for Kliff's journey across Pywel.",
+      "helper": "Start with the launch trailer, then use the homepage modules below to jump straight into the systems, story beats, and player questions that matter most on day one.",
+      "primaryLabel": "Visit Official Site",
+      "primaryHref": "https://crimsondesert.pearlabyss.com/en-US/Main",
+      "secondaryLabel": "Join Official Discord",
+      "secondaryHref": "https://discord.gg/crimsondesert",
+      "stats": [
         {
-          "step": 1,
-          "title": "Launch Game",
-          "detail": "Open Slayerbound in Roblox"
+          "value": "Available Now",
+          "label": "Release Status"
         },
         {
-          "step": 2,
-          "title": "Open Codes",
-          "detail": "From Main Menu, click the Codes button"
+          "value": "Mar 19, 2026",
+          "label": "Launch Date"
         },
         {
-          "step": 3,
-          "title": "Paste Code",
-          "detail": "Enter a working code in the code field"
+          "value": "8",
+          "label": "Launch Platforms"
         },
         {
-          "step": 4,
-          "title": "Claim Rewards",
-          "detail": "Press Redeem / Enter and collect rewards"
+          "value": "1.00.02",
+          "label": "Latest Patch"
         }
+      ],
+      "highlights": [
+        "Single-player open-world action adventure",
+        "Pywel regions, bosses, quests, and gear systems",
+        "Official links, launch coverage, and update tracking"
       ]
     },
-    "trainingPaths": {
-      "title": "Slayerbound",
-      "titleHighlight": "Training Paths",
-      "subtitle": "Choose your training path: Flame, Wind, or Water",
-      "paths": [
-        {
-          "name": "Flame",
-          "location": "Path near Spawn",
-          "requirements": "40 Oni Horns + Defeat strong Onis",
-          "difficulty": "High",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Wind",
-          "location": "Sea Village",
-          "requirements": "Defeat Giga Horn boss + Get horn drop",
-          "difficulty": "High",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Water",
-          "location": "Wheat Fields waterfall",
-          "requirements": "Complete parkour + Break rock",
-          "difficulty": "Medium",
-          "cost": "2,000 Yen per attempt"
-        }
-      ]
+    "video": {
+      "eyebrow": "Official Media",
+      "title": "Crimson Desert Trailer Hub",
+      "description": "Use the official launch trailer as your fast catch-up point, then jump into the playlist, release notices, and feature videos covering Pywel, combat, and life systems.",
+      "primaryLabel": "Watch Official Launch Trailer",
+      "primaryHref": "https://www.youtube.com/watch?v=VWIw_f8e9Pg",
+      "secondaryLabel": "Open Official Playlist",
+      "secondaryHref": "https://www.youtube.com/playlist?list=PL8do59QpFhJGAFycsFEBxpykiK3E-yLdL"
     },
-    "breathingTier": {
-      "title": "Slayerbound",
-      "titleHighlight": "Breathing Tier List",
-      "subtitle": "Compare breathing styles by PvE/PvP performance and difficulty",
-      "dataNote": "Community testing data - rankings updated regularly",
-      "table": {
-        "headers": {
-          "breathing": "Breathing",
-          "pveScore": "PvE",
-          "pvpScore": "PvP",
-          "difficulty": "Difficulty",
-          "cost": "Acquisition Cost"
-        },
+    "moduleNav": {
+      "title": "Crimson Desert Homepage Modules",
+      "subtitle": "Jump from the trailer straight into the sections players actually search for."
+    },
+    "modules": [
+      {
+        "id": "release-platforms",
+        "icon": "Flag",
+        "layout": "facts",
+        "title": "Crimson Desert Release Date and Platforms",
+        "summary": "Crimson Desert is available now. It launched on March 19, 2026 as a single-player open-world action adventure across current-gen consoles, PC, Mac, and cloud play.",
+        "cards": [
+          {
+            "title": "Release Status",
+            "value": "Available Now",
+            "detail": "Players can buy and start the campaign immediately."
+          },
+          {
+            "title": "Launch Date",
+            "value": "March 19, 2026",
+            "detail": "The retail release followed the September 2025 reveal window."
+          },
+          {
+            "title": "Offline Play",
+            "value": "Supported",
+            "detail": "Offline play works after initial setup and the day one patch."
+          },
+          {
+            "title": "Cross-Save",
+            "value": "Not Supported",
+            "detail": "Progress does not move between platforms."
+          }
+        ],
         "items": [
           {
-            "breathing": "Flame",
-            "pveScore": "A Tier",
-            "pvpScore": "A Tier",
-            "difficulty": "Medium",
-            "cost": "40 Oni Horns + strong Oni fights"
+            "title": "PlayStation 5",
+            "detail": "Current-gen console release."
           },
           {
-            "breathing": "Wind",
-            "pveScore": "S Tier",
-            "pvpScore": "S Tier",
-            "difficulty": "Hard",
-            "cost": "Giga Horn boss drop (RNG)"
+            "title": "PlayStation 5 Pro",
+            "detail": "Enhanced console option."
           },
           {
-            "breathing": "Water",
-            "pveScore": "A Tier",
-            "pvpScore": "B Tier",
-            "difficulty": "Medium",
-            "cost": "Parkour + 2,000 yen per attempt"
+            "title": "Xbox Series X|S",
+            "detail": "Console launch platform."
           },
           {
-            "breathing": "Thunder",
-            "pveScore": "S Tier",
-            "pvpScore": "A Tier",
-            "difficulty": "Hard",
-            "cost": "Special unlock method"
+            "title": "Xbox on PC",
+            "detail": "PC ecosystem support."
+          },
+          {
+            "title": "Steam",
+            "detail": "PC and Mac availability."
+          },
+          {
+            "title": "Epic Games Store",
+            "detail": "Alternative PC storefront."
+          },
+          {
+            "title": "Mac App Store",
+            "detail": "Dedicated Mac purchase path."
+          },
+          {
+            "title": "GeForce NOW",
+            "detail": "Cloud streaming access."
           }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "Slayerbound",
-      "titleHighlight": "Demon Art Tier List",
-      "subtitle": "Demon Art power rankings and difficulty matrix",
-      "statusBadge": "Coming Soon",
-      "emptyStateText": "Detailed Demon Art rankings will be available soon with comprehensive testing data.",
-      "knownFacts": [
-        "Demon Art system is available in game",
-        "Breathing/Demon Art reset available via codes",
-        "Community has dedicated Oni + Demon Art guides"
-      ],
-      "dataGaps": [
-        "Full list of Demon Arts being compiled",
-        "PvE/PvP performance testing in progress",
-        "Combo synergies being documented"
-      ],
-      "ctaText": "Track updates on Trello/Discord"
-    },
-    "oniRoute": {
-      "title": "Slayerbound",
-      "titleHighlight": "Oni Route",
-      "subtitle": "Transform to Oni and unlock Demon Arts",
-      "statusBadge": "Guide Available",
-      "warningText": "Follow the transformation steps to become an Oni and access powerful Demon Arts.",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "Start as Human",
-          "type": "start",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "Transform to Oni",
-          "type": "branch",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "Get / Spin Demon Art",
-          "type": "progression",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "Build Specialization",
-          "type": "optimization",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "Transformation NPC location",
-        "Required items and level",
-        "Transformation cost",
-        "Best Demon Art combinations"
-      ]
-    },
-    "controls": {
-      "title": "Slayerbound",
-      "titleHighlight": "Controls",
-      "subtitle": "Master the keyboard controls for combat",
-      "keys": [
-        { "key": "LMB", "action": "Attack" },
-        { "key": "RMB", "action": "Heavy Attack" },
-        { "key": "F", "action": "Block" },
-        { "key": "W + W", "action": "Run" },
-        { "key": "M", "action": "Menu" },
-        { "key": "G", "action": "Breathing" },
-        { "key": "1-9", "action": "Skills" }
-      ]
-    },
-    "questMap": {
-      "title": "Slayerbound",
-      "titleHighlight": "Quest Map",
-      "subtitle": "Find quest NPCs and training locations",
-      "recommendedSequence": "Recommended order: Flame → Water → Wind",
-      "pins": [
-        {
-          "id": 1,
-          "name": "Spawn Path (Flame Start)",
-          "region": "Near Spawn",
-          "objective": "Start Flame training",
-          "requirements": ["40 Oni Horns", "Defeat several tough Onis"],
-          "rewards": ["Flame path progression"]
-        },
-        {
-          "id": 2,
-          "name": "Demon Camp (Wind Step)",
-          "region": "Sea Village",
-          "objective": "Defeat Giga Horn and obtain horn drop",
-          "requirements": ["Boss clear", "Drop luck (RNG)"],
-          "rewards": ["Wind path progression"]
-        },
-        {
-          "id": 3,
-          "name": "Waterfall Trial",
-          "region": "Large Wheat Fields",
-          "objective": "Parkour challenge + break rock",
-          "requirements": ["2,000 yen per final-step attempt"],
-          "rewards": ["Water path progression"]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "Slayerbound",
-      "titleHighlight": "Boss Drops",
-      "subtitle": "Boss loot and drop requirements",
-      "riskNotice": "Boss drops are based on RNG. Keep farming until you get the items you need!",
-      "table": {
-        "headers": {
-          "drop": "Drop",
-          "source": "Source",
-          "howToObtain": "How to Obtain",
-          "primaryUse": "Primary Use"
-        },
-        "items": [
-          {
-            "drop": "Giga Horn",
-            "source": "Giga Horn boss (Demon Camp)",
-            "howToObtain": "Defeat Giga Horn boss until the horn drops",
-            "primaryUse": "Required for Wind training progression"
-          },
-          {
-            "drop": "Oni Horn x40",
-            "source": "Oni enemies",
-            "howToObtain": "Farm Oni and collect 40 horns",
-            "primaryUse": "Required for Flame training progression"
-          },
-          {
-            "drop": "Boss Materials",
-            "source": "Various bosses",
-            "howToObtain": "Check Trello/Discord for latest boss drops",
-            "primaryUse": "Crafting and progression"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "Slayerbound",
-      "titleHighlight": "Currency Farm",
-      "subtitle": "Best methods to earn Yen efficiently",
-      "disclaimer": "Use these proven methods to maximize your Yen earnings in Slayerbound.",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "Code Redemption",
-          "expectedReturn": "Spins + Yen (varies by code)",
-          "timeToValue": "1-3 min",
-          "riskLevel": "Low",
-          "howTo": ["Open game menu and redeem active codes first", "Use spins before committing to long grind loops"]
-        },
-        {
-          "rank": 2,
-          "method": "Smart Resource Management",
-          "expectedReturn": "Save Yen by avoiding failed attempts",
-          "timeToValue": "Immediate",
-          "riskLevel": "Low",
-          "howTo": ["Prepare requirements before high-cost training attempts", "Water path final attempt costs 2,000 Yen per try"]
-        },
-        {
-          "rank": 3,
-          "method": "Combat Progression Loop",
-          "expectedReturn": "Yen and EXP from quests",
-          "timeToValue": "Medium",
-          "riskLevel": "Medium",
-          "howTo": ["Follow beginner progression guides", "Check Discord for optimal farming routes"]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "Slayerbound",
-      "titleHighlight": "Reset Planner",
-      "subtitle": "Plan your resets strategically - never reset blindly",
-      "startQuestion": "What is your current bottleneck?",
-      "decisions": [
-        {
-          "question": "Core stats feel misallocated?",
-          "yesAction": "Check if you have a stats-reset code available",
-          "noAction": "Check if Breathing/Demon Art is off-meta for your goal"
-        },
-        {
-          "question": "Do you have a stats-reset code available?",
-          "yesAction": "Use Stats Reset Now - Apply reset, then rebuild around your target mode (PvE/PvP/Hybrid)",
-          "noAction": "Delay Reset and Farm Resources - Use active spin/yen codes and progression route first"
-        },
-        {
-          "question": "Breathing/Demon Art is off-meta for your goal?",
-          "yesAction": "Can you use a breathing/demon-art reset code now?",
-          "noAction": "Keep Build, Optimize Execution - Focus on controls mastery before rerolling"
-        },
-        {
-          "question": "Can you use a breathing/demon-art reset code now?",
-          "yesAction": "Use Breathing/Demon Art Reset - Known reset examples include resets that can also affect race",
-          "noAction": "Do Not Panic Reset - Wait for next milestone/update code drop; track Discord announcements"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "Slayerbound",
-      "titleHighlight": "Build Planner",
-      "subtitle": "Optimize your character build with goal-based planning",
-      "dataNote": "Plan your build based on your playstyle and goals",
-      "inputFields": [
-        {
-          "key": "goalMode",
-          "label": "Goal Mode",
-          "type": "select",
-          "options": ["PvE Progression", "Boss Focus", "PvP Duel", "Hybrid"]
-        },
-        {
-          "key": "route",
-          "label": "Route",
-          "type": "select",
-          "options": ["Slayer", "Oni"]
-        },
-        {
-          "key": "currentBreathing",
-          "label": "Current Breathing",
-          "type": "text"
-        },
-        {
-          "key": "currentDemonArt",
-          "label": "Current Demon Art",
-          "type": "text"
-        },
-        {
-          "key": "yenBudget",
-          "label": "Current Yen",
-          "type": "number"
-        },
-        {
-          "key": "spinsAvailable",
-          "label": "Spins Available",
-          "type": "number"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "Starter Slayer (Low Budget)",
-          "goalMode": "PvE Progression",
-          "route": "Slayer",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "Redeem active codes and choose a stable progression route",
-            "next": "Prepare requirements before training to avoid wasting Yen",
-            "after": "Use reset strategically if you need to change direction"
-          }
-        },
-        {
-          "name": "Route Switch Candidate",
-          "goalMode": "Hybrid",
-          "route": "Oni",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "Confirm your route target and reset strategy",
-            "next": "Apply selective reset rather than full rebuild",
-            "after": "Test in boss/progression loop before next reset"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "Slayerbound",
-      "titleHighlight": "Thunder Breathing",
-      "subtitle": "Complete guide to unlock Thunder Breathing style",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Find the Thunder Trainer",
-          "detail": "Travel to the mountain near Snow Village"
-        },
-        {
-          "step": 2,
-          "title": "Accept the Quest",
-          "detail": "Talk to the trainer and accept the candy quest"
-        },
-        {
-          "step": 3,
-          "title": "Gather Materials",
-          "detail": "Collect 6 wheat and 3 eggs from the farming areas"
-        },
-        {
-          "step": 4,
-          "title": "Complete Training",
-          "detail": "Return to the trainer and complete the Thunder Breathing unlock"
-        }
-      ],
-      "requirements": {
-        "title": "Requirements",
-        "items": ["6 Wheat", "3 Eggs", "Complete candy quest"]
+        ],
+        "note": "PC controller support includes Xbox controllers and DualSense over USB.",
+        "ctaLabel": "Read Official FAQ",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
       },
-      "difficulty": "Medium",
-      "location": "Mountain near Snow Village"
-    },
-    "fastLeveling": {
-      "title": "Slayerbound",
-      "titleHighlight": "Fast Leveling",
-      "subtitle": "Efficient methods to level up quickly in Slayerbound",
-      "methods": [
+      {
+        "id": "trailer-hub",
+        "icon": "Clapperboard",
+        "layout": "timeline",
+        "title": "Crimson Desert Trailer Hub",
+        "summary": "Start with the official launch trailer, then work backward through the release date reveal, feature videos, and long-form gameplay showcases to understand the game fast.",
+        "items": [
+          {
+            "title": "Official Launch Trailer",
+            "detail": "The current best snapshot of the release build and campaign tone.",
+            "meta": "March 2026"
+          },
+          {
+            "title": "Release Date Reveal Trailer",
+            "detail": "The September 24, 2025 State of Play announcement that locked the release window.",
+            "meta": "September 2025"
+          },
+          {
+            "title": "Feature Video #1: Kliff and the Open World of Pywel",
+            "detail": "Best primer for the setting, travel scale, and narrative direction.",
+            "meta": "World Primer"
+          },
+          {
+            "title": "Feature Video #2: Combat and Progression",
+            "detail": "Shows weapon-driven combat flow, counterplay, and upgrade logic.",
+            "meta": "Combat Primer"
+          },
+          {
+            "title": "Feature Video #3: Life in Pywel",
+            "detail": "Covers camps, side activities, crafting, and the wider world loop.",
+            "meta": "Systems Primer"
+          },
+          {
+            "title": "50 Minutes of Early Gameplay",
+            "detail": "Long-form footage for players who want to inspect pacing and mechanics before buying.",
+            "meta": "Deep Dive"
+          }
+        ],
+        "note": "The official playlist also keeps earlier showcase trailers like gamescom ONL 2023 and The Game Awards 2020 in one archive.",
+        "ctaLabel": "Open Official Playlist",
+        "ctaHref": "https://www.youtube.com/playlist?list=PL8do59QpFhJGAFycsFEBxpykiK3E-yLdL"
+      },
+      {
+        "id": "beginner-guide",
+        "icon": "Footprints",
+        "layout": "steps",
+        "title": "Crimson Desert Beginner Guide",
+        "summary": "The first hours revolve around Hernand, early Greymane quests, weapon-driven combat, and the town-to-camp loop of gathering, crafting, cooking, and unlocking stronger tools.",
+        "items": [
+          {
+            "title": "Reach Hernand and stabilize the early loop",
+            "detail": "Help townspeople, clear outlaw-held spots, and open up more activities and quest lines.",
+            "meta": "Step 1"
+          },
+          {
+            "title": "Learn the basic attack rhythm first",
+            "detail": "Chain fast and heavy attacks, then layer in blocking, parrying, grabs, and throws.",
+            "meta": "Step 2"
+          },
+          {
+            "title": "Visit the early vendors that matter",
+            "detail": "The smithy, equipment shop, tailor, tannery, grocer, butchery, and fishing shop all help define your early momentum.",
+            "meta": "Step 3"
+          },
+          {
+            "title": "Prioritize gathering tools and cooking",
+            "detail": "A fishing rod, pickaxe, and logging axe open the resource loop that feeds crafting and camp growth.",
+            "meta": "Step 4"
+          }
+        ],
+        "note": "Abyss Artifacts are the key early upgrade currency for unlocking stronger abilities and combat options.",
+        "ctaLabel": "Read the Hands-On Report",
+        "ctaHref": "https://blog.playstation.com/2026/03/04/crimson-desert-hands-on-report-four-hours-in-the-rpgs-massive-open-world/"
+      },
+      {
+        "id": "story-explained",
+        "icon": "ScrollText",
+        "layout": "story",
+        "title": "Crimson Desert Story Explained",
+        "summary": "Crimson Desert follows Kliff and the Greymanes across Pywel after the Black Bears shatter the fragile balance of Pailune, scattering the survivors across the continent.",
+        "items": [
+          {
+            "title": "Pywel is the campaign stage",
+            "detail": "Cities, wilderness, ruins, and the Abyss all shape the route and stakes of the story."
+          },
+          {
+            "title": "Kliff leads the Greymanes",
+            "detail": "Oongka, Yann, and Naira remain central names in the scattered survivor story."
+          },
+          {
+            "title": "The Black Bears trigger the collapse",
+            "detail": "Their ambush breaks the balance in Pailune and forces the surviving Greymanes into recovery and retaliation."
+          },
+          {
+            "title": "The Abyss expands the scope",
+            "detail": "The story grows beyond simple revenge as hidden factions and supernatural forces come into view."
+          }
+        ],
+        "note": "Additional playable perspectives later in the journey include Oongka and Damiane.",
+        "ctaLabel": "Read the Story Overview",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
+      },
+      {
+        "id": "characters",
+        "icon": "Users",
+        "layout": "profiles",
+        "title": "Crimson Desert Characters",
+        "summary": "The cast is anchored by Kliff and the Greymanes, then widened through allies, rival factions, and later playable perspectives that deepen the campaign.",
+        "items": [
+          {
+            "title": "Kliff",
+            "detail": "The central viewpoint character and battlefield anchor for the campaign.",
+            "tag": "Lead"
+          },
+          {
+            "title": "Oongka",
+            "detail": "A Greymane companion who also becomes playable later in the story.",
+            "tag": "Playable"
+          },
+          {
+            "title": "Naira",
+            "detail": "A core Greymane survivor tied closely to the faction's recovery arc.",
+            "tag": "Greymane"
+          },
+          {
+            "title": "Yann",
+            "detail": "Another important Greymane name to track as the scattered band regroups.",
+            "tag": "Greymane"
+          },
+          {
+            "title": "Damiane",
+            "detail": "A later playable perspective who broadens the campaign structure.",
+            "tag": "Playable"
+          },
+          {
+            "title": "Black Bears",
+            "detail": "The antagonistic force that turns faction instability into open conflict.",
+            "tag": "Rival Faction"
+          }
+        ],
+        "note": "This module is built as a cast overview first, with room to expand into later character and faction profile pages.",
+        "ctaLabel": "Meet the Cast",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=60"
+      },
+      {
+        "id": "open-world-regions",
+        "icon": "Map",
+        "layout": "regions",
+        "title": "Crimson Desert Open World and Regions",
+        "summary": "Pywel mixes cities, wild frontiers, ruins, and supernatural space into an exploration loop driven by landmarks, hidden spots, quests, and combat points of interest.",
+        "items": [
+          {
+            "title": "Cities",
+            "detail": "Urban hubs act as story anchors, merchant clusters, and route reset points."
+          },
+          {
+            "title": "Wilderness",
+            "detail": "Open traversal space supports combat encounters, gathering, and discovery-heavy travel."
+          },
+          {
+            "title": "Ruins",
+            "detail": "Ancient structures frame puzzle solving, environmental storytelling, and hidden rewards."
+          },
+          {
+            "title": "The Abyss",
+            "detail": "A floating and otherworldly space that shifts the campaign beyond grounded frontier conflict."
+          },
+          {
+            "title": "Landmarks",
+            "detail": "Named locations guide navigation and turn broad regions into recognizable routes."
+          },
+          {
+            "title": "Exploration Points",
+            "detail": "Combat spots, side activities, and hidden objectives reward players who leave the main trail."
+          }
+        ],
+        "note": "This homepage block works as a regional overview before dedicated Pywel subpages exist.",
+        "ctaLabel": "Open the World Overview",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
+      },
+      {
+        "id": "combat-guide",
+        "icon": "Swords",
+        "layout": "guide",
+        "title": "Crimson Desert Combat Guide",
+        "summary": "Crimson Desert combat emphasizes weapon-driven rhythm, close-range pressure, strong defensive reads, and precise reactions against heavier enemies and bosses.",
+        "items": [
+          {
+            "title": "Fast and heavy attacks work as the core rhythm",
+            "detail": "Use them together to control tempo instead of spamming a single string."
+          },
+          {
+            "title": "Blocking and parrying decide high-pressure fights",
+            "detail": "The game rewards tight defensive timing when enemy aggression spikes."
+          },
+          {
+            "title": "Grabs and throws widen the action set",
+            "detail": "The toolkit is broader than a basic light-heavy combo loop."
+          },
+          {
+            "title": "Enemy reading matters as much as damage output",
+            "detail": "Spacing, reaction windows, and counterplay define higher-pressure encounters."
+          }
+        ],
+        "note": "This module is tuned for players searching for core combat feel rather than late-game optimization spreadsheets.",
+        "ctaLabel": "Read Combat and Progression",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=58"
+      },
+      {
+        "id": "weapons-skills",
+        "icon": "Axe",
+        "layout": "weapons",
+        "title": "Crimson Desert Weapons and Skills",
+        "summary": "There is no fixed class system. Your fighting style changes through weapon choice, learned moves, and the way upgrades expand your combat toolkit.",
+        "items": [
+          {
+            "title": "Sword and Shield",
+            "detail": "The early anchor set for players learning defense, positioning, and control.",
+            "tag": "Starter"
+          },
+          {
+            "title": "Greatswords",
+            "detail": "A heavier option for broader swings, weightier pressure, and commitment-based offense.",
+            "tag": "Heavy"
+          },
+          {
+            "title": "Spears",
+            "detail": "Useful when reach, precision, and spacing matter more than raw brawling tempo.",
+            "tag": "Reach"
+          },
+          {
+            "title": "Axes",
+            "detail": "A direct route into stronger impact and punishing exchanges.",
+            "tag": "Power"
+          },
+          {
+            "title": "Ranged Options",
+            "detail": "Supplement melee pressure with distance control and encounter flexibility.",
+            "tag": "Range"
+          },
+          {
+            "title": "Abyss Artifact Upgrades",
+            "detail": "Upgrade currency that unlocks stronger abilities and new skill expression.",
+            "tag": "Progression"
+          }
+        ],
+        "note": "The best way to read the system is by weapons and movesets, not by traditional RPG class labels.",
+        "ctaLabel": "Read the Official Crafting Guide",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-crafting-cooking-recipes"
+      },
+      {
+        "id": "boss-guide",
+        "icon": "Skull",
+        "layout": "bosses",
+        "title": "Crimson Desert Boss Guide",
+        "summary": "Boss coverage on the homepage starts as a preparation-focused overview: how encounters look, how pressure changes across phases, and what players should bring into major fights.",
+        "items": [
+          {
+            "title": "Preparation matters before damage racing",
+            "detail": "The game pushes players to arrive with the right rhythm, tools, and defensive habits.",
+            "tag": "Planning"
+          },
+          {
+            "title": "Boss identity is highly visual",
+            "detail": "Silhouette, arena pressure, and move readability all help define the fight.",
+            "tag": "Readability"
+          },
+          {
+            "title": "Phase shifts change tempo",
+            "detail": "Encounters reward adaptation instead of one solved pattern from start to finish.",
+            "tag": "Phases"
+          },
+          {
+            "title": "Guide pages can split later by individual boss",
+            "detail": "Homepage coverage is built as a launch pad for deeper single-boss walkthroughs.",
+            "tag": "Expansion"
+          }
+        ],
+        "note": "This block is intentionally light on spoilers and heavy on practical expectations for major encounters.",
+        "ctaLabel": "Watch Boss Battle Trailers",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=28"
+      },
+      {
+        "id": "multiplayer-offline",
+        "icon": "WifiOff",
+        "layout": "qa",
+        "title": "Crimson Desert Multiplayer and Offline",
+        "summary": "This is one of the most common launch questions, so the homepage answers it directly: Crimson Desert is a single-player game with offline support after initial setup.",
+        "cards": [
+          {
+            "title": "Multiplayer",
+            "value": "No",
+            "detail": "Crimson Desert is not a co-op or online multiplayer release."
+          },
+          {
+            "title": "Single Player",
+            "value": "Yes",
+            "detail": "The core experience is built around a solo campaign."
+          },
+          {
+            "title": "Offline After Setup",
+            "value": "Yes",
+            "detail": "Players can continue offline after first-time setup and the day one patch."
+          },
+          {
+            "title": "Cross-Save",
+            "value": "No",
+            "detail": "There is no supported cross-platform save migration."
+          }
+        ],
+        "note": "This module exists specifically for searches like 'Is Crimson Desert multiplayer?' and 'Can Crimson Desert be played offline?'",
+        "ctaLabel": "Open Launch FAQ",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
+      },
+      {
+        "id": "system-requirements",
+        "icon": "MonitorCog",
+        "layout": "specs",
+        "title": "Crimson Desert System Requirements and Performance",
+        "summary": "Performance coverage needs to answer three player questions fast: where to find the specs, which technologies are supported, and what controller or platform details matter before launch week troubleshooting begins.",
+        "cards": [
+          {
+            "title": "PC Specs",
+            "value": "Official Tables",
+            "detail": "The official notice provides recommended PC targets and guidance."
+          },
+          {
+            "title": "Console Support",
+            "value": "Current Gen",
+            "detail": "PlayStation 5, PlayStation 5 Pro, and Xbox Series X|S are in scope."
+          },
+          {
+            "title": "Mac Support",
+            "value": "Available",
+            "detail": "Mac players have both storefront and performance guidance to review."
+          },
+          {
+            "title": "Controller Support",
+            "value": "Supported",
+            "detail": "Xbox controllers and wired DualSense are supported on PC."
+          }
+        ],
+        "items": [
+          {
+            "title": "DLSS",
+            "detail": "Upscaling support for supported PC hardware."
+          },
+          {
+            "title": "FSR",
+            "detail": "Alternative upscaling path for broader PC configurations."
+          },
+          {
+            "title": "PSSR",
+            "detail": "PlayStation 5 Pro performance feature coverage."
+          },
+          {
+            "title": "MetalFX",
+            "detail": "Mac-specific performance tooling support."
+          }
+        ],
+        "note": "This homepage module is designed to become the launch point for a future PC optimization page.",
+        "ctaLabel": "Read Official Performance Specs",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=62"
+      },
+      {
+        "id": "patch-notes",
+        "icon": "BadgeAlert",
+        "layout": "patches",
+        "title": "Crimson Desert Patch Notes and Known Issues",
+        "summary": "Patch coverage is one of the most practical post-launch homepage modules because it helps returning players see what changed before loading back into Pywel.",
+        "items": [
+          {
+            "title": "Version 1.00.02 Patch Notes",
+            "detail": "The launch-period update is the headline build reference for balance, fixes, and early polish work.",
+            "meta": "Current Patch"
+          },
+          {
+            "title": "Known Issues Notice",
+            "detail": "Track active launch-period problems before assuming a bug is local to your setup.",
+            "meta": "Current Issues"
+          },
+          {
+            "title": "Official Notices Index",
+            "detail": "Use the announcements archive to scan new maintenance posts, fixes, or live communication.",
+            "meta": "Ongoing Tracking"
+          }
+        ],
+        "cards": [
+          {
+            "title": "Best Use",
+            "value": "Before You Return",
+            "detail": "Check patch notes and known issues before continuing a saved session."
+          },
+          {
+            "title": "Update Type",
+            "value": "Live Notices",
+            "detail": "Official communications sit in a single notice stream."
+          },
+          {
+            "title": "Homepage Role",
+            "value": "High-Value SEO",
+            "detail": "The module is useful both for players and for search visibility after launch."
+          }
+        ],
+        "note": "This section should stay close to the top of the site's live maintenance routine after launch month.",
+        "ctaLabel": "Open Official Announcements",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
+      }
+    ],
+    "faq": {
+      "title": "Crimson Desert Frequently Asked Questions",
+      "subtitle": "Quick answers for the launch questions players keep asking.",
+      "items": [
         {
-          "title": "Quest Types",
-          "icon": "map",
-          "description": "Focus on the right quests for maximum XP",
-          "tips": [
-            "Green quests = Delivery (fast completion)",
-            "Yellow quests = Combat (high XP rewards)",
-            "Blue quests = Gathering (moderate XP)"
-          ]
+          "question": "What kind of game is Crimson Desert?",
+          "answer": "Crimson Desert is a single-player open-world action adventure centered on Kliff, the Greymanes, and the continent of Pywel."
         },
         {
-          "title": "Food System",
-          "icon": "utensils",
-          "description": "Use food to maintain HP and farm efficiently",
-          "tips": [
-            "Keep food in inventory for HP regeneration",
-            "Reduces downtime between combat encounters",
-            "Essential for continuous quest grinding"
-          ]
+          "question": "When did Crimson Desert release?",
+          "answer": "Crimson Desert released on March 19, 2026."
         },
         {
-          "title": "Progression Route",
-          "icon": "route",
-          "description": "Follow optimal leveling paths",
-          "tips": [
-            "Complete starter area quests first",
-            "Move to higher level zones progressively",
-            "Use codes for bonus XP and spins"
-          ]
+          "question": "Is Crimson Desert multiplayer or co-op?",
+          "answer": "Crimson Desert is not a multiplayer or co-op game. It is built as a single-player campaign."
+        },
+        {
+          "question": "Can Crimson Desert be played offline?",
+          "answer": "Crimson Desert supports offline play after initial setup and the day one patch are completed."
+        },
+        {
+          "question": "Does Crimson Desert support cross-save?",
+          "answer": "Crimson Desert does not support cross-save between platforms."
+        },
+        {
+          "question": "Who is the main character in Crimson Desert?",
+          "answer": "Kliff is the central lead in Crimson Desert, with the Greymanes forming the core faction around him."
+        },
+        {
+          "question": "What should I learn first in Crimson Desert combat?",
+          "answer": "In Crimson Desert, start by learning the rhythm between fast attacks, heavy attacks, blocking, parrying, and movement under pressure."
+        },
+        {
+          "question": "Where should I track official Crimson Desert updates?",
+          "answer": "Use the official notices page, the official YouTube channel, the official X account, and the official Discord for ongoing Crimson Desert updates."
         }
       ]
     },
-    "finalSelection": {
-      "title": "Slayerbound",
-      "titleHighlight": "Final Selection",
-      "subtitle": "Complete the Final Selection to become an official Slayer",
-      "overview": "The Final Selection is a crucial milestone where you prove your worth as a demon slayer. Complete this parkour challenge to earn your Slayer uniform and official status.",
-      "details": {
-        "location": "Forest area parkour challenge",
-        "timing": "Every 1 hour (real-time)",
-        "maxPlayers": "Up to 12 players per session",
-        "difficulty": "Medium to Hard"
-      },
-      "rewards": {
-        "title": "Rewards",
-        "items": [
-          "Official Slayer uniform",
-          "Slayer Corps membership",
-          "Access to Slayer Corps mansion",
-          "Unlock gourd training system"
-        ]
-      },
-      "tips": {
-        "title": "Tips",
-        "items": [
-          "Practice parkour before attempting",
-          "Wait for the hourly event to start",
-          "Team up with other players for support",
-          "Don't give up - you can retry after each hour"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "Slayerbound",
-      "titleHighlight": "Clan System",
-      "subtitle": "Clan tiers, buffs, and how to reroll your clan",
-      "overview": "Clans provide unique buffs and abilities that enhance your character. Each clan has different rarities and special benefits.",
-      "tiers": [
+    "resources": {
+      "title": "Crimson Desert Official Resources",
+      "subtitle": "External links only. Use these to move from the homepage into publisher media, notices, and community channels.",
+      "items": [
         {
-          "tier": "Common",
-          "color": "gray",
-          "dropRate": "High",
-          "description": "Basic clans with standard buffs"
+          "label": "Official Site",
+          "description": "Main game overview, editions, and feature pages.",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/Main"
         },
         {
-          "tier": "Rare",
-          "color": "blue",
-          "dropRate": "Medium",
-          "description": "Enhanced buffs and abilities"
+          "label": "Announcements",
+          "description": "Release posts, patch notes, known issues, and official notices.",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
         },
         {
-          "tier": "Epic",
-          "color": "purple",
-          "dropRate": "Low",
-          "description": "Powerful clan abilities"
+          "label": "Media Library",
+          "description": "Official media hub for trailers, artwork, and promotional assets.",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/Media"
         },
         {
-          "tier": "Legendary",
-          "color": "gold",
-          "dropRate": "Very Low",
-          "description": "Top-tier clans with exceptional buffs"
+          "label": "YouTube Channel",
+          "description": "Official trailers, feature videos, and showcase archives.",
+          "href": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
+        },
+        {
+          "label": "Official X",
+          "description": "Publisher posts covering launch moments, wishlists, and live communication.",
+          "href": "https://x.com/CrimsonDesert_"
+        },
+        {
+          "label": "Official Discord",
+          "description": "Community hub for current discussion and official social presence.",
+          "href": "https://discord.gg/crimsondesert"
         }
-      ],
-      "notableClans": {
-        "title": "Notable Clans",
-        "clans": [
-          {
-            "name": "Tsugikuni",
-            "tier": "Legendary",
-            "benefit": "Exceptional combat buffs"
-          },
-          {
-            "name": "Kamado",
-            "tier": "Legendary",
-            "benefit": "Enhanced breathing techniques"
-          },
-          {
-            "name": "Agatsuma",
-            "tier": "Epic",
-            "benefit": "Thunder breathing bonuses"
-          }
-        ]
-      },
-      "howToSpin": {
-        "title": "How to Spin/Reroll",
-        "steps": [
-          "Use spins obtained from codes or gameplay",
-          "Access the clan menu in-game",
-          "Spend spins to reroll for better clans",
-          "Higher tier clans have lower drop rates"
-        ]
-      }
+      ]
+    },
+    "cta": {
+      "title": "Keep Crimson Desert in View",
+      "description": "Use this homepage as the reference layer, then pair it with official announcements, the launch trailer, and community channels to stay aligned with the live game.",
+      "primaryLabel": "Open Official Notices",
+      "primaryHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice",
+      "secondaryLabel": "Watch on YouTube",
+      "secondaryHref": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
     }
   }
 }
