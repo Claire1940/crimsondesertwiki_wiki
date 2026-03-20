@@ -8,21 +8,16 @@ from pathlib import Path
 from datetime import datetime
 
 # Languages to check
-LANGUAGES = ['ar', 'de', 'es', 'fr', 'ja', 'ko', 'pt', 'ru', 'th', 'tr', 'vi', 'zh']
+LANGUAGES = ['de', 'es', 'ja', 'ko', 'pt', 'ru', 'tr']
 
 LANG_NAMES = {
-    'ar': 'Arabic',
     'de': 'German',
     'es': 'Spanish',
-    'fr': 'French',
     'ja': 'Japanese',
     'ko': 'Korean',
-    'pt': 'Portuguese',
+    'pt': 'Portuguese (Brazil)',
     'ru': 'Russian',
-    'th': 'Thai',
     'tr': 'Turkish',
-    'vi': 'Vietnamese',
-    'zh': 'Chinese'
 }
 
 def main():

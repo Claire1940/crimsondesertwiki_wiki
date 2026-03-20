@@ -35,16 +35,14 @@ class MessagesTranslator:
         # Game names and language names from config
         self.game_names = config.get('game_names', {})
         self.lang_names = config.get('lang_names', {
+            'en': 'English',
             'es': 'Spanish',
-            'pt': 'Portuguese',
-            'ru': 'Russian',
+            'pt': 'Portuguese (Brazil)',
             'ja': 'Japanese',
-            'de': 'German',
-            'fr': 'French',
-            'zh': 'Chinese',
             'ko': 'Korean',
-            'vi': 'Vietnamese',
-            'th': 'Thai'
+            'ru': 'Russian',
+            'de': 'German',
+            'tr': 'Turkish',
         })
 
         # Load translation prompt templates
@@ -99,7 +97,7 @@ class MessagesTranslator:
 
         # Get language name and game name
         lang_name = self.lang_names.get(target_lang, target_lang)
-        game_name = self.game_names.get(target_lang, 'Total Chaos')
+        game_name = self.game_names.get(target_lang, 'Crimson Desert Wiki')
 
         # Build prompt from template
         prompt = self.translation_prompt_template.format(
@@ -215,7 +213,7 @@ class MessagesTranslator:
 
         # Get language name and game name
         lang_name = self.lang_names.get(target_lang, target_lang)
-        game_name = self.game_names.get(target_lang, 'Slayerbound')
+        game_name = self.game_names.get(target_lang, 'Crimson Desert Wiki')
 
         # Build prompt from template
         prompt = self.values_translation_prompt_template.format(

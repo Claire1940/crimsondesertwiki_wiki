@@ -9,21 +9,21 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
+  "languages": ["pt", "es", "ja", "ko", "ru", "de", "tr"],
   "default_language": "en",
   "output_dir": "src/locales/",
 
   "use_value_extraction": true,
 
   "game_names": {
-    "en": "Slayerbound",
-    "pt": "Slayerbound",
-    "es": "Slayerbound",
-    "ja": "スレイヤーバウンド",
-    "ko": "슬레이어바운드",
-    "fr": "Slayerbound",
-    "de": "Slayerbound",
-    "th": "Slayerbound"
+    "en": "Crimson Desert Wiki",
+    "pt": "Wiki de Crimson Desert",
+    "es": "Wiki de Crimson Desert",
+    "ja": "紅の砂漠 Wiki",
+    "ko": "붉은사막 위키",
+    "ru": "Вики по Crimson Desert",
+    "de": "Crimson Desert Wiki",
+    "tr": "Crimson Desert Wiki"
   },
 
   "lang_names": {
@@ -31,8 +31,8 @@
     "es": "Spanish (LATAM)",
     "ja": "Japanese",
     "ko": "Korean",
-    "fr": "French",
+    "ru": "Russian",
     "de": "German",
-    "th": "Thai"
+    "tr": "Turkish"
   }
 }

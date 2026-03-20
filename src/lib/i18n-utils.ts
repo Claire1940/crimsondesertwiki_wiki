@@ -60,11 +60,19 @@ export function getDefaultLocale(): Locale {
  */
 export function getLanguageDisplayNames(): Record<Locale, string> {
   const result: Record<Locale, string> = {} as Record<Locale, string>
+  const localeLabels: Partial<Record<Locale, string>> = {
+    en: 'English',
+    pt: 'Português (Brasil)',
+    es: 'Español (LATAM)',
+    ja: '日本語',
+    ko: '한국어',
+    ru: 'Русский',
+    de: 'Deutsch',
+    tr: 'Türkçe',
+  }
 
-  // 动态生成显示名称：直接使用语言代码的大写形式
-  // 这样添加新语言时无需修改此文件
   routing.locales.forEach(locale => {
-    result[locale] = locale.toUpperCase()
+    result[locale] = localeLabels[locale] ?? locale.toUpperCase()
   })
 
   return result

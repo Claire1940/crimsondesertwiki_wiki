@@ -9,7 +9,7 @@ IMPORTANT RULES:
 6. Preserve empty lines if any exist in the input
 7. Do NOT translate proper nouns like game names, character names, or technical terms unless culturally appropriate
 
-Game context: This is for the game "{game_name}" - a Roblox anime-themed action game.
+Game context: This is for "{game_name}" - an open-world action-adventure game wiki.
 
 INPUT TEXT (one value per line):
 ---

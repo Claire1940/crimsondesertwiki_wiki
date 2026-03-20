@@ -37,16 +37,14 @@ class MDXTranslator:
         # Game names and language names from config
         self.game_names = config.get('game_names', {})
         self.lang_names = config.get('lang_names', {
+            'en': 'English',
             'es': 'Spanish',
-            'pt': 'Portuguese',
-            'ru': 'Russian',
+            'pt': 'Portuguese (Brazil)',
             'ja': 'Japanese',
-            'de': 'German',
-            'fr': 'French',
-            'zh': 'Chinese',
             'ko': 'Korean',
-            'vi': 'Vietnamese',
-            'th': 'Thai'
+            'ru': 'Russian',
+            'de': 'German',
+            'tr': 'Turkish',
         })
 
         # Load translation prompt templates
@@ -94,7 +92,7 @@ class MDXTranslator:
 
         # Get language name and game name
         lang_name = self.lang_names.get(target_lang, target_lang)
-        game_name = self.game_names.get(target_lang, 'Total Chaos')
+        game_name = self.game_names.get(target_lang, 'Crimson Desert Wiki')
 
         # Build prompt from template
         template = Template(self.translation_prompt_template)
@@ -202,7 +200,7 @@ class MDXTranslator:
 
         # Get language name and game name
         lang_name = self.lang_names.get(target_lang, target_lang)
-        game_name = self.game_names.get(target_lang, 'Total Chaos')
+        game_name = self.game_names.get(target_lang, 'Crimson Desert Wiki')
 
         # Build prompt from template
         template = Template(self.translation_prompt_template)
@@ -348,4 +346,3 @@ class MDXTranslator:
 
         # All attempts failed
         return False
-

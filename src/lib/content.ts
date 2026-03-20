@@ -176,7 +176,7 @@ export function isValidContentType(type: string): type is ContentType {
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  const validLanguages: Language[] = ['en', 'pt', 'es', 'ja', 'ko', 'fr', 'de', 'th']
+  const validLanguages: Language[] = ['en', 'pt', 'es', 'ja', 'ko', 'ru', 'de', 'tr']
   return validLanguages.includes(lang as Language)
 }
 
