@@ -60,10 +60,10 @@ export default function Navigation() {
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
 						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							S
+							C
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">Slayerbound</span>
-						<span className="font-bold text-lg sm:hidden">SB</span>
+						<span className="font-bold text-lg hidden sm:inline">Crimson Desert</span>
+						<span className="font-bold text-lg sm:hidden">CD</span>
 					</Link>
 
 					{/* Desktop Navigation */}
@@ -173,4 +173,3 @@ export default function Navigation() {
 		</nav>
 	)
 }
-
