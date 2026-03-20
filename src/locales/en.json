@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - Codes, Tier List, Units & Guides | Slayerbound Roblox",
-      "description": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, action RPG strategies, and wiki for Slayerbound Roblox game. Master every wave with our comprehensive guides.",
-      "keywords": "Slayerbound Wiki, Slayerbound, Slayerbound codes, Slayerbound tier list, Slayerbound units, Slayerbound guide, Roblox action RPG, anime action RPG, Roblox codes, action RPG game, anime game codes",
-      "ogTitle": "Slayerbound Wiki - Codes, Tier List, Units & Guides",
-      "ogDescription": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, action RPG strategies, and wiki for Slayerbound Roblox game.",
-      "twitterTitle": "Slayerbound Wiki - Codes, Tier List, Units & Guides",
-      "twitterDescription": "Complete Slayerbound Wiki resource hub! Get the latest working codes, tier lists, unit guides, and action RPG strategies."
+      "title": "Crimson Desert Wiki - Bosses, Map & Gear Guide",
+      "description": "Crimson Desert Wiki with boss guides, map walkthroughs, gear tips, puzzles, quests, and patch updates for Kliff's journey across the world of Pywel.",
+      "keywords": "Crimson Desert, Crimson Desert Wiki, boss guide, map, quests, gear, puzzles, Kliff, Pywel",
+      "ogTitle": "Crimson Desert Wiki - Bosses, Map & Gear Guide",
+      "ogDescription": "Track bosses, quests, puzzles, map routes, gear, and patch changes for Crimson Desert in one focused wiki.",
+      "twitterTitle": "Crimson Desert Wiki - Bosses, Map & Gear Guide",
+      "twitterDescription": "Track bosses, quests, puzzles, map routes, gear, and patch changes for Crimson Desert."
     }
   },
   "nav": {},
@@ -26,33 +26,33 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Master Demon Slayer Combat in the Ultimate Roblox RPG Experience",
-    "title": "Slayerbound Wiki",
-    "description": "Your ultimate hub for Slayerbound! Master breathing styles, unlock powerful clans, and dominate demon battles. Get working codes, clan tier lists, training guides, and boss strategies to become the ultimate demon slayer!",
-    "getFreeCodesCTA": "Get Free Codes",
-    "playOnRobloxCTA": "Play on Roblox",
+    "badge": "Open-World Action Adventure",
+    "title": "Crimson Desert Wiki",
+    "description": "Track bosses, quests, map routes, puzzle solutions, gear upgrades, and patch changes for Kliff's journey across the continent of Pywel.",
+    "getFreeCodesCTA": "Visit Official Site",
+    "playOnRobloxCTA": "Join Official Discord",
     "stats": {
       "stat1": {
-        "value": "300K+",
-        "label": "Total Visits"
+        "value": "3M",
+        "label": "Wishlists"
       },
       "stat2": {
-        "value": "1.2K",
-        "label": "Discord Members"
+        "value": "8",
+        "label": "Launch Platforms"
       },
       "stat3": {
-        "value": "10+",
-        "label": "Active Codes"
+        "value": "14",
+        "label": "UI Languages"
       },
       "stat4": {
-        "value": "Daily",
-        "label": "Updates"
+        "value": "1.00.02",
+        "label": "Latest Patch"
       }
     }
   },
   "gameFeature": {
-    "title": "Slayerbound Trailer",
-    "description": "Master breathing styles, unlock powerful clans, and dominate demon battles in this action-packed Demon Slayer RPG experience on Roblox!"
+    "title": "Official Launch Trailer",
+    "description": "Watch the latest official Crimson Desert trailer and follow the current media push, community channels, and update cadence from Pearl Abyss."
   },
   "tools": {
     "title": "Slayerbound",
@@ -230,14 +230,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Master Slayerbound?",
-    "description": "Join the Slayerbound community on Discord to share strategies, find teammates, and get the latest codes!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Roblox"
+    "title": "Keep Tracking Crimson Desert",
+    "description": "Use the official trailer, X feed, and community channels alongside this wiki to stay current on bosses, maps, quests, and patch updates.",
+    "joinCommunity": "Watch on YouTube",
+    "joinGame": "Follow on X"
   },
   "footer": {
-    "title": "Slayerbound",
-    "description": "Your complete resource hub for Slayerbound. Find codes, guides, training paths, and strategies to master breathing styles and dominate demon battles.",
+    "title": "Crimson Desert",
+    "description": "Your focused Crimson Desert resource hub for boss guides, quest routes, puzzles, map references, and gear notes.",
     "resources": "Resources",
     "activeCodes": "Active Codes",
     "trainingGuides": "Training Guides",
@@ -247,7 +247,7 @@
     "discord": "Official Discord",
     "trello": "Official Trello",
     "playNow": "Play on Roblox",
-    "copyright": "© 2026 Slayerbound Wiki. Not affiliated with Roblox Corporation or the developers of Slayerbound.",
+    "copyright": "© 2026 Crimson Desert Wiki. Unofficial fan site and not affiliated with Pearl Abyss.",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   },

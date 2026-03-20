@@ -1,16 +1,17 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import { Users } from 'lucide-react'
+import { PlayCircle, Twitter } from 'lucide-react'
+import { SITE } from '@/config/site'
 
 interface CTASectionProps {
   title: string
   description: string
-  joinCommunity: string
-  joinGame: string
+  primaryLabel: string
+  secondaryLabel: string
 }
 
-export default function CTASection({ title, description, joinCommunity, joinGame }: CTASectionProps) {
+export default function CTASection({ title, description, primaryLabel, secondaryLabel }: CTASectionProps) {
   return (
     <section className="px-4 py-20">
       <div className="scroll-reveal container mx-auto max-w-5xl">
@@ -22,21 +23,22 @@ export default function CTASection({ title, description, joinCommunity, joinGame
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-8 py-6 text-lg">
               <a
-                href="https://discord.com/invite/slayerbound"
+                href={SITE.links.youtubeTrailer}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Users className="w-5 h-5 mr-2" />
-                {joinCommunity}
+                <PlayCircle className="w-5 h-5 mr-2" />
+                {primaryLabel}
               </a>
             </Button>
             <a
-              href="https://www.roblox.com/games/113829431520841/Slayerbound"
+              href={SITE.links.x}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium border border-border hover:bg-white/10 px-8 py-6 text-lg transition-colors"
             >
-              {joinGame}
+              <Twitter className="w-5 h-5" />
+              {secondaryLabel}
             </a>
           </div>
         </div>

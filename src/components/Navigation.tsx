@@ -9,6 +9,7 @@ import { routing, type Locale } from '@/i18n/routing'
 import { ThemeToggle } from '@/components/ThemeToggle'
 import { NAVIGATION_CONFIG } from '@/config/navigation'
 import { getLanguageDisplayNames } from '@/lib/i18n-utils'
+import { SITE } from '@/config/site'
 
 export default function Navigation() {
 	const t = useTranslations()
@@ -128,8 +129,10 @@ export default function Navigation() {
 						</div>
 
 						{/* Play Button */}
-						<Button className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white hidden sm:flex">
-							{t('common.playNow')}
+						<Button asChild className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white hidden sm:flex">
+							<a href={SITE.links.officialSite} target="_blank" rel="noopener noreferrer">
+								{SITE.ctas.navPrimary}
+							</a>
 						</Button>
 
 						{/* Mobile Menu Toggle */}
@@ -163,8 +166,10 @@ export default function Navigation() {
 							<div className="flex items-center gap-3 px-4">
 								<ThemeToggle />
 							</div>
-							<Button className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white w-full">
-								{t('common.playNow')}
+							<Button asChild className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white w-full">
+								<a href={SITE.links.officialSite} target="_blank" rel="noopener noreferrer">
+									{SITE.ctas.navPrimary}
+								</a>
 							</Button>
 						</div>
 					</div>

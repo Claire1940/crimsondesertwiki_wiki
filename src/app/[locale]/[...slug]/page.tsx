@@ -16,6 +16,7 @@ import { ListStructuredData } from '@/components/content/ListStructuredData'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import type { Metadata } from 'next'
+import { SITE, buildTitle, getSiteUrl, toAbsoluteUrl } from '@/config/site'
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
@@ -205,7 +206,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.slayerbound.wiki'
+  const siteUrl = getSiteUrl()
+  const defaultImage = toAbsoluteUrl(SITE.heroImage)
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -223,13 +225,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       const path = `/${contentType}`
 
       return {
-        title,
+        title: buildTitle(title),
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
-          title,
+          title: buildTitle(title),
           description,
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: SITE.name,
+          images: [defaultImage],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: buildTitle(title),
+          description,
+          images: [defaultImage],
         },
         robots: {
           index: true,
@@ -245,13 +255,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Slayerbound Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - ${SITE.name}`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Slayerbound Wiki`,
+        description: `Browse all ${contentType} content for ${SITE.name}.`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for ${SITE.name}.`,
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: SITE.name,
+          images: [defaultImage],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for ${SITE.name}.`,
+          images: [defaultImage],
+        },
         robots: {
           index: true,
           follow: true,
@@ -276,16 +299,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const imageUrl = metadata.image ? toAbsoluteUrl(metadata.image) : defaultImage
 
       return {
-        title: `${metadata.title} - Slayerbound Wiki`,
+        title: buildTitle(metadata.title),
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
+          title: buildTitle(metadata.title),
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          images: [imageUrl],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+          siteName: SITE.name,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: buildTitle(metadata.title),
+          description: metadata.description,
+          images: [imageUrl],
         },
         robots: {
           index: true,
@@ -308,16 +339,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const imageUrl = metadata.image ? toAbsoluteUrl(metadata.image) : defaultImage
 
           return {
-            title: `${metadata.title} - Slayerbound`,
+            title: buildTitle(metadata.title),
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
+              title: buildTitle(metadata.title),
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              images: [imageUrl],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+              siteName: SITE.name,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: buildTitle(metadata.title),
+              description: metadata.description,
+              images: [imageUrl],
             },
             robots: {
               index: true,

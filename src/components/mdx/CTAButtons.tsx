@@ -14,17 +14,33 @@ export function CTAButtons({ buttons }: CTAButtonsProps) {
   return (
     <div className="flex justify-center gap-4 flex-wrap py-12">
       {buttons.map((button, index) => (
-        <Link
-          key={index}
-          href={button.href}
-          className={`px-6 py-3 rounded-xl font-bold transition ${
-            button.variant === 'primary'
-              ? 'bg-blue-500 hover:bg-blue-600 text-white'
-              : 'bg-secondary hover:bg-secondary/80 text-foreground'
-          }`}
-        >
-          {button.label}
-        </Link>
+        button.href.startsWith('http') ? (
+          <a
+            key={index}
+            href={button.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`px-6 py-3 rounded-xl font-bold transition ${
+              button.variant === 'primary'
+                ? 'bg-blue-500 hover:bg-blue-600 text-white'
+                : 'bg-secondary hover:bg-secondary/80 text-foreground'
+            }`}
+          >
+            {button.label}
+          </a>
+        ) : (
+          <Link
+            key={index}
+            href={button.href}
+            className={`px-6 py-3 rounded-xl font-bold transition ${
+              button.variant === 'primary'
+                ? 'bg-blue-500 hover:bg-blue-600 text-white'
+                : 'bg-secondary hover:bg-secondary/80 text-foreground'
+            }`}
+          >
+            {button.label}
+          </Link>
+        )
       ))}
     </div>
   )

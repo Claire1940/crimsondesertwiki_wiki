@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
+import { getSiteUrl } from '@/config/site'
 
-const BASE_URL = 'https://www.slayerbound.wiki'
+const BASE_URL = getSiteUrl()
 
 // 静态页面配置
 const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'monthly' | 'yearly' }> = {

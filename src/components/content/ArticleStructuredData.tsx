@@ -1,4 +1,5 @@
 import type { ContentFrontmatter, ContentType } from '@/lib/content'
+import { SITE, getSiteUrl, toAbsoluteUrl } from '@/config/site'
 
 interface ArticleStructuredDataProps {
 	frontmatter: ContentFrontmatter
@@ -13,30 +14,33 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.slayerbound.wiki'
+	const siteUrl = getSiteUrl()
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+  const imageUrl = frontmatter.image ? toAbsoluteUrl(frontmatter.image) : toAbsoluteUrl(SITE.heroImage)
 
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'Article',
+    '@id': `${articleUrl}#article`,
+    url: articleUrl,
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: [imageUrl],
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Slayerbound Wiki Team',
+			name: `${SITE.shortName} Wiki Team`,
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Slayerbound Wiki',
+			name: SITE.name,
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: toAbsoluteUrl(SITE.logoImage),
 			},
 		},
 		mainEntityOfPage: {

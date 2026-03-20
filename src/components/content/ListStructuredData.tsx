@@ -1,4 +1,5 @@
 import type { ContentFrontmatter, ContentType } from '@/lib/content'
+import { SITE, getSiteUrl, toAbsoluteUrl } from '@/config/site'
 
 interface ListStructuredDataProps {
 	contentType: ContentType
@@ -7,13 +8,17 @@ interface ListStructuredDataProps {
 }
 
 export function ListStructuredData({ contentType, locale, items }: ListStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.slayerbound.wiki'
+	const siteUrl = getSiteUrl()
 	const listUrl =
 		locale === 'en' ? `${siteUrl}/${contentType}` : `${siteUrl}/${locale}/${contentType}`
 
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'ItemList',
+    '@id': `${listUrl}#itemlist`,
+    name: `${contentType} | ${SITE.name}`,
+    url: listUrl,
+    image: toAbsoluteUrl(SITE.heroImage),
 		itemListElement: items.map((item, index) => ({
 			'@type': 'ListItem',
 			position: index + 1,
