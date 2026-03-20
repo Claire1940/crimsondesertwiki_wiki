@@ -26,6 +26,8 @@ export const SITE = {
   media: {
     youtubeVideoId: 'VWIw_f8e9Pg',
     youtubeTitle: 'CRIMSON DESERT | Official Launch Trailer',
+    youtubeUploadDate: '2026-03-19T00:00:00Z',
+    youtubeDuration: 'PT2M13S',
   },
   links: {
     officialSite: 'https://crimsondesert.pearlabyss.com/en-US/Main',

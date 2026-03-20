@@ -520,8 +520,11 @@ export default async function HomePage() {
         '@id': `${siteUrl}/#launch-trailer`,
         name: SITE.media.youtubeTitle,
         embedUrl: `https://www.youtube.com/embed/${SITE.media.youtubeVideoId}`,
+        contentUrl: SITE.links.youtubeTrailer,
         thumbnailUrl: heroImageUrl,
         description: homepage.video.description,
+        uploadDate: SITE.media.youtubeUploadDate,
+        duration: SITE.media.youtubeDuration,
       },
     ],
   }
