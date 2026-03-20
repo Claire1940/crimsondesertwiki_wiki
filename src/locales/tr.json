@@ -1,1 +1,1150 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Crimson Desert Wiki - Bosslar, Harita ve Ekipman Rehberi",
+      "description": "Kliff'in Pywel boyunca süren yolculuğu için çıkış detayları, boss rehberleri, hikaye notları, harita referansları, dövüş ipuçları ve yama güncellemelerini içeren Crimson Desert Wiki.",
+      "keywords": "Crimson Desert, Crimson Desert Wiki, çıkış tarihi, platformlar, boss rehberi, hikaye, harita, dövüş, Kliff, Pywel",
+      "ogTitle": "Crimson Desert Wiki - Bosslar, Harita ve Ekipman Rehberi",
+      "ogDescription": "Crimson Desert için çıkış detaylarını, dövüş sistemlerini, bossları, bölgeleri ve yama güncellemelerini tek bir odaklanmış wiki'de takip edin.",
+      "twitterTitle": "Crimson Desert Wiki - Bosslar, Harita ve Ekipman Rehberi",
+      "twitterDescription": "Crimson Desert için çıkış detaylarını, dövüş sistemlerini, bossları, bölgeleri ve yama güncellemelerini takip edin."
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "Ana Sayfa",
+    "more": "Daha Fazla",
+    "playNow": "Şimdi Oyna",
+    "switchLanguage": "Dili Değiştir",
+    "switchTheme": "Temayı Değiştir",
+    "lightMode": "Açık Mod",
+    "darkMode": "Karanlık Mod",
+    "notFound": "Sayfa Bulunamadı",
+    "notFoundDescription": "Aradığınız sayfa mevcut değil.",
+    "backToHome": "Ana Sayfaya Dön",
+    "relatedArticles": "İlgili Makaleler",
+    "readMore": "Devamını Oku"
+  },
+  "homepage": {
+    "hero": {
+      "badge": "Açık Dünya Aksiyon Macera",
+      "title": "Crimson Desert Wiki",
+      "description": "Kliff'in Pywel yolculuğu için çıkış detaylarını, boss karşılaşmalarını, dünya bölgelerini, dövüş sistemlerini ve yama güncellemelerini takip edin.",
+      "helper": "Çıkış fragmanıyla başlayın, ardından ilk gün en çok önem verdiğiniz sistemlere, hikaye anlarına ve oyuncu sorularına doğrudan atlamak için aşağıdaki ana sayfa modüllerini kullanın.",
+      "primaryLabel": "Resmi Siteyi Ziyaret Et",
+      "primaryHref": "https://crimsondesert.pearlabyss.com/en-US/Main",
+      "secondaryLabel": "Resmi Discord'a Katıl",
+      "secondaryHref": "https://discord.gg/crimsondesert",
+      "stats": [
+        {
+          "value": "Şimdi Mevcut",
+          "label": "Çıkış Durumu"
+        },
+        {
+          "value": "19 Mart 2026",
+          "label": "Çıkış Tarihi"
+        },
+        {
+          "value": "8",
+          "label": "Çıkış Platformları"
+        },
+        {
+          "value": "1.00.02",
+          "label": "En Son Yama"
+        }
+      ],
+      "highlights": [
+        "Tek oyunculu açık dünya aksiyon macera",
+        "Pywel bölgeleri, bosslar, görevler ve ekipman sistemleri",
+        "Resmi bağlantılar, çıkış kapsamı ve güncelleme takibi"
+      ]
+    },
+    "video": {
+      "eyebrow": "Resmi Medya",
+      "title": "Crimson Desert Fragman Merkezi",
+      "description": "Resmi çıkış fragmanını hızlı bir özet noktası olarak kullanın, ardından Pywel, dövüş ve yaşam sistemlerini kapsayan oynatma listesine, çıkış duyurularına ve özellik videolarına göz atın.",
+      "primaryLabel": "Resmi Çıkış Fragmanını İzle",
+      "primaryHref": "https://www.youtube.com/watch?v=VWIw_f8e9Pg",
+      "secondaryLabel": "Resmi Oynatma Listesini Aç",
+      "secondaryHref": "https://www.youtube.com/playlist?list=PL8do59QpFhJGAFycsFEBxpykiK3E-yLdL"
+    },
+    "moduleNav": {
+      "title": "Crimson Desert Ana Sayfa Modülleri",
+      "subtitle": "Fragmandan doğrudan oyuncuların gerçekten aradığı 16 ana sayfa bölümüne geçiş yapın."
+    },
+    "modules": [
+      {
+        "id": "release-platforms",
+        "icon": "Flag",
+        "layout": "facts",
+        "title": "Crimson Desert Çıkış Tarihi ve Platformları",
+        "summary": "Crimson Desert şu an mevcut. 19 Mart 2026'da yeni nesil konsollar, PC, Mac ve bulut üzerinden tek oyunculu bir açık dünya aksiyon macerası olarak çıkış yaptı.",
+        "cards": [
+          {
+            "title": "Çıkış Durumu",
+            "value": "Şimdi Mevcut",
+            "detail": "Oyuncular oyunu satın alıp hikayeye hemen başlayabilirler."
+          },
+          {
+            "title": "Çıkış Tarihi",
+            "value": "19 Mart 2026",
+            "detail": "Perakende sürümü, Eylül 2025'teki tanıtım dönemini takip etti."
+          },
+          {
+            "title": "Çevrimdışı Oynanış",
+            "value": "Destekleniyor",
+            "detail": "Çevrimdışı oynanış, ilk kurulumdan ve ilk gün yamasından sonra çalışır."
+          },
+          {
+            "title": "Çapraz Kayıt",
+            "value": "Desteklenmiyor",
+            "detail": "İlerleme platformlar arasında aktarılmaz."
+          }
+        ],
+        "items": [
+          {
+            "title": "PlayStation 5",
+            "detail": "Mevcut nesil konsol sürümü."
+          },
+          {
+            "title": "PlayStation 5 Pro",
+            "detail": "Geliştirilmiş konsol seçeneği."
+          },
+          {
+            "title": "Xbox Series X|S",
+            "detail": "Konsol çıkış platformu."
+          },
+          {
+            "title": "Xbox on PC",
+            "detail": "PC ekosistemi desteği."
+          },
+          {
+            "title": "Steam",
+            "detail": "PC ve Mac erişilebilirliği."
+          },
+          {
+            "title": "Epic Games Store",
+            "detail": "Alternatif PC mağazası."
+          },
+          {
+            "title": "Mac App Store",
+            "detail": "Özel Mac satın alma yolu."
+          },
+          {
+            "title": "GeForce NOW",
+            "detail": "Bulut akış erişimi."
+          }
+        ],
+        "note": "PC kontrolcü desteği, USB üzerinden Xbox kontrolcülerini ve DualSense'i içerir.",
+        "ctaLabel": "Resmi SSS'yi Oku",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
+      },
+      {
+        "id": "trailer-hub",
+        "icon": "Clapperboard",
+        "layout": "timeline",
+        "title": "Crimson Desert Fragman Merkezi",
+        "summary": "Oyunu hızlıca anlamak için resmi çıkış fragmanıyla başlayın, ardından çıkış tarihi duyurusu, özellik videoları ve uzun oynanış videolarına doğru geriye gidin.",
+        "items": [
+          {
+            "title": "Resmi Çıkış Fragmanı",
+            "detail": "Çıkış sürümünün ve hikaye tonunun şu anki en iyi özeti.",
+            "meta": "Mart 2026"
+          },
+          {
+            "title": "Çıkış Tarihi Tanıtım Fragmanı",
+            "detail": "Çıkış tarihini kesinleştiren 24 Eylül 2025 State of Play duyurusu.",
+            "meta": "Eylül 2025"
+          },
+          {
+            "title": "Özellik Videosu #1: Kliff ve Pywel'in Açık Dünyası",
+            "detail": "Mekan, seyahat ölçeği ve anlatı yönü için en iyi başlangıç rehberi.",
+            "meta": "Dünya Rehberi"
+          },
+          {
+            "title": "Özellik Videosu #2: Dövüş ve İlerleme",
+            "detail": "Silah odaklı dövüş akışını, karşı hamleleri ve geliştirme mantığını gösterir.",
+            "meta": "Dövüş Rehberi"
+          },
+          {
+            "title": "Özellik Videosu #3: Pywel'de Yaşam",
+            "detail": "Kampları, yan aktiviteleri, zanaatkarlığı ve genel dünya döngüsünü kapsar.",
+            "meta": "Sistem Rehberi"
+          },
+          {
+            "title": "50 Dakikalık Erken Oynanış",
+            "detail": "Satın almadan önce tempoyu ve mekanikleri incelemek isteyen oyuncular için uzun video.",
+            "meta": "Derinlemesine İnceleme"
+          }
+        ],
+        "note": "Resmi oynatma listesi ayrıca gamescom ONL 2023 ve The Game Awards 2020 gibi daha önceki tanıtım fragmanlarını tek bir arşivde tutar.",
+        "ctaLabel": "Resmi Oynatma Listesini Aç",
+        "ctaHref": "https://www.youtube.com/playlist?list=PL8do59QpFhJGAFycsFEBxpykiK3E-yLdL"
+      },
+      {
+        "id": "beginner-guide",
+        "icon": "Footprints",
+        "layout": "steps",
+        "title": "Crimson Desert Başlangıç Rehberi",
+        "summary": "İlk saatler Hernand, erken dönem Greymane görevleri, silah odaklı dövüş ve toplama, zanaat, yemek pişirme ve daha güçlü araçların kilidini açma döngüsü etrafında döner.",
+        "items": [
+          {
+            "title": "Hernand'a ulaşın ve erken döngüyü sabitleyin",
+            "detail": "Kasabalılara yardım edin, haydutların elindeki noktaları temizleyin ve daha fazla aktivite ve görev serisinin kilidini açın.",
+            "meta": "Adım 1"
+          },
+          {
+            "title": "Önce temel saldırı ritmini öğrenin",
+            "detail": "Hızlı ve ağır saldırıları zincirleyin, ardından bloklama, savuşturma, yakalama ve fırlatma tekniklerini ekleyin.",
+            "meta": "Adım 2"
+          },
+          {
+            "title": "Önemli olan erken dönem satıcılarını ziyaret edin",
+            "detail": "Demirci, ekipman dükkanı, terzi, tabakhane, bakkal, kasap ve balıkçı dükkanının hepsi erken ivmenizi belirlemeye yardımcı olur.",
+            "meta": "Adım 3"
+          },
+          {
+            "title": "Toplama araçlarına ve yemek pişirmeye öncelik verin",
+            "detail": "Olta, kazma ve balta; zanaatkarlığı ve kamp gelişimini besleyen kaynak döngüsünü başlatır.",
+            "meta": "Adım 4"
+          }
+        ],
+        "note": "Abyss Artifact'leri, daha güçlü yeteneklerin ve dövüş seçeneklerinin kilidini açmak için temel erken yükseltme para birimidir.",
+        "ctaLabel": "İlk İzlenim Raporunu Oku",
+        "ctaHref": "https://blog.playstation.com/2026/03/04/crimson-desert-hands-on-report-four-hours-in-the-rpgs-massive-open-world/"
+      },
+      {
+        "id": "story-explained",
+        "icon": "ScrollText",
+        "layout": "story",
+        "title": "Crimson Desert Hikaye Özeti",
+        "summary": "Crimson Desert, Black Bears'in Pailune'ün hassas dengesini bozup hayatta kalanları kıtaya dağıtmasının ardından Kliff ve Greymanes'i Pywel boyunca takip eder.",
+        "items": [
+          {
+            "title": "Pywel hikayenin sahnesidir",
+            "detail": "Şehirler, yaban hayatı, kalıntılar ve Abyss; hikayenin rotasını ve risklerini belirler."
+          },
+          {
+            "title": "Kliff, Greymanes'e liderlik eder",
+            "detail": "Oongka, Yann ve Naira, dağılmış hayatta kalanların hikayesinde merkezi isimler olmaya devam ediyor."
+          },
+          {
+            "title": "Black Bears çöküşü tetikler",
+            "detail": "Pusuları Pailune'deki dengeyi bozar ve hayatta kalan Greymanes'i toparlanmaya ve misilleme yapmaya zorlar."
+          },
+          {
+            "title": "Abyss kapsamı genişletir",
+            "detail": "Gizli gruplar ve doğaüstü güçler göründükçe hikaye basit bir intikamın ötesine geçer."
+          }
+        ],
+        "note": "Yolculuğun ilerleyen kısımlarındaki ek oynanabilir bakış açıları arasında Oongka ve Damiane de yer alıyor.",
+        "ctaLabel": "Hikayeye Genel Bakışı Oku",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
+      },
+      {
+        "id": "characters",
+        "icon": "Users",
+        "layout": "profiles",
+        "title": "Crimson Desert Karakterleri",
+        "summary": "Kliff ve Greymane yoldaşlarından, Pywel'deki savaşı körükleyen düşmanlara ve gruplara kadar Crimson Desert'ın temel yüzleriyle tanışın.",
+        "cards": [
+          {
+            "title": "Onaylanmış protagonist",
+            "value": "Kliff",
+            "detail": "Kliff, merkezi protagonisttir ve dağılmış yoldaşlarını yeniden bir araya getirmeye kararlı, hayatta kalan bir Greymane'dir."
+          },
+          {
+            "title": "Onaylanmış Greymane yoldaşları",
+            "value": "Oongka, Yann, Naira",
+            "detail": "Resmi hikaye kurgusu, Black Bears saldırısından önce Oongka, Yann ve Naira'nın Kliff'in temel yoldaşları olduğunu doğrular."
+          },
+          {
+            "title": "Onaylanmış ek isimlendirilmiş karakter",
+            "value": "Damiane",
+            "detail": "Resmi oyuncu kadrosu materyalleri, Damiane'nin özel seslendirme performansına sahip isimlendirilmiş bir karakter olduğunu doğrular."
+          },
+          {
+            "title": "Ana düşman grubu",
+            "value": "Black Bears",
+            "detail": "Black Bears, Greymanes'i dağıtmaktan ve savaşı tırmandırmaktan sorumlu olan gruptur."
+          },
+          {
+            "title": "İsimlendirilmiş düşman lideri",
+            "value": "Myurdin",
+            "detail": "Myurdin, Black Bears'in Greymanes'e karşı yürüttüğü harekatın lideri olarak tanımlanmıştır."
+          },
+          {
+            "title": "Başlangıç çatışmasındaki temel bölge",
+            "value": "Pailune",
+            "detail": "İlk çatışma, rakip grupların bir zamanlar hassas bir dengede olduğu Pailune'de başlar."
+          }
+        ],
+        "items": [
+          {
+            "title": "Kliff",
+            "detail": "Yoldaşlarını yeniden bir araya getirmek, yıkılan grubu yeniden inşa etmek ve kaybedilenleri geri almak için yola çıkan bir Greymane sağ kalanı.",
+            "tag": "Protagonist"
+          },
+          {
+            "title": "Oongka",
+            "detail": "Resmi hikaye sayfasında Kliff'in onaylanmış yoldaşlarından biri ve resmi kadro materyallerinde vurgulanan karakterlerden biri.",
+            "tag": "Greymane Yoldaşı"
+          },
+          {
+            "title": "Yann",
+            "detail": "Resmi ana sitede, Black Bears saldırmadan önce Kliff'in yanında duran Greymanes üyelerinden biri olarak listelenmiştir.",
+            "tag": "Greymane Yoldaşı"
+          },
+          {
+            "title": "Naira",
+            "detail": "Resmi ana sitede, başlangıç hikayesi kurgusunda Kliff'in yakın Greymane müttefiklerinden biri olarak listelenmiştir.",
+            "tag": "Greymane Yoldaşı"
+          },
+          {
+            "title": "Damiane",
+            "detail": "Resmi kadro materyallerinde yer alan ve daha sonra büyük kılıç beceri güncellemeleriyle ilgili yama notlarında adı geçen karakter.",
+            "tag": "İsimlendirilmiş Karakter"
+          },
+          {
+            "title": "Myurdin",
+            "detail": "Black Bears'in lideri ve Greymanes'in ölmesine veya dağılmasına neden olan saldırının arkasındaki figür.",
+            "tag": "Black Bears Lideri"
+          }
+        ],
+        "note": "Bu modül, kullanıcıların isimlerden daha derin hikaye ve ilişki sayfalarına geçebilmesi için kadro ve grup kimliğini açık tutar.",
+        "ctaLabel": "Karakter merkezini görüntüle",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=60"
+      },
+      {
+        "id": "open-world-regions",
+        "icon": "Map",
+        "layout": "regions",
+        "title": "Crimson Desert Açık Dünya ve Bölgeler",
+        "summary": "Oyunun ana yolculuğunu ve yan içeriklerini şekillendiren şehirleri, yaban hayatı, kalıntıları, yüzen gizemleri ve yerleşim merkezleri aracılığıyla Pywel'i keşfedin.",
+        "cards": [
+          {
+            "title": "Dünya adı",
+            "value": "Pywel",
+            "detail": "Pywel; şehirlerin, sınırların, kalıntıların ve yüksek çatışma bölgelerinin tek bir seyahat döngüsünde birleştiği kesintisiz dünyadır."
+          },
+          {
+            "title": "Resmi dünya türü",
+            "value": "Geniş, kesintisiz bir açık dünya",
+            "detail": "Resmi materyaller dünyayı geniş, bitişik ve bölgeler arası keşif için inşa edilmiş olarak tanımlar."
+          },
+          {
+            "title": "Erken şehir bölgesi",
+            "value": "Hernand",
+            "detail": "Hernand, görevler, karşılaşmalar ve yan aktivitelerle dolu erken dönem hareketli bir şehir bölgesi olarak tanımlanır."
+          },
+          {
+            "title": "Greymanes'e bağlı ana bölge",
+            "value": "Pailune",
+            "detail": "Pailune, Greymanes'e ve hikayeyi yönlendiren başlangıç çatışmasına bağlıdır."
+          },
+          {
+            "title": "Kamp konumu",
+            "value": "Howling Hill",
+            "detail": "Howling Hill; sevkiyatlar, yükseltmeler ve kaynak rutinlerine bağlı isimlendirilmiş bir kamp konumudur."
+          },
+          {
+            "title": "Yüzeyin ötesindeki ana diyar",
+            "value": "The Abyss",
+            "detail": "The Abyss, eserler, geçiş ve bulmaca öğeleriyle bağlantılı, yüzen bir gizem diyarı olarak sunulur."
+          }
+        ],
+        "items": [
+          {
+            "title": "Hernand",
+            "detail": "Görevlerin, haydut kalelerinin ve yan aktivitelerin hızla açıldığı hareketli bir başlangıç bölgesi şehri.",
+            "tag": "Erken Şehir"
+          },
+          {
+            "title": "Howling Hill",
+            "detail": "Sevkiyatlar, yükseltmeler ve kaynak döngülerine bağlı temel bir üs olan Greymane kampının konumu.",
+            "tag": "Kamp Üssü"
+          },
+          {
+            "title": "Pailune",
+            "detail": "Hikaye çatışmasında temel bir bölge ve daha sonra yeniden inşaya bağlanan Greymanes ana bölgesi.",
+            "tag": "Kuzey Ana Vatanı"
+          },
+          {
+            "title": "The Abyss",
+            "detail": "Yüzen adalar, tuhaf teknolojiler, büyülü eserler, bulmacalar ve geçiş odaklı güçlerin olduğu bir diyar.",
+            "tag": "Gizemli Diyar"
+          },
+          {
+            "title": "Demeniss ve Delesyia",
+            "detail": "Yayınlanan oyun rehberlerinde ve eşya konumu rotalarında atıfta bulunulan isimlendirilmiş varış noktaları.",
+            "tag": "Yerleşim Yerleri ve Rotalar"
+          },
+          {
+            "title": "Tomasso, Varnia ve Urdavah",
+            "detail": "Kitaplara, ekipman referanslarına ve daha geniş keşif yollarına bağlı ek onaylanmış konumlar.",
+            "tag": "Keşif Hedefleri"
+          }
+        ],
+        "note": "Bu modül Pywel için net bir bölgesel omurga sağlar, böylece okuyucular dünya düzeyindeki bağlamdan konuma özel rehberlere geçebilirler.",
+        "ctaLabel": "Pywel'in bölgelerine göz atın",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
+      },
+      {
+        "id": "combat-guide",
+        "icon": "Swords",
+        "layout": "guide",
+        "title": "Crimson Desert Dövüş Rehberi",
+        "summary": "Crimson Desert; zamanlama, silah seçimi, zincirleme beceriler ve yakın mesafeli dövüşlerde güçlü düşmanları okumaya dayalı hızlı, baskı odaklı yakın dövüş sistemini kullanır.",
+        "cards": [
+          {
+            "title": "Dövüş tarzı",
+            "value": "Hızlı tempolu yakın dövüş aksiyonu",
+            "detail": "Resmi dövüş incelemeleri, kararlı icrayı ödüllendiren hızlı ve içgüdüsel bir tempoyu tanımlar."
+          },
+          {
+            "title": "Temel savunma araçları",
+            "value": "Blok ve savuşturma",
+            "detail": "Düşmanlar birden fazla açıdan baskı yaptığında savunma zamanlaması kritiktir."
+          },
+          {
+            "title": "Temel saldırı araçları",
+            "value": "Hızlı vuruşlar, ağır kesişler, yakalamalar, fırlatmalar",
+            "detail": "Saldırı araç seti hem zincirleme baskıyı hem de sert cezalandırma pencerelerini destekler."
+          },
+          {
+            "title": "Düşman baskısı",
+            "value": "Düşmanlar Kliff'in etrafını sarabilir ve onu alt edebilir",
+            "detail": "Konumlandırma ve tempo kontrolü önemlidir çünkü karşılaşmalar hızla tırmanır."
+          },
+          {
+            "title": "Karakter yapılandırma sistemi",
+            "value": "Sınıf tabanlı yapılandırma sistemi yok",
+            "detail": "Dövüş kimliği, sabit sınıf rollerinden ziyade silahlar ve hamle seçimleriyle belirlenir."
+          },
+          {
+            "title": "Boss dövüşü odağı",
+            "value": "Yetenekleri oku, iyi savuştur, açıkları cezalandır",
+            "detail": "Boss karşılaşmaları, baskı altında desen okumayı ve hassas karşı hamleleri ödüllendirir."
+          }
+        ],
+        "items": [
+          {
+            "title": "Baskı Altında Dövüş",
+            "detail": "Dövüş; düşmanlar oyuncuyu aktif olarak sıkıştırdığı, kanatlara sızdığı ve baskı yaptığı için sürekli hareketi ve hızlı kararları ödüllendirir.",
+            "tag": "Savaş Akışı"
+          },
+          {
+            "title": "Savuşturma Zamanlaması",
+            "detail": "İyi zamanlanmış bir blok, düşmanların dengesini bozabilir ve takip saldırıları için fırsatlar yaratabilir.",
+            "tag": "Savunma"
+          },
+          {
+            "title": "Serbest Biçimli Saldırı",
+            "detail": "Dövüş tek bir ritme kilitli değildir; silah seçimi, beceri zincirleri, yakalamalar ve yönsel özgürlük her karşılaşmayı şekillendirir.",
+            "tag": "Saldırı"
+          },
+          {
+            "title": "Boss Hazırlığı",
+            "detail": "Daha güçlü düşmanlar ve bosslar; desen okuma, ağır cezalandırma pencereleri ve eser destekli saldırılara karşı güven gerektirir.",
+            "tag": "Gelişmiş Oynanış"
+          }
+        ],
+        "note": "Bu modül, kullanıcıların temel mekaniklerden daha derin karşılaşmaya özel stratejilere köprü kurmasına yardımcı olan dövüş odaklı bir referans katmanı sağlar.",
+        "ctaLabel": "Dövüş temellerini öğrenin",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=58"
+      },
+      {
+        "id": "weapons-skills",
+        "icon": "Axe",
+        "layout": "weapons",
+        "title": "Crimson Desert Silahlar ve Beceriler",
+        "summary": "Silahlar ve beceriler Crimson Desert'ın nasıl oynandığını belirler: sabit sınıflar yok, geniş bir yakın dövüş araç seti, menzilli seçenekler, beceri ağacı gelişimi ve gözlemleyerek öğrenme ilerlemesi.",
+        "cards": [
+          {
+            "title": "Varsayılan erken silah kurulumu",
+            "value": "Kılıç ve kalkan",
+            "detail": "Temel kurulum dengeli saldırı, savunma ve savuşturma odaklı dövüş akışını destekler."
+          },
+          {
+            "title": "Diğer onaylanmış yakın dövüş silahları",
+            "value": "Büyük kılıçlar, mızraklar, baltalar",
+            "detail": "Yakın dövüş seçenekleri; menzili, zamanlama pencerelerini ve karşılaşmalardaki cezalandırma profillerini değiştirir."
+          },
+          {
+            "title": "Onaylanmış menzilli silahlar",
+            "value": "Yay ve ateşli silahlar",
+            "detail": "Menzilli araçlar avlanma, mesafe koruma ve karşılaşma kontrolü için esneklik sağlar."
+          },
+          {
+            "title": "Beceri geliştirme yöntemleri",
+            "value": "Beceri ağacı kilitleri ve İzle ve Öğren",
+            "detail": "Gelişim, Kliff'in hamle setini genişletmek için ilerleme kilitlerini dövüş gözlemiyle birleştirir."
+          },
+          {
+            "title": "İsimlendirilmiş yardımcı güç",
+            "value": "Force Current",
+            "detail": "Axiom Force'a bağlı, keşif ve toplama yardımını destekleyen bir Ruh dalı yeteneği."
+          },
+          {
+            "title": "Force Current gereksinimi",
+            "value": "Axiom Force Seviye 2, Force Palm Seviye 2 ve 1 Abyss Artifact",
+            "detail": "Bu gereksinim özeti, oyunculara yeteneğin kilidini açmak için pratik bir geliştirme hedefi sunar."
+          }
+        ],
+        "items": [
+          {
+            "title": "Kılıç ve Kalkan",
+            "detail": "Kliff, dengeli saldırı, savunma ve savuşturma odaklı oyunu destekleyen bir kılıç ve kalkan kurulumuyla başlar.",
+            "tag": "Temel Tarz"
+          },
+          {
+            "title": "Ağır Silahlar",
+            "detail": "Büyük kılıçlar, mızraklar ve baltalar; dövüş yaklaşımını farklı menzillere, zamanlamalara ve cezalandırma desenlerine kaydırır.",
+            "tag": "Güç Tarzı"
+          },
+          {
+            "title": "Menzilli Yardımcı",
+            "detail": "Kliff'in yayı ve Damiane'nin silahları onaylanmış menzilli seçeneklerdir ve mevcut rehberlerde özellikle avcılık için belirtilmiştir.",
+            "tag": "Saha Kullanımı"
+          },
+          {
+            "title": "İzle ve Öğren",
+            "detail": "Kliff, dövüş sırasında da dahil olmak üzere diğer dövüşçüleri gözlemleyerek hamleler kazanabilir ve repartuarına doğrudan yeni eylemler ekleyebilir.",
+            "tag": "Beceri Gelişimi"
+          },
+          {
+            "title": "Force Current",
+            "detail": "Ağır bir Axiom Force saldırısını şarj ettikten sonra ağaçları ve maden yataklarını parçalayabilen bir Ruh dalı yeteneği.",
+            "tag": "Axiom Force Becerisi"
+          }
+        ],
+        "note": "Bu modül, kullanıcıların dövüş tarzlarını ve geliştirme önceliklerini hızlıca belirleyebilmeleri için silah kimliği ve beceri gelişimi etrafında düzenlenmiştir.",
+        "ctaLabel": "Silahları ve beceri yollarını görün",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=69"
+      },
+      {
+        "id": "boss-guide",
+        "icon": "Skull",
+        "layout": "bosses",
+        "title": "Crimson Desert Boss Rehberi",
+        "summary": "Crimson Desert, her biri farklı bir görsel tema ve dövüş kimliği etrafında inşa edilmiş dört ana boss karşılaşmasını resmi olarak duyurdu.",
+        "cards": [
+          {
+            "title": "Resmi olarak duyurulan bosslar",
+            "value": "4",
+            "detail": "Resmi liste şu anda dört isimlendirilmiş ana boss karşılaşmasını içermektedir."
+          },
+          {
+            "title": "Herkese açık boss savaşı görüntüleri",
+            "value": "gamescom 2024 oynanış fragmanları",
+            "detail": "Resmi boss savaşı fragmanları, gamescom 2024 tanıtım döngüsü sırasında yayınlandı."
+          },
+          {
+            "title": "Boss listesi",
+            "value": "White Horn, Staglord, Reed Devil, Queen Stoneback Crab",
+            "detail": "Onaylanan her boss, Pywel'deki farklı bir bölge tonunu ve karşılaşma tarzını vurgular."
+          }
+        ],
+        "panels": [
+          {
+            "title": "White Horn",
+            "subtitle": "Dağ ruhu",
+            "details": [
+              "Resmi boss savaşı fragman serisinde gösterilen ilk boss.",
+              "Ağır bir fantezi canavarı hissi veren, devasa bir ruh karşılaşması olarak sunuldu."
+            ]
+          },
+          {
+            "title": "Staglord",
+            "subtitle": "Düşmüş kral",
+            "details": [
+              "Pearl Abyss tarafından terk edilmiş bir tahtta oturan düşmüş bir kral olarak tanımlandı.",
+              "Oyunun daha karanlık kraliyet kalıntısı estetiğine ve özel sahne tarzı boss tasarımına uyar."
+            ]
+          },
+          {
+            "title": "Reed Devil",
+            "subtitle": "Hernand dışlanmışı",
+            "details": [
+              "Kaderini yeniden yazmaya çalışan bir Hernand gecekondu sakini olarak tanıtıldı.",
+              "Boss listesini doğrudan Pywel'deki önemli erken dönem şehirlerinden birine bağlar."
+            ]
+          },
+          {
+            "title": "Queen Stoneback Crab",
+            "subtitle": "Mücevherlerle kaplı yaratık",
+            "details": [
+              "Pywel'deki en nadir mücevherlerden bazılarıyla süslenmiş bir canavar olarak sunuldu.",
+              "Duyurulan boss listesine büyük yaratık tarzı bir karşılaşma ekler."
+            ]
+          }
+        ],
+        "note": "Mevcut resmi boss seti White Horn, Staglord, Reed Devil ve Queen Stoneback Crab'i içerir.",
+        "ctaLabel": "Resmi boss savaşı fragmanlarını izle",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=28"
+      },
+      {
+        "id": "multiplayer-offline",
+        "icon": "WifiOff",
+        "layout": "qa",
+        "title": "Crimson Desert Çok Oyunculu ve Çevrimdışı",
+        "summary": "Crimson Desert, tek oyunculu bir aksiyon-macera olarak inşa edilmiştir. İlk kurulumdan ve ilk gün yamasından sonra oyun çevrimdışı oynanabilir.",
+        "cards": [
+          {
+            "title": "Oyun türü",
+            "value": "Tek Oyunculu",
+            "detail": "Resmi mağaza ve SSS sayfaları oyunu solo bir hikaye deneyimi olarak konumlandırır."
+          },
+          {
+            "title": "Çevrimdışı oynanış",
+            "value": "İlk kurulum ve ilk gün yamasından sonra kullanılabilir",
+            "detail": "Önce bir internet bağlantısı gereklidir, ancak oyun sonrasında çevrimdışı devam edebilir."
+          },
+          {
+            "title": "Çapraz kayıt",
+            "value": "Desteklenmiyor",
+            "detail": "İlerleme, desteklenen platform ekosistemleri arasında aktarılmaz."
+          },
+          {
+            "title": "PC kontrolcü desteği",
+            "value": "Xbox kontrolcüleri ve USB üzerinden DualSense",
+            "detail": "Çevrimdışı oynayabilir misiniz?"
+          }
+        ],
+        "panels": [
+          {
+            "title": "Evet, kurulumdan sonra",
+            "subtitle": "İlk kurulum ve ilk gün yaması için internet bağlantısı gereklidir.",
+            "details": [
+              "Kurulum tamamlandıktan sonra oyun çevrimdışı olarak oynanabilir.",
+              "Çok oyunculu veya co-op var mı?"
+            ]
+          },
+          {
+            "title": "Çok oyunculu listelenmedi",
+            "subtitle": "Epic Games Store ürün sayfası Crimson Desert'ı Tek Oyunculu olarak listeler.",
+            "details": [
+              "Resmi SSS materyalleri, desteklenen platformlarda solo oyuna odaklanır.",
+              "Çapraz kaydı destekliyor mu?"
+            ]
+          },
+          {
+            "title": "Hayır",
+            "subtitle": "Çapraz kayıt platformlar arasında mevcut değildir.",
+            "details": [
+              "Nerede oynayabilirsiniz?"
+            ]
+          },
+          {
+            "title": "Mevcut platform listesi",
+            "subtitle": "PlayStation 5 ve PlayStation 5 Pro",
+            "details": [
+              "Xbox Series X|S ve PC'de Xbox",
+              "PC ve Mac'te Steam, Epic Games Store, Mac App Store ve GeForce NOW",
+              "Bu modül, en çok aranan çıkış sorusunu doğrudan yanıtlar: önce tek oyunculu, kurulumdan sonra çevrimdışı ve çapraz kayıt yok."
+            ]
+          }
+        ],
+        "note": "Çıkış SSS ve platform detaylarını görün",
+        "ctaLabel": "See the launch FAQ and platform details",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
+      },
+      {
+        "id": "system-requirements",
+        "icon": "MonitorCog",
+        "layout": "comparison",
+        "title": "PC'de Crimson Desert 150 GB SSD depolama alanı, 16 GB RAM ve DirectX 12 gerektirir. Resmi SSS ayrıca platforma bağlı olarak DLSS, FSR, PSSR ve MetalFX desteğini de onaylar.",
+        "summary": "PC depolama",
+        "cards": [
+          {
+            "title": "150 GB SSD gerekli",
+            "value": "Depolama planlaması basittir: en az 150 GB boş alanı olan bir SSD gereklidir.",
+            "detail": "PC bellek"
+          },
+          {
+            "title": "16 GB RAM minimum ve önerilen",
+            "value": "Hem minimum hem de önerilen resmi hedefler 16 GB sistem belleği listeler.",
+            "detail": "Grafik API'si"
+          },
+          {
+            "title": "DirectX 12",
+            "value": "Windows sürümleri DirectX 12 desteğine göre belirtilmiştir.",
+            "detail": "Intel Arc desteği"
+          },
+          {
+            "title": "Desteklenmiyor",
+            "value": "Mevcut resmi SSS notları Intel Arc GPU desteğini listelemiyor.",
+            "detail": "PC Minimum"
+          }
+        ],
+        "panels": [
+          {
+            "title": "Giriş gereksinimi",
+            "subtitle": "İşletim Sistemi: Windows 10 64-bit",
+            "details": [
+              "İşlemci: Ryzen 5 2600X / Intel i5-8500",
+              "Bellek: 16 GB RAM",
+              "Ekran Kartı: RX 5500 XT / GTX 1060",
+              "DirectX: Sürüm 12",
+              "Depolama: 150 GB kullanılabilir alan, SSD gerekli",
+              "PC Önerilen"
+            ]
+          },
+          {
+            "title": "Daha akıcı temel",
+            "subtitle": "İşletim Sistemi: Windows 10 64-bit",
+            "details": [
+              "İşlemci: Ryzen 5 5600 / Intel i5-11600K",
+              "Bellek: 16 GB RAM",
+              "Ekran Kartı: RX 6700 XT / RTX 2080",
+              "DirectX: Sürüm 12",
+              "Depolama: 150 GB kullanılabilir alan, SSD gerekli",
+              "Platforma Göre Performans Teknolojisi"
+            ]
+          },
+          {
+            "title": "Ölçeklendirme ve kare oluşturma",
+            "subtitle": "PC: FSR 3/4, DLSS 4/4.5, AMD FSR Ray Regeneration, NVIDIA DLSS Ray Reconstruction",
+            "details": [
+              "PS5 Pro: Yükseltilmiş PSSR",
+              "PS5 temel model ve Xbox Series X|S: FSR 3",
+              "Mac: MetalFX Upscaler, Frame Generation ve Denoiser",
+              "Ek Notlar"
+            ]
+          },
+          {
+            "title": "Faydalı kurulum bilgileri",
+            "subtitle": "Kare oluşturma PC ve Mac'te desteklenir.",
+            "details": [
+              "Önerilen sürücüler: AMD 25.9.2+ ve NVIDIA 581.29+.",
+              "Mac önerisi: macOS 26 Tahoe veya üstü.",
+              "Bu modül, PC temel gereksinimlerini ve platform performans teknolojilerini tek bir çıkış sorun giderme noktasında birleştirir."
+            ]
+          }
+        ],
+        "note": "Tüm PC, konsol ve Mac performans özelliklerini kontrol edin",
+        "ctaLabel": "Check full PC, console, and Mac performance specs",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=62"
+      },
+      {
+        "id": "editions-bonuses",
+        "icon": "Package",
+        "layout": "editions",
+        "title": "Crimson Desert; Standart, Deluxe ve Collector's paketleri halinde satılmaktadır ve platform bonusları ile eklenti paketleri sürümler arasında bölünmüştür.",
+        "summary": "Temel sürümler",
+        "cards": [
+          {
+            "title": "Standart Sürüm, Deluxe Sürüm, Collector's Sürüm",
+            "value": "Çıkış kataloğu üç ana paket kademesine ayrılmıştır.",
+            "detail": "Ön sipariş bonusu"
+          },
+          {
+            "title": "Khaled Shield",
+            "value": "Oyunu ön sipariş veren oyuncular Khaled Shield bonus eşyasını talep edebilirler.",
+            "detail": "PlayStation özel bonusu"
+          },
+          {
+            "title": "Grotevant Plate Set",
+            "value": "PlayStation satın alma yolları, platforma özel bir zırh seti bonusu içerir.",
+            "detail": "Çıkış sonrası ayrı eklenti"
+          },
+          {
+            "title": "Deluxe Paket",
+            "value": "Ana oyuna sahip olan oyuncular, çıkıştan sonra Deluxe Paketi ayrı olarak satın alabilirler.",
+            "detail": "Standart Sürüm"
+          }
+        ],
+        "panels": [
+          {
+            "title": "Fiziksel ve dijital",
+            "subtitle": "Tam oyunu içerir.",
+            "details": [
+              "Ön sipariş bonusu: Khaled Shield.",
+              "PlayStation sürümleri Grotevant Plate Set'i ekler.",
+              "Mac sürümü yalnızca Dijital Standart Sürümde mevcuttur ve ön sipariş bonusunu içermez.",
+              "Deluxe Sürüm"
+            ]
+          },
+          {
+            "title": "Fiziksel ve dijital",
+            "subtitle": "Tam oyunun yanı sıra Deluxe Paketi içerir.",
+            "details": [
+              "Deluxe Paket eşyaları: Balgran Shield, Kairos Plate Set, Exclaire Horse Tack Set.",
+              "Fiziksel Deluxe Sürüm ayrıca bir SteelBook, Pywel Haritası, Geliştiriciden Mektup, 3 Karakter Fotoğraf Kartı, Greymane Broş İğnesi ve 3 Yama içerir.",
+              "Collector's Sürüm"
+            ]
+          },
+          {
+            "title": "Sadece fiziksel",
+            "subtitle": "Tam oyunu, Deluxe Paketi ve Ultimate Paket içeriğini içerir.",
+            "details": [
+              "Ultimate Paket eşyaları: Tormented Soul Bow, Derictus Spear, Sielos Longsword, Shroud Lantern, Hyperion Horse Tack Set.",
+              "Fiziksel koleksiyon ürünleri arasında 17 x 11 x 10 inçlik bir diorama, Sınırlı Sayıda SteelBook, Kumaş Pywel Haritası, Geliştiriciden Mektup, 3 Karakter Fotoğraf Kartı, Greymane Broş İğnesi ve 3 Yama bulunur.",
+              "Ek Bonus Notları"
+            ]
+          },
+          {
+            "title": "Mağaza ve yükseltme detayları",
+            "subtitle": "Deluxe Paket, tam oyuna zaten sahip olan oyuncular tarafından çıkıştan sonra ayrı olarak satın alınabilir.",
+            "details": [
+              "Collector's Sürümündeki Ultimate Paket ayrı olarak satılmaz.",
+              "Epic Games Store alıcıları, mağaza sayfasında gösterilen satın alma hediyesi teklifi olarak Fortnite'ta Kliff Kıyafetini de alabilirler.",
+              "Bu modül, oyunculara satın alma öncesinde bonus sınırları ve eklenti mevcudiyeti dahil olmak üzere doğrudan bir paket karşılaştırması sunar."
+            ]
+          }
+        ],
+        "note": "Paketleri karşılaştırın ve bonus eşyalarınızı talep edin",
+        "ctaLabel": "Compare packages and claim your bonus items",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=49"
+      },
+      {
+        "id": "crafting-cooking",
+        "icon": "ChefHat",
+        "layout": "specs",
+        "title": "Kasaba satıcılarını, saha araçlarını ve kamp destek sistemlerini birleştirerek tarifler öğrenin, malzemeler toplayın, daha güçlü ekipmanlar üretin ve daha iyi yemekler hazırlayın.",
+        "summary": "Tarif öğrenme yöntemi",
+        "cards": [
+          {
+            "title": "Kitaplar ve parşömenler",
+            "value": "Tarifler esas olarak kitaplardan ve parşömenlerden öğrenilir, ardından incelendikten sonra Bilgi menüsüne eklenir.",
+            "detail": "Satıcı yenilenme döngüsü"
+          },
+          {
+            "title": "Yaklaşık 24 oyun içi saat",
+            "value": "Kasaba satıcı envanteri günlük oyun içi ritimle yenilenir, bu da stok yenileme rotalarını güvenilir kılar.",
+            "detail": "Yemek kalite kademeleri"
+          },
+          {
+            "title": "Mütevazı, Doyurucu, Tatmin Edici, Besleyici",
+            "value": "Yenilenme yemekleri kalite kademesine göre ölçeklenir ve pratik bir ilerleme kaldıracı haline gelir.",
+            "detail": "Onaylanmış toplama araçları"
+          },
+          {
+            "title": "Olta, Kazma, Oduncu Baltası",
+            "value": "Bu araçlar, malzeme ve materyal toplama için temel döngüyü oluşturur.",
+            "detail": "Temel Ekipman Satıcıları"
+          }
+        ],
+        "panels": [
+          {
+            "title": "Kasaba tedarik katmanı",
+            "subtitle": "Demirci",
+            "details": [
+              "Ekipman Dükkanı",
+              "Terzi Dükkanı",
+              "Tabakhane",
+              "Katkı Dükkanı",
+              "Temel Gıda Kaynakları"
+            ]
+          },
+          {
+            "title": "Malzeme katmanı",
+            "subtitle": "Kasap",
+            "details": [
+              "Bakkal",
+              "Balıkçı Dükkanı",
+              "Sokak Dükkanları",
+              "Gezgin Tüccarlar",
+              "Force Current Toplama Kilidi"
+            ]
+          },
+          {
+            "title": "Axiom Force rotası",
+            "subtitle": "Axiom Force Seviye 2",
+            "details": [
+              "Force Palm Seviye 2",
+              "1 Abyss Artifact",
+              "Force Current aracılığıyla ağaç ve maden toplamayı etkinleştirir",
+              "Erken Tarif Örnekleri"
+            ]
+          },
+          {
+            "title": "Pratik başlangıçlar",
+            "subtitle": "Balık Lapası ve Turşu",
+            "details": [
+              "Balık Buğulama ve Tavada Pirinç Kekleri",
+              "Balık Köftesi Çorbası",
+              "Etli ve Sebzeli Lapa ve Kaburga Buğulama",
+              "Balık Lapası"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "Temel balık ve ana malzemelerden yapılan erken dönem yenilenme seçeneği.",
+            "detail": "Balık Buğulama"
+          },
+          {
+            "title": "Erken ve orta dönem ilerleme döngüsünde yaygın olarak kullanılan daha güçlü bir pişmiş yemek.",
+            "detail": "Balık Köftesi Çorbası"
+          },
+          {
+            "title": "Sürdürülebilir saha aktivitesi ve görev rotası için pratik bir yemek.",
+            "detail": "Kaburga Buğulama"
+          },
+          {
+            "title": "Malzeme tedariki stabilize olduğunda takip etmeye değer daha yüksek değerli bir tarif.",
+            "detail": "Bu modül; tarifleri, araçları, satıcıları ve kalite kademelerini tek bir pratik döngüde birleştirir, böylece oyuncular hem hayatta kalma hem de zanaatkarlık ivmesini ölçeklendirebilir."
+          }
+        ],
+        "note": "Tam Zanaatkarlık ve Yemek Pişirme rehberini aç",
+        "ctaLabel": "Open the full Crafting and Cooking guide",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-crafting-cooking-recipes"
+      },
+      {
+        "id": "greymane-camp-guide",
+        "icon": "Tent",
+        "layout": "timeline",
+        "title": "Howling Hill'i inşa edin, dağılmış Greymanes üyelerini toplayın, sevkiyat görevleri yürütün ve kampı uzun vadeli bir kaynak ve envanter motoruna dönüştürün.",
+        "summary": "Kamp kilit açma bölümü",
+        "cards": [
+          {
+            "title": "Bölüm 3: Howling Hill - Yerleşke",
+            "value": "Kamp döngüsü Bölüm 3'te başlar ve temel bir ilerleme katmanı haline gelir.",
+            "detail": "İlk genişletme gereksinimi"
+          },
+          {
+            "title": "2 yeni üye, 100 yemek, 250 para, 18 oyun içi saat",
+            "value": "Bu, Howling Hill operasyonlarını genişletmek için ilk büyük eşiktir.",
+            "detail": "Sevkiyat beceri etiketleri"
+          },
+          {
+            "title": "14 onaylanmış etiket",
+            "value": "Etiketler arasında Eskort, Çiftçi, Çiftlik Sahibi, Balıkçı, Demirci, Oduncu, Madenci, Zanaatkar, Kuyumcu, Mühendis, Aşçı, Kaşif, Ressam ve Dokumacı bulunur.",
+            "detail": "Envanter ödül zinciri"
+          },
+          {
+            "title": "27 komisyondan +81 yuva",
+            "value": "Greymane Komisyonları, her biri +3 yuva değerinde Orta Boy Çantalarla ödüllendirebilir.",
+            "detail": "Howling Hill'i açın ve ilk çadırı güvenceye alın"
+          }
+        ],
+        "items": [
+          {
+            "title": "İlk çadırınızı sabitleyerek, sancağı yerleştirerek, 2 Mütevazı Berrak Çorba pişirerek ve Marius'u kampa geri getirerek başlayın.",
+            "detail": "Erken Kurulum",
+            "meta": "Üç grup sekmesinde ilerleyin"
+          },
+          {
+            "title": "Kamp ilerlemesi Scattered Embers, Grounds of the Sunrise ve Greymane Commissions etrafında yapılandırılmıştır.",
+            "detail": "Görev Yapısı",
+            "meta": "Kamp yönetimi döngüsünü kurun"
+          },
+          {
+            "title": "Gelişimi sabit tutmak için Tedarik Sandığı ödülleri, Kamp Azığı bağışları, üye iyileşmesi ve sevkiyat görevleri arasında döngü yapın.",
+            "detail": "Temel Döngü",
+            "meta": "Sevkiyatları rol ve görev türüne göre ölçeklendirin"
+          },
+          {
+            "title": "Onaylanmış görev kategorileri arasında Eskort, Hasat ve Çiftçilik, Madencilik ve Odunculuk bulunur.",
+            "detail": "Sevkiyat Operasyonları",
+            "meta": "Genişletme ve envanter yükseltmelerini zorlayın"
+          },
+          {
+            "title": "Orta Boy Çanta ödüllerini biriktirmek ve daha büyük yerleşim büyüme hedeflerine ulaşmak için komisyonları tamamlayın.",
+            "detail": "Büyüme",
+            "meta": "Bu modül, kamp yönetimini materyal, kadro gücü ve envanter büyümesini besleyen tekrarlanabilir bir ilerleme motoru olarak kurgular."
+          }
+        ],
+        "note": "Tam Greymane Kampı ve Yeni Üyeler rehberini görün",
+        "ctaLabel": "See the full Greymane Camp and Recruits guide",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-greymane-camp-management-recruits"
+      },
+      {
+        "id": "side-activities-exploration",
+        "icon": "Compass",
+        "layout": "guide",
+        "title": "Özgürleştirilmiş karakollar, balıkçılık döngüleri, geçiş yükseltmeleri, Abyss bulmaca alanları ve doğal dünya karşılaşmaları ile Pywel'i ana hikayenin ötesinde keşfedin.",
+        "summary": "Özgürleştirme etkisi",
+        "cards": [
+          {
+            "title": "Karakollar yerel aktiviteyi yeniden açar",
+            "value": "Haydutların elindeki noktaları temizlemek sivil erişimi geri kazandırır ve yeni görevlerin ile aktivite rotalarının kilidini açar.",
+            "detail": "Geçiş araçları"
+          },
+          {
+            "title": "Tırmanma, süzülme, yüzme, sprint",
+            "value": "Hareket sistemleri dayanıklılık yönetimini paylaşır ve oyuncuların yeni rotaları ne kadar hızlı haritalayabileceğini şekillendirir.",
+            "detail": "Uzun menzilli hareketlilik"
+          },
+          {
+            "title": "İsteğe bağlı at çağırma",
+            "value": "Binek hareketliliği bölgeler arası hızlı seyahati desteklerken, binek ve planör dayanıklılığı zamanla gelişir.",
+            "detail": "Yükseltme katalizörü"
+          },
+          {
+            "title": "Abyss Artifact'leri",
+            "value": "Keşif ödülleri, daha güçlü yeteneklerin ve sistemlerin kilidini açarak ilerlemeyi besler.",
+            "detail": "Karakol Özgürleştirme"
+          }
+        ],
+        "items": [
+          {
+            "title": "Kasabalılar için konumları yeniden açmak ve ek aktivite zincirlerini tetiklemek için haydut kontrollü alanları geri alın.",
+            "detail": "Dünya Durumu",
+            "tag": "Balık Pazarı Kurtarma Döngüsü"
+          },
+          {
+            "title": "Hernand'daki geri alınan bir balık pazarı, balıkçıları geri getirir ve gözlemleyerek balık tutmayı öğrenme yolunu açar.",
+            "detail": "Şehir Aktivitesi",
+            "tag": "Abyss Bulmaca Sistemleri"
+          },
+          {
+            "title": "Abyss; cihaz tabanlı bulmacaları, ağırlık mekaniklerini, ağır nesne hareketini ve planör odaklı geçiş yollarını tanıtır.",
+            "detail": "Bulmaca Katmanı",
+            "tag": "Kısa Süreli Karşılaşma Avcılığı"
+          },
+          {
+            "title": "Keşif, normal seyahat sırasında uçurum kurtarmalarını, gizli sandıkları ve ticaretle ilgili keşifleri doğal olarak ortaya çıkarır.",
+            "detail": "Karşılaşma Katmanı",
+            "tag": "Kesintisiz Dünya Keşfi"
+          },
+          {
+            "title": "Resmi konumlandırma; şehirleri, yaban hayatı, kalıntıları ve Abyss rotalarını kapsayan geniş, kesintisiz bir dünyayı vurgular.",
+            "detail": "Makro Görünüm",
+            "tag": "Bu modül keşfin neden dolgu içerik olmadığını gösterir: her aktivite döngüsü görevlere, kaynaklara ve uzun vadeli ilerleme seçeneklerine katkıda bulunur."
+          }
+        ],
+        "note": "Keşif, aktiviteler ve bölge rehberlerine göz atın",
+        "ctaLabel": "Browse exploration, activities, and region guides",
+        "ctaHref": "https://blog.playstation.com/2026/03/04/crimson-desert-hands-on-report-four-hours-in-the-rpgs-massive-open-world/"
+      },
+      {
+        "id": "patch-notes-known-issues",
+        "icon": "Bug",
+        "layout": "patches",
+        "title": "Çıkıştan sonraki canlı düzeltmeleri, aktif sorunları, platform sunum zamanlamasını ve en büyük oynanış, boss, arayüz ve performans değişikliklerini takip edin.",
+        "summary": "Yayınlanan en son yama",
+        "cards": [
+          {
+            "title": "Sürüm 1.00.02",
+            "value": "En yeni herkese açık yama girişi Sürüm 1.00.02'dir.",
+            "detail": "Yamanın yayınlanma tarihi"
+          },
+          {
+            "title": "19 Mart 2026",
+            "value": "Sürüm 1.00.02, 19 Mart 2026'da yayınlandı.",
+            "detail": "Mevcut sorun tablosu"
+          },
+          {
+            "title": "10 aktif sorun, 1 çözülmüş öğe",
+            "value": "Bilinen Sorunlar duyurusu, mevcut açık öğeleri ve çözülmüş güncellemeleri takip eder.",
+            "detail": "Bilinen Sorunlar zaman damgası"
+          },
+          {
+            "title": "20.03.2026 06:15 UTC",
+            "value": "Herkese açık Bilinen Sorunlar sayfası bu en son güncelleme zaman damgasını gösterir.",
+            "detail": "Sürüm 1.00.02, platform sunum güncellemeleriyle birlikte yayınlandı"
+          }
+        ],
+        "items": [
+          {
+            "title": "Duyuru, PlayStation ve Epic Games Store erişilebilirliğinin 20 Mart 2026 saat 01:00 UTC olarak güncellendiğini ve sunum notlarının platforma göre takip edildiğini belirtir.",
+            "detail": "Yama Zaman Çizelgesi",
+            "meta": "Yama içeriği sekiz güncelleme alanında gruplandırılmıştır"
+          },
+          {
+            "title": "Görevler, İçerik, Beceriler, Boss Savaşları, NPC ve NPC Diyalogları, Yerelleştirme, Arayüz ve Performans ayrı değişiklik bölümleri olarak takip edilmektedir.",
+            "detail": "Kapsam",
+            "meta": "Oynanış ve boss ayarlamaları yayınlandı"
+          },
+          {
+            "title": "Öne çıkanlar arasında Abyss Gears eğitim eklemeleri, daha hızlı ara sahne ileri sarma, İzle ve Öğren kullanılabilirlik değişiklikleri ve çoklu boss akış düzeltmeleri yer alıyor.",
+            "detail": "Oynanış",
+            "meta": "Bilinen Sorunlar, performans ve ilerleme engelleyicileri aktif olarak takip eder"
+          },
+          {
+            "title": "Mevcut açık girişler arasında Abyss ile ilgili kare hızı düşüşleri, görev ilerleme engelleyicileri, kontrol kilitlenmeleri, ayar kaydetme sorunları ve mağazaya özel talep sorunları bulunmaktadır.",
+            "detail": "Sorun Tablosu",
+            "meta": "Bu modül, oyuncuların nelerin değiştiğini ve nelerin hala inceleme altında olduğunu hızlıca doğrulayabilmeleri için yama farklarını ve sorun durumunu tek bir kontrol noktasında birleştirir."
+          }
+        ],
+        "note": "En son yama notlarını ve bilinen sorunları kontrol edin",
+        "ctaLabel": "Check the latest patch notes and known issues",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
+      }
+    ],
+    "faq": {
+      "title": "Oyuncuların sürekli sorduğu çıkış soruları için hızlı yanıtlar.",
+      "subtitle": "Crimson Desert ne tür bir oyundur?",
+      "items": [
+        {
+          "question": "Crimson Desert; Kliff, Greymanes ve Pywel kıtasına odaklanan tek oyunculu bir açık dünya aksiyon macerasıdır.",
+          "answer": "Crimson Desert ne zaman çıktı?"
+        },
+        {
+          "question": "Crimson Desert, 19 Mart 2026'da çıktı.",
+          "answer": "Crimson Desert çok oyunculu mu yoksa co-op mu?"
+        },
+        {
+          "question": "Crimson Desert çok oyunculu veya co-op bir oyun değildir. Tek oyunculu bir hikaye olarak inşa edilmiştir.",
+          "answer": "Crimson Desert çevrimdışı oynanabilir mi?"
+        },
+        {
+          "question": "Crimson Desert, ilk kurulum ve ilk gün yaması tamamlandıktan sonra çevrimdışı oynamayı destekler.",
+          "answer": "Crimson Desert çapraz kaydı destekliyor mu?"
+        },
+        {
+          "question": "Crimson Desert, platformlar arasında çapraz kaydı desteklemez.",
+          "answer": "Crimson Desert'taki ana karakter kim?"
+        },
+        {
+          "question": "Kliff, Crimson Desert'taki ana liderdir ve Greymanes onun etrafındaki temel grubu oluşturur.",
+          "answer": "Crimson Desert dövüşünde ilk neyi öğrenmeliyim?"
+        },
+        {
+          "question": "Crimson Desert'ta hızlı saldırılar, ağır saldırılar, bloklama, savuşturma ve baskı altında hareket arasındaki ritmi öğrenerek başlayın.",
+          "answer": "Resmi Crimson Desert güncellemelerini nereden takip etmeliyim?"
+        },
+        {
+          "question": "Devam eden Crimson Desert güncellemeleri için resmi duyurular sayfasını, resmi YouTube kanalını, resmi X hesabını ve resmi Discord'u kullanın.",
+          "answer": "Crimson Desert Resmi Kaynakları"
+        }
+      ]
+    },
+    "resources": {
+      "title": "Sadece dış bağlantılar. Ana sayfadan yayıncı medyasına, duyurulara ve topluluk kanallarına geçmek için bunları kullanın.",
+      "subtitle": "Resmi Site",
+      "items": [
+        {
+          "label": "Ana oyuna genel bakış, sürümler ve özellik sayfaları.",
+          "description": "Main game overview, editions, and feature pages.",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/Main"
+        },
+        {
+          "label": "Çıkış paylaşımları, yama notları, bilinen sorunlar ve resmi duyurular.",
+          "description": "Release posts, patch notes, known issues, and official notices.",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
+        },
+        {
+          "label": "Fragmanlar, sanat çalışmaları ve tanıtım varlıkları için resmi medya merkezi.",
+          "description": "Official media hub for trailers, artwork, and promotional assets.",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/Media"
+        },
+        {
+          "label": "Resmi fragmanlar, özellik videoları ve tanıtım arşivleri.",
+          "description": "Official trailers, feature videos, and showcase archives.",
+          "href": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
+        },
+        {
+          "label": "Çıkış anlarını, istek listelerini ve canlı iletişimi kapsayan yayıncı paylaşımları.",
+          "description": "Publisher posts covering launch moments, wishlists, and live communication.",
+          "href": "https://x.com/CrimsonDesert_"
+        },
+        {
+          "label": "Güncel tartışmalar ve resmi sosyal varlık için topluluk merkezi.",
+          "description": "Community hub for current discussion and official social presence.",
+          "href": "https://discord.gg/crimsondesert"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bu ana sayfayı referans katmanı olarak kullanın, ardından güncel oyuna uyumlu kalmak için resmi duyurular, çıkış fragmanı ve topluluk kanallarıyla eşleştirin.",
+      "description": "Resmi Duyuruları Aç",
+      "primaryLabel": "Open Official Notices",
+      "primaryHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice",
+      "secondaryLabel": "Watch on YouTube",
+      "secondaryHref": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
+    }
+  }
+}

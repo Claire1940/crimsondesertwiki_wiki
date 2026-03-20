@@ -91,9 +91,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 						priority: priority,
 					})
 				}
-			} catch (error) {
-				// 忽略无法加载的内容类型
-				console.warn(`Failed to load content for ${locale}/${contentType}:`, error)
+			} catch {
+				// 忽略无法加载的内容类型，继续生成其余 sitemap 条目
 			}
 		}
 	}

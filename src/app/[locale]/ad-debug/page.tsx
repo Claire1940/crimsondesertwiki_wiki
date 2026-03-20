@@ -72,7 +72,7 @@ export default function AdDebugPage() {
   }, [])
 
   if (!mounted) {
-    return <div className="p-8">Loading...</div>
+    return <div className="p-8">Preparing ad diagnostics...</div>
   }
 
   // 生成诊断建议

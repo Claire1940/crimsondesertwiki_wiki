@@ -1,876 +1,1150 @@
 {
   "seo": {
     "home": {
-      "title": "Slayerbound Wiki - Códigos, Lista de Níveis, Unidades e Guias | Slayerbound Roblox",
-      "description": "Centro completo de recursos Slayerbound Wiki! Obtenha os códigos funcionais mais recentes, listas de níveis, guias de unidades, estratégias de RPG de ação e wiki para o jogo Slayerbound Roblox. Domine cada onda com nossos guias abrangentes.",
-      "keywords": "Slayerbound Wiki, Slayerbound, códigos Slayerbound, lista de níveis Slayerbound, unidades Slayerbound, guia Slayerbound, RPG de ação Roblox, RPG de ação anime, códigos Roblox, jogo RPG de ação, códigos de jogos anime",
-      "ogTitle": "Slayerbound Wiki - Códigos, Lista de Níveis, Unidades e Guias",
-      "ogDescription": "Centro completo de recursos Slayerbound Wiki! Obtenha os códigos funcionais mais recentes, listas de níveis, guias de unidades, estratégias de RPG de ação e wiki para o jogo Slayerbound Roblox.",
-      "twitterTitle": "Slayerbound Wiki - Códigos, Lista de Níveis, Unidades e Guias",
-      "twitterDescription": "Centro completo de recursos Slayerbound Wiki! Obtenha os códigos funcionais mais recentes, listas de níveis, guias de unidades e estratégias de RPG de ação."
+      "title": "Wiki de Crimson Desert - Guia de Chefes, Mapa e Equipamentos",
+      "description": "Wiki de Crimson Desert com detalhes de lançamento, guias de chefes, notas da história, referências de mapa, dicas de combate e atualizações de patch para a jornada de Kliff por Pywel.",
+      "keywords": "Crimson Desert, Wiki de Crimson Desert, data de lançamento, plataformas, guia de chefes, história, mapa, combate, Kliff, Pywel",
+      "ogTitle": "Wiki de Crimson Desert - Guia de Chefes, Mapa e Equipamentos",
+      "ogDescription": "Acompanhe detalhes de lançamento, sistemas de combate, chefes, regiões e atualizações de patch para Crimson Desert em uma wiki focada.",
+      "twitterTitle": "Wiki de Crimson Desert - Guia de Chefes, Mapa e Equipamentos",
+      "twitterDescription": "Acompanhe detalhes de lançamento, sistemas de combate, chefes, regiões e atualizações de patch para Crimson Desert."
     }
   },
   "nav": {},
   "common": {
     "home": "Início",
     "more": "Mais",
-    "playNow": "Jogar Agora",
+    "playNow": "Jogue Agora",
     "switchLanguage": "Mudar Idioma",
     "switchTheme": "Mudar Tema",
     "lightMode": "Modo Claro",
     "darkMode": "Modo Escuro",
     "notFound": "Página Não Encontrada",
     "notFoundDescription": "A página que você está procurando não existe.",
-    "backToHome": "Voltar para o Início",
+    "backToHome": "Voltar ao Início",
     "relatedArticles": "Artigos Relacionados",
     "readMore": "Leia Mais"
   },
-  "hero": {
-    "badge": "Domine o Combate de Caçador de Demônios no Melhor RPG de Roblox",
-    "title": "Slayerbound Wiki",
-    "description": "Seu centro definitivo para Slayerbound! Domine estilos de respiração, desbloqueie clãs poderosos e domine batalhas contra demônios. Obtenha códigos funcionais, listas de níveis de clãs, guias de treinamento e estratégias de chefes para se tornar o melhor caçador de demônios!",
-    "getFreeCodesCTA": "Obtenha Códigos Grátis",
-    "playOnRobloxCTA": "Jogue no Roblox",
-    "stats": {
-      "stat1": {
-        "value": "300K+",
-        "label": "Total de Visitas"
-      },
-      "stat2": {
-        "value": "1.2K",
-        "label": "Membros no Discord"
-      },
-      "stat3": {
-        "value": "10+",
-        "label": "Códigos Ativos"
-      },
-      "stat4": {
-        "value": "Diariamente",
-        "label": "Atualizações"
-      }
-    }
-  },
-  "gameFeature": {
-    "title": "Trailer de Slayerbound",
-    "description": "Domine estilos de respiração, desbloqueie clãs poderosos e domine batalhas contra demônios nesta experiência de RPG de Demon Slayer cheia de ação no Roblox!"
-  },
-  "tools": {
-    "title": "Slayerbound",
-    "titleHighlight": "Recursos",
-    "subtitle": "Pule para qualquer seção abaixo",
-    "codes": {
-      "title": "Códigos",
-      "description": "Obtenha recompensas grátis"
-    },
-    "redeemGuide": {
-      "title": "Guia de Resgate",
-      "description": "Aprenda como resgatar códigos"
-    },
-    "trainingPaths": {
-      "title": "Caminhos de Treinamento",
-      "description": "Escolha seu caminho"
-    },
-    "breathingTier": {
-      "title": "Lista de Nível de Respirações",
-      "description": "Melhores estilos de respiração"
-    },
-    "demonArtTier": {
-      "title": "Lista de Nível de Artes Demoníacas",
-      "description": "Melhores artes demoníacas"
-    },
-    "oniRoute": {
-      "title": "Rota Oni",
-      "description": "Transforme-se em Oni"
-    },
-    "controls": {
-      "title": "Controles",
-      "description": "Domine as teclas"
-    },
-    "questMap": {
-      "title": "Mapa de Missões",
-      "description": "Encontre NPCs e missões"
-    },
-    "bossDrops": {
-      "title": "Drops de Chefes",
-      "description": "Guia de loot de chefes"
-    },
-    "currencyFarm": {
-      "title": "Farm de Moeda",
-      "description": "Ganhe Yen rápido"
-    },
-    "resetPlanner": {
-      "title": "Planejador de Reset",
-      "description": "Planeje seus resets"
-    },
-    "buildPlanner": {
-      "title": "Planejador de Build",
-      "description": "Otimize sua build"
-    },
-    "thunderBreathing": {
-      "title": "Respiração do Trovão",
-      "description": "Desbloqueie o estilo Trovão"
-    },
-    "fastLeveling": {
-      "title": "Nivelamento Rápido",
-      "description": "Suba de nível rapidamente"
-    },
-    "finalSelection": {
-      "title": "Seleção Final",
-      "description": "Torne-se um Slayer"
-    },
-    "clanSystem": {
-      "title": "Sistema de Clãs",
-      "description": "Níveis e buffs de clãs"
-    }
-  },
-  "whatIs": {
-    "title": "O que é",
-    "titleHighlight": "Slayerbound?",
-    "description": "Slayerbound é um RPG de ação com tema de Demon Slayer no Roblox. Domine estilos de respiração, desbloqueie clãs poderosos e lute contra demônios em combates intensos.",
-    "features": [
-      {
-        "title": "Estilos de Respiração",
-        "description": "Domine técnicas de respiração poderosas como Chama, Vento e Água"
-      },
-      {
-        "title": "Sistema de Clãs",
-        "description": "Desbloqueie e aprimore clãs poderosos com habilidades únicas"
-      },
-      {
-        "title": "Batalhas Demoníacas",
-        "description": "Lute contra demônios e chefes desafiadores para ganhar recompensas"
-      }
-    ]
-  },
-  "faq": {
-    "title": "Perguntas",
-    "titleHighlight": "Frequentes",
-    "subtitle": "Tudo que você precisa saber sobre Slayerbound",
-    "questions": [
-      {
-        "question": "Como eu ataco e defendo em Slayerbound?",
-        "answer": "MBE = Ataque, MBD = Ataque Pesado, F = Bloquear."
-      },
-      {
-        "question": "Como eu corro em Slayerbound?",
-        "answer": "Toque duas vezes em W (W+W) para correr."
-      },
-      {
-        "question": "Como eu abro o menu e a respiração em Slayerbound?",
-        "answer": "M = Menu, G = Respiração."
-      },
-      {
-        "question": "Como eu uso as teclas de habilidade em Slayerbound?",
-        "answer": "Use 1-9 para habilidades."
-      },
-      {
-        "question": "Como eu resgato códigos de Slayerbound?",
-        "answer": "Abra o botão/menu de Códigos, insira o código e resgate/insira."
-      },
-      {
-        "question": "Por que um código de Slayerbound não funciona?",
-        "answer": "Razões mais comuns: expirado, erro de digitação, já usado."
-      },
-      {
-        "question": "Os códigos de Slayerbound diferenciam maiúsculas de minúsculas?",
-        "answer": "Trate-os como sensíveis a maiúsculas e minúsculas e cole exatamente como listado."
-      },
-      {
-        "question": "Quais recompensas os códigos de Slayerbound geralmente dão?",
-        "answer": "Recompensas comuns incluem Giros, Yen e efeitos de reset específicos."
-      },
-      {
-        "question": "Onde devo rastrear novos códigos de Slayerbound primeiro?",
-        "answer": "Discord oficial, página do jogo no Roblox/publicações da comunidade e rastreadores de guias ativos."
-      },
-      {
-        "question": "Existe um Trello oficial de Slayerbound?",
-        "answer": "Sim, um link oficial do Trello de Slayerbound é compartilhado publicamente."
-      },
-      {
-        "question": "Quais caminhos de treinamento estão disponíveis em Slayerbound?",
-        "answer": "Chama, Vento e Água são os principais caminhos de treinamento."
-      },
-      {
-        "question": "O que o treinamento de Chama de Slayerbound requer?",
-        "answer": "Colete 40 Chifres de Oni e derrote inimigos Oni fortes."
-      },
-      {
-        "question": "O que o treinamento de Vento de Slayerbound requer?",
-        "answer": "Lute contra o chefe Giga Horn no Acampamento Demoníaco até o chifre cair."
-      },
-      {
-        "question": "O que o treinamento de Água de Slayerbound requer?",
-        "answer": "Complete o desafio de parkour e quebre a rocha. A etapa final custa 2.000 Yen por tentativa."
-      },
-      {
-        "question": "Qual código de Slayerbound pode resetar a respiração/arte demoníaca?",
-        "answer": "Exemplo: 1KLIKES reseta a respiração/arte demoníaca e também pode resetar a raça."
-      },
-      {
-        "question": "Existem códigos de reset de atributos em Slayerbound?",
-        "answer": "Sim, códigos de marcos incluem entradas de reset de atributos."
-      },
-      {
-        "question": "Os conjuntos de códigos de Slayerbound mudam com frequência?",
-        "answer": "Sim, as listas são atualizadas frequentemente em torno de marcos e janelas de correção de bugs."
-      },
-      {
-        "question": "As taxas de drop exatas de chefes são conhecidas em Slayerbound?",
-        "answer": "As taxas de drop não são confirmadas publicamente pelos desenvolvedores."
-      },
-      {
-        "question": "Qual é a melhor rota de farm de Yen em Slayerbound?",
-        "answer": "Resgate códigos ativos primeiro, depois siga as rotas de progressão enquanto gerencia os custos."
-      },
-      {
-        "question": "Devo me comprometer com uma build logo no início de Slayerbound?",
-        "answer": "Não recomendado - teste rotas e controles primeiro, depois use resets estrategicamente."
-      }
-    ]
-  },
-  "cta": {
-    "title": "Pronto para Dominar Slayerbound?",
-    "description": "Junte-se à comunidade Slayerbound no Discord para compartilhar estratégias, encontrar companheiros de equipe e obter os códigos mais recentes!",
-    "joinCommunity": "Junte-se ao Discord",
-    "joinGame": "Jogue no Roblox"
-  },
-  "footer": {
-    "title": "Slayerbound",
-    "description": "Seu centro de recursos completo para Slayerbound. Encontre códigos, guias, caminhos de treinamento e estratégias para dominar estilos de respiração e dominar batalhas contra demônios.",
-    "resources": "Recursos",
-    "activeCodes": "Códigos Ativos",
-    "trainingGuides": "Guias de Treinamento",
-    "breathingStyles": "Estilos de Respiração",
-    "clanGuides": "Guias de Clãs",
-    "moreTools": "Comunidade",
-    "discord": "Discord Oficial",
-    "trello": "Trello Oficial",
-    "playNow": "Jogue no Roblox",
-    "copyright": "© 2026 Slayerbound Wiki. Não afiliado à Roblox Corporation ou aos desenvolvedores de Slayerbound.",
-    "privacyPolicy": "Política de Privacidade",
-    "termsOfService": "Termos de Serviço"
-  },
   "homepage": {
-    "codes": {
-      "title": "Slayerbound",
-      "titleHighlight": "Códigos",
-      "subtitle": "Obtenha giros, yen e resets grátis para impulsionar sua progressão",
-      "cta": "Ver Todos os Códigos e Guia de Resgate",
-      "table": {
-        "headers": {
-          "code": "Código",
-          "reward": "Recompensa",
-          "status": "Status"
+    "hero": {
+      "badge": "Ação e Aventura em Mundo Aberto",
+      "title": "Wiki de Crimson Desert",
+      "description": "Acompanhe detalhes de lançamento, encontros com chefes, regiões do mundo, sistemas de combate e atualizações de patch para a jornada de Kliff por Pywel.",
+      "helper": "Comece com o trailer de lançamento e use os módulos da página inicial abaixo para pular direto para os sistemas, pontos da história e perguntas dos jogadores que mais importam no primeiro dia.",
+      "primaryLabel": "Visite o Site Oficial",
+      "primaryHref": "https://crimsondesert.pearlabyss.com/en-US/Main",
+      "secondaryLabel": "Junte-se ao Discord Oficial",
+      "secondaryHref": "https://discord.gg/crimsondesert",
+      "stats": [
+        {
+          "value": "Disponível Agora",
+          "label": "Status de Lançamento"
         },
+        {
+          "value": "19 de mar. de 2026",
+          "label": "Data de Lançamento"
+        },
+        {
+          "value": "8",
+          "label": "Plataformas de Lançamento"
+        },
+        {
+          "value": "1.00.02",
+          "label": "Patch Mais Recente"
+        }
+      ],
+      "highlights": [
+        "Ação e aventura em mundo aberto para um jogador",
+        "Regiões de Pywel, chefes, missões e sistemas de equipamentos",
+        "Links oficiais, cobertura de lançamento e rastreamento de atualizações"
+      ]
+    },
+    "video": {
+      "eyebrow": "Mídia Oficial",
+      "title": "Central de Trailers de Crimson Desert",
+      "description": "Use o trailer oficial de lançamento como seu ponto de partida rápido e, em seguida, mergulhe na playlist, avisos de lançamento e vídeos de recursos cobrindo Pywel, combate e sistemas de vida.",
+      "primaryLabel": "Assista ao Trailer Oficial de Lançamento",
+      "primaryHref": "https://www.youtube.com/watch?v=VWIw_f8e9Pg",
+      "secondaryLabel": "Abrir Playlist Oficial",
+      "secondaryHref": "https://www.youtube.com/playlist?list=PL8do59QpFhJGAFycsFEBxpykiK3E-yLdL"
+    },
+    "moduleNav": {
+      "title": "Módulos da Página Inicial de Crimson Desert",
+      "subtitle": "Pule do trailer direto para as 16 seções da página inicial que os jogadores realmente procuram."
+    },
+    "modules": [
+      {
+        "id": "release-platforms",
+        "icon": "Flag",
+        "layout": "facts",
+        "title": "Data de Lançamento e Plataformas de Crimson Desert",
+        "summary": "Crimson Desert já está disponível. Foi lançado em 19 de março de 2026 como uma aventura de ação em mundo aberto para um jogador em consoles de geração atual, PC, Mac e jogo em nuvem.",
+        "cards": [
+          {
+            "title": "Status de Lançamento",
+            "value": "Disponível Agora",
+            "detail": "Os jogadores podem comprar e começar a campanha imediatamente."
+          },
+          {
+            "title": "Data de Lançamento",
+            "value": "19 de março de 2026",
+            "detail": "O lançamento comercial seguiu a janela de revelação de setembro de 2025."
+          },
+          {
+            "title": "Jogo Offline",
+            "value": "Suportado",
+            "detail": "O jogo offline funciona após a configuração inicial e o patch do primeiro dia."
+          },
+          {
+            "title": "Cross-Save",
+            "value": "Não Suportado",
+            "detail": "O progresso não é transferido entre plataformas."
+          }
+        ],
         "items": [
           {
-            "code": "morespins",
-            "reward": "20 Giros",
-            "status": "ativo"
+            "title": "PlayStation 5",
+            "detail": "Lançamento para console de geração atual."
           },
           {
-            "code": "100KVISITS",
-            "reward": "15 Giros",
-            "status": "ativo"
+            "title": "PlayStation 5 Pro",
+            "detail": "Opção de console aprimorada."
           },
           {
-            "code": "1KLIKES",
-            "reward": "Reset de Respiração/Arte Demoníaca",
-            "status": "ativo"
+            "title": "Xbox Series X|S",
+            "detail": "Plataforma de lançamento em console."
           },
           {
-            "code": "guizerayt",
-            "reward": "10 Giros",
-            "status": "ativo"
+            "title": "Xbox no PC",
+            "detail": "Suporte ao ecossistema de PC."
           },
           {
-            "code": "RELEASE",
-            "reward": "10 Giros",
-            "status": "ativo"
+            "title": "Steam",
+            "detail": "Disponibilidade para PC e Mac."
+          },
+          {
+            "title": "Epic Games Store",
+            "detail": "Loja de PC alternativa."
+          },
+          {
+            "title": "Mac App Store",
+            "detail": "Caminho de compra dedicado para Mac."
+          },
+          {
+            "title": "GeForce NOW",
+            "detail": "Acesso via streaming na nuvem."
           }
-        ]
-      }
-    },
-    "redeemGuide": {
-      "title": "Slayerbound",
-      "titleHighlight": "Guia de Resgate",
-      "subtitle": "Siga estes passos para resgatar códigos com sucesso",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Inicie o Jogo",
-          "detail": "Abra Slayerbound no Roblox"
-        },
-        {
-          "step": 2,
-          "title": "Abra Códigos",
-          "detail": "No Menu Principal, clique no botão Códigos"
-        },
-        {
-          "step": 3,
-          "title": "Cole o Código",
-          "detail": "Insira um código funcional no campo de código"
-        },
-        {
-          "step": 4,
-          "title": "Resgate Recompensas",
-          "detail": "Pressione Resgatar / Enter e colete as recompensas"
-        }
-      ]
-    },
-    "trainingPaths": {
-      "title": "Slayerbound",
-      "titleHighlight": "Caminhos de Treinamento",
-      "subtitle": "Escolha seu caminho de treinamento: Chama, Vento ou Água",
-      "paths": [
-        {
-          "name": "Chama",
-          "location": "Caminho perto do Spawn",
-          "requirements": "40 Chifres de Oni + Derrote Onis fortes",
-          "difficulty": "Alto",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Vento",
-          "location": "Vila Marítima",
-          "requirements": "Derrote o chefe Giga Horn + Obtenha o drop do chifre",
-          "difficulty": "Alto",
-          "cost": "0 Yen"
-        },
-        {
-          "name": "Água",
-          "location": "Cachoeira dos Campos de Trigo",
-          "requirements": "Complete o parkour + Quebre a rocha",
-          "difficulty": "Médio",
-          "cost": "2.000 Yen por tentativa"
-        }
-      ]
-    },
-    "breathingTier": {
-      "title": "Slayerbound",
-      "titleHighlight": "Lista de Nível de Respirações",
-      "subtitle": "Compare estilos de respiração por desempenho PvE/PvP e dificuldade",
-      "dataNote": "Dados de teste da comunidade - rankings atualizados regularmente",
-      "table": {
-        "headers": {
-          "breathing": "Respiração",
-          "pveScore": "PvE",
-          "pvpScore": "PvP",
-          "difficulty": "Dificuldade",
-          "cost": "Custo de Aquisição"
-        },
-        "items": [
-          {
-            "breathing": "Chama",
-            "pveScore": "Nível A",
-            "pvpScore": "Nível A",
-            "difficulty": "Médio",
-            "cost": "40 Chifres de Oni + lutas contra Oni fortes"
-          },
-          {
-            "breathing": "Vento",
-            "pveScore": "Nível S",
-            "pvpScore": "Nível S",
-            "difficulty": "Difícil",
-            "cost": "Drop do chefe Giga Horn (RNG)"
-          },
-          {
-            "breathing": "Água",
-            "pveScore": "Nível A",
-            "pvpScore": "Nível B",
-            "difficulty": "Médio",
-            "cost": "Parkour + 2.000 yen por tentativa"
-          },
-          {
-            "breathing": "Trovão",
-            "pveScore": "Nível S",
-            "pvpScore": "Nível A",
-            "difficulty": "Difícil",
-            "cost": "Método de desbloqueio especial"
-          }
-        ]
-      }
-    },
-    "demonArtTier": {
-      "title": "Slayerbound",
-      "titleHighlight": "Lista de Nível de Artes Demoníacas",
-      "subtitle": "Rankings de poder e matriz de dificuldade de Artes Demoníacas",
-      "statusBadge": "Em Breve",
-      "emptyStateText": "Rankings detalhados de Artes Demoníacas estarão disponíveis em breve com dados de teste abrangentes.",
-      "knownFacts": [
-        "Sistema de Arte Demoníaca está disponível no jogo",
-        "Reset de Respiração/Arte Demoníaca disponível via códigos",
-        "Comunidade tem guias dedicados de Oni + Arte Demoníaca"
-      ],
-      "dataGaps": [
-        "Lista completa de Artes Demoníacas sendo compilada",
-        "Teste de desempenho PvE/PvP em andamento",
-        "Sinergias de combo sendo documentadas"
-      ],
-      "ctaText": "Rastreie atualizações no Trello/Discord"
-    },
-    "oniRoute": {
-      "title": "Slayerbound",
-      "titleHighlight": "Rota Oni",
-      "subtitle": "Transforme-se em Oni e desbloqueie Artes Demoníacas",
-      "statusBadge": "Guia Disponível",
-      "warningText": "Siga os passos de transformação para se tornar um Oni e acessar Artes Demoníacas poderosas.",
-      "flowNodes": [
-        {
-          "id": 1,
-          "title": "Comece como Humano",
-          "type": "início",
-          "known": true
-        },
-        {
-          "id": 2,
-          "title": "Transforme-se em Oni",
-          "type": "ramificação",
-          "known": true
-        },
-        {
-          "id": 3,
-          "title": "Obtenha / Gire Arte Demoníaca",
-          "type": "progressão",
-          "known": true
-        },
-        {
-          "id": 4,
-          "title": "Especialização de Build",
-          "type": "otimização",
-          "known": true
-        }
-      ],
-      "unknowns": [
-        "Localização do NPC de Transformação",
-        "Itens e nível necessários",
-        "Custo de transformação",
-        "Melhores combinações de Arte Demoníaca"
-      ]
-    },
-    "controls": {
-      "title": "Slayerbound",
-      "titleHighlight": "Controles",
-      "subtitle": "Domine os controles de teclado para combate",
-      "keys": [
-        {
-          "key": "MBE",
-          "action": "Ataque"
-        },
-        {
-          "key": "MBD",
-          "action": "Ataque Pesado"
-        },
-        {
-          "key": "F",
-          "action": "Bloquear"
-        },
-        {
-          "key": "W + W",
-          "action": "Correr"
-        },
-        {
-          "key": "M",
-          "action": "Menu"
-        },
-        {
-          "key": "G",
-          "action": "Respiração"
-        },
-        {
-          "key": "1-9",
-          "action": "Habilidades"
-        }
-      ]
-    },
-    "questMap": {
-      "title": "Slayerbound",
-      "titleHighlight": "Mapa de Missões",
-      "subtitle": "Encontre NPCs de missão e locais de treinamento",
-      "recommendedSequence": "Ordem recomendada: Chama → Água → Vento",
-      "pins": [
-        {
-          "id": 1,
-          "name": "Caminho do Spawn (Início da Chama)",
-          "region": "Perto do Spawn",
-          "objective": "Comece o treinamento de Chama",
-          "requirements": [
-            "40 Chifres de Oni",
-            "Derrote vários Onis difíceis"
-          ],
-          "rewards": [
-            "Progressão do caminho da Chama"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Acampamento Demoníaco (Passo do Vento)",
-          "region": "Vila Marítima",
-          "objective": "Derrote Giga Horn e obtenha o drop do chifre",
-          "requirements": [
-            "Chefe derrotado",
-            "Sorte de drop (RNG)"
-          ],
-          "rewards": [
-            "Progressão do caminho do Vento"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Teste da Cachoeira",
-          "region": "Grandes Campos de Trigo",
-          "objective": "Desafio de parkour + quebrar a rocha",
-          "requirements": [
-            "2.000 yen por tentativa na etapa final"
-          ],
-          "rewards": [
-            "Progressão do caminho da Água"
-          ]
-        }
-      ]
-    },
-    "bossDrops": {
-      "title": "Slayerbound",
-      "titleHighlight": "Drops de Chefes",
-      "subtitle": "Loot de chefes e requisitos de drop",
-      "riskNotice": "Drops de chefes são baseados em RNG. Continue farmando até conseguir os itens que você precisa!",
-      "table": {
-        "headers": {
-          "drop": "Drop",
-          "source": "Fonte",
-          "howToObtain": "Como Obter",
-          "primaryUse": "Uso Primário"
-        },
-        "items": [
-          {
-            "drop": "Chifre de Giga",
-            "source": "Chefe Giga Horn (Acampamento Demoníaco)",
-            "howToObtain": "Derrote o chefe Giga Horn até o chifre cair",
-            "primaryUse": "Necessário para a progressão do treinamento de Vento"
-          },
-          {
-            "drop": "Chifre de Oni x40",
-            "source": "Inimigos Oni",
-            "howToObtain": "Farme Oni e colete 40 chifres",
-            "primaryUse": "Necessário para a progressão do treinamento de Chama"
-          },
-          {
-            "drop": "Materiais de Chefes",
-            "source": "Vários chefes",
-            "howToObtain": "Verifique o Trello/Discord para os drops de chefes mais recentes",
-            "primaryUse": "Criação e progressão"
-          }
-        ]
-      }
-    },
-    "currencyFarm": {
-      "title": "Slayerbound",
-      "titleHighlight": "Farm de Moeda",
-      "subtitle": "Melhores métodos para ganhar Yen eficientemente",
-      "disclaimer": "Use estes métodos comprovados para maximizar seus ganhos de Yen em Slayerbound.",
-      "methods": [
-        {
-          "rank": 1,
-          "method": "Resgate de Código",
-          "expectedReturn": "Giros + Yen (varia por código)",
-          "timeToValue": "1-3 min",
-          "riskLevel": "Baixo",
-          "howTo": [
-            "Abra o menu do jogo e resgate códigos ativos primeiro",
-            "Use giros antes de se comprometer com longos ciclos de grind"
-          ]
-        },
-        {
-          "rank": 2,
-          "method": "Gerenciamento Inteligente de Recursos",
-          "expectedReturn": "Economize Yen evitando tentativas fracassadas",
-          "timeToValue": "Imediato",
-          "riskLevel": "Baixo",
-          "howTo": [
-            "Prepare os requisitos antes de tentativas de treinamento de alto custo",
-            "A tentativa final do caminho da Água custa 2.000 Yen por tentativa"
-          ]
-        },
-        {
-          "rank": 3,
-          "method": "Ciclo de Progressão de Combate",
-          "expectedReturn": "Yen e EXP de missões",
-          "timeToValue": "Médio",
-          "riskLevel": "Médio",
-          "howTo": [
-            "Siga os guias de progressão para iniciantes",
-            "Verifique o Discord para rotas de farm ideais"
-          ]
-        }
-      ]
-    },
-    "resetPlanner": {
-      "title": "Slayerbound",
-      "titleHighlight": "Planejador de Reset",
-      "subtitle": "Planeje seus resets estrategicamente - nunca resete cegamente",
-      "startQuestion": "Qual é o seu gargalo atual?",
-      "decisions": [
-        {
-          "question": "Atributos principais parecem mal alocados?",
-          "yesAction": "Verifique se você tem um código de reset de atributos disponível",
-          "noAction": "Verifique se Respiração/Arte Demoníaca está fora de meta para seu objetivo"
-        },
-        {
-          "question": "Você tem um código de reset de atributos disponível?",
-          "yesAction": "Use Reset de Atributos Agora - Aplique o reset, então reconstrua em torno do seu modo alvo (PvE/PvP/Híbrido)",
-          "noAction": "Atrasar Reset e Farmar Recursos - Use códigos ativos de giro/yen e rota de progressão primeiro"
-        },
-        {
-          "question": "Respiração/Arte Demoníaca está fora de meta para seu objetivo?",
-          "yesAction": "Você pode usar um código de reset de respiração/arte demoníaca agora?",
-          "noAction": "Mantenha a Build, Otimize a Execução - Foque no domínio dos controles antes de rerolar"
-        },
-        {
-          "question": "Você pode usar um código de reset de respiração/arte demoníaca agora?",
-          "yesAction": "Use Reset de Respiração/Arte Demoníaca - Exemplos de reset conhecidos incluem resets que também podem afetar a raça",
-          "noAction": "Não Resete em Pânico - Espere pelo próximo marco/drop de código de atualização; rastreie anúncios no Discord"
-        }
-      ]
-    },
-    "buildPlanner": {
-      "title": "Slayerbound",
-      "titleHighlight": "Planejador de Build",
-      "subtitle": "Otimize sua build de personagem com planejamento baseado em objetivos",
-      "dataNote": "Planeje sua build com base no seu estilo de jogo e objetivos",
-      "inputFields": [
-        {
-          "key": "goalMode",
-          "label": "Modo de Objetivo",
-          "type": "selecione",
-          "options": [
-            "Progressão PvE",
-            "Foco em Chefes",
-            "Duelo PvP",
-            "Híbrido"
-          ]
-        },
-        {
-          "key": "route",
-          "label": "Rota",
-          "type": "selecione",
-          "options": [
-            "Slayer",
-            "Oni"
-          ]
-        },
-        {
-          "key": "currentBreathing",
-          "label": "Respiração Atual",
-          "type": "texto"
-        },
-        {
-          "key": "currentDemonArt",
-          "label": "Arte Demoníaca Atual",
-          "type": "texto"
-        },
-        {
-          "key": "yenBudget",
-          "label": "Yen Atual",
-          "type": "número"
-        },
-        {
-          "key": "spinsAvailable",
-          "label": "Giros Disponíveis",
-          "type": "número"
-        }
-      ],
-      "presetExamples": [
-        {
-          "name": "Slayer Inicial (Baixo Orçamento)",
-          "goalMode": "Progressão PvE",
-          "route": "Slayer",
-          "yenBudget": 2000,
-          "spinsAvailable": 10,
-          "output": {
-            "now": "Resgate códigos ativos e escolha uma rota de progressão estável",
-            "next": "Prepare os requisitos antes do treinamento para evitar desperdiçar Yen",
-            "after": "Use o reset estrategicamente se precisar mudar de direção"
-          }
-        },
-        {
-          "name": "Candidato a Troca de Rota",
-          "goalMode": "Híbrido",
-          "route": "Oni",
-          "yenBudget": 5000,
-          "spinsAvailable": 20,
-          "output": {
-            "now": "Confirme seu alvo de rota e estratégia de reset",
-            "next": "Aplique reset seletivo em vez de reconstrução completa",
-            "after": "Teste em loop de chefe/progressão antes do próximo reset"
-          }
-        }
-      ]
-    },
-    "thunderBreathing": {
-      "title": "Slayerbound",
-      "titleHighlight": "Respiração do Trovão",
-      "subtitle": "Guia completo para desbloquear o estilo Respiração do Trovão",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Encontre o Treinador de Trovão",
-          "detail": "Viaje para a montanha perto da Vila da Neve"
-        },
-        {
-          "step": 2,
-          "title": "Aceite a Missão",
-          "detail": "Fale com o treinador e aceite a missão do doce"
-        },
-        {
-          "step": 3,
-          "title": "Reúna Materiais",
-          "detail": "Colete 6 trigo e 3 ovos das áreas de agricultura"
-        },
-        {
-          "step": 4,
-          "title": "Complete o Treinamento",
-          "detail": "Retorne ao treinador e complete o desbloqueio da Respiração do Trovão"
-        }
-      ],
-      "requirements": {
-        "title": "Requisitos",
-        "items": [
-          "6 Trigo",
-          "3 Ovos",
-          "Complete a missão do doce"
-        ]
+        ],
+        "note": "O suporte para controle no PC inclui controles de Xbox e DualSense via USB.",
+        "ctaLabel": "Leia o FAQ Oficial",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
       },
-      "difficulty": "Médio",
-      "location": "Montanha perto da Vila da Neve"
-    },
-    "fastLeveling": {
-      "title": "Slayerbound",
-      "titleHighlight": "Nivelamento Rápido",
-      "subtitle": "Métodos eficientes para subir de nível rapidamente em Slayerbound",
-      "methods": [
+      {
+        "id": "trailer-hub",
+        "icon": "Clapperboard",
+        "layout": "timeline",
+        "title": "Central de Trailers de Crimson Desert",
+        "summary": "Comece com o trailer oficial de lançamento e depois volte pela revelação da data de lançamento, vídeos de recursos e demonstrações de jogabilidade de longa duração para entender o jogo rapidamente.",
+        "items": [
+          {
+            "title": "Trailer Oficial de Lançamento",
+            "detail": "A melhor amostra atual da versão de lançamento e do tom da campanha.",
+            "meta": "Março de 2026"
+          },
+          {
+            "title": "Trailer de Revelação da Data de Lançamento",
+            "detail": "O anúncio no State of Play em 24 de setembro de 2025 que definiu a janela de lançamento.",
+            "meta": "Setembro de 2025"
+          },
+          {
+            "title": "Vídeo de Recurso nº 1: Kliff e o Mundo Aberto de Pywel",
+            "detail": "Melhor introdução para o cenário, escala de viagem e direção narrativa.",
+            "meta": "Introdução ao Mundo"
+          },
+          {
+            "title": "Vídeo de Recurso nº 2: Combate e Progressão",
+            "detail": "Mostra o fluxo de combate focado em armas, contra-ataques e lógica de melhorias.",
+            "meta": "Introdução ao Combate"
+          },
+          {
+            "title": "Vídeo de Recurso nº 3: A Vida em Pywel",
+            "detail": "Abrange acampamentos, atividades secundárias, artesanato e o ciclo do mundo em geral.",
+            "meta": "Introdução aos Sistemas"
+          },
+          {
+            "title": "50 Minutos de Jogabilidade Inicial",
+            "detail": "Imagens de longa duração para jogadores que desejam inspecionar o ritmo e as mecânicas antes de comprar.",
+            "meta": "Mergulho Profundo"
+          }
+        ],
+        "note": "A playlist oficial também mantém trailers de demonstrações anteriores, como gamescom ONL 2023 e The Game Awards 2020, em um único arquivo.",
+        "ctaLabel": "Abrir Playlist Oficial",
+        "ctaHref": "https://www.youtube.com/playlist?list=PL8do59QpFhJGAFycsFEBxpykiK3E-yLdL"
+      },
+      {
+        "id": "beginner-guide",
+        "icon": "Footprints",
+        "layout": "steps",
+        "title": "Guia para Iniciantes de Crimson Desert",
+        "summary": "As primeiras horas giram em torno de Hernand, missões iniciais dos Greymanes, combate focado em armas e o ciclo entre cidade e acampamento de coleta, artesanato, culinária e desbloqueio de ferramentas mais fortes.",
+        "items": [
+          {
+            "title": "Alcance Hernand e estabilize o ciclo inicial",
+            "detail": "Ajude os habitantes da cidade, limpe locais dominados por bandidos e abra mais atividades e linhas de missões.",
+            "meta": "Passo 1"
+          },
+          {
+            "title": "Aprenda primeiro o ritmo básico de ataque",
+            "detail": "Encadeie ataques rápidos e pesados, depois adicione bloqueios, aparagens, agarrões e arremessos.",
+            "meta": "Passo 2"
+          },
+          {
+            "title": "Visite os primeiros vendedores importantes",
+            "detail": "A ferraria, loja de equipamentos, alfaiataria, curtume, mercearia, açougue e loja de pesca ajudam a definir seu ímpeto inicial.",
+            "meta": "Passo 3"
+          },
+          {
+            "title": "Prioritize ferramentas de coleta e culinária",
+            "detail": "Uma vara de pesca, picareta e machado de lenhador abrem o ciclo de recursos que alimenta o artesanato e o crescimento do acampamento.",
+            "meta": "Passo 4"
+          }
+        ],
+        "note": "Artefatos do Abismo são a principal moeda de melhoria inicial para desbloquear habilidades e opções de combate mais fortes.",
+        "ctaLabel": "Leia o Relatório de Teste",
+        "ctaHref": "https://blog.playstation.com/2026/03/04/crimson-desert-hands-on-report-four-hours-in-the-rpgs-massive-open-world/"
+      },
+      {
+        "id": "story-explained",
+        "icon": "ScrollText",
+        "layout": "story",
+        "title": "A História de Crimson Desert Explicada",
+        "summary": "Crimson Desert segue Kliff e os Greymanes por Pywel após os Black Bears destruírem o frágil equilíbrio de Pailune, espalhando os sobreviventes pelo continente.",
+        "items": [
+          {
+            "title": "Pywel é o palco da campanha",
+            "detail": "Cidades, áreas selvagens, ruínas e o Abismo moldam a rota e os riscos da história."
+          },
+          {
+            "title": "Kliff lidera os Greymanes",
+            "detail": "Oongka, Yann e Naira continuam sendo nomes centrais na história dos sobreviventes dispersos."
+          },
+          {
+            "title": "Os Black Bears desencadeiam o colapso",
+            "detail": "Sua emboscada quebra o equilíbrio em Pailune e força os Greymanes sobreviventes à recuperação e retaliação."
+          },
+          {
+            "title": "O Abismo expande o escopo",
+            "detail": "A história cresce além da simples vingança à medida que facções ocultas e forças sobrenaturais surgem."
+          }
+        ],
+        "note": "Perspectivas jogáveis adicionais mais adiante na jornada incluem Oongka e Damiane.",
+        "ctaLabel": "Leia a Visão Geral da História",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
+      },
+      {
+        "id": "characters",
+        "icon": "Users",
+        "layout": "profiles",
+        "title": "Personagens de Crimson Desert",
+        "summary": "Conheça os rostos principais de Crimson Desert, de Kliff e seus companheiros Greymane aos inimigos e facções que impulsionam a guerra por Pywel.",
+        "cards": [
+          {
+            "title": "Protagonista confirmado",
+            "value": "Kliff",
+            "detail": "Kliff é o protagonista central e um Greymane sobrevivente determinado a reunir seus companheiros dispersos."
+          },
+          {
+            "title": "Companheiros Greymane confirmados",
+            "value": "Oongka, Yann, Naira",
+            "detail": "A configuração oficial da história confirma Oongka, Yann e Naira como os principais companheiros de Kliff antes do ataque dos Black Bears."
+          },
+          {
+            "title": "Personagem nomeado adicional confirmado",
+            "value": "Damiane",
+            "detail": "Materiais oficiais do elenco confirmam Damiane como um personagem nomeado com performance de voz dedicada."
+          },
+          {
+            "title": "Principal facção inimiga",
+            "value": "Black Bears",
+            "detail": "Os Black Bears são a facção responsável por destruir os Greymanes e intensificar a guerra."
+          },
+          {
+            "title": "Líder inimigo nomeado",
+            "value": "Myurdin",
+            "detail": "Myurdin é identificado como o líder que conduz a campanha dos Black Bears contra os Greymanes."
+          },
+          {
+            "title": "Região central no conflito inicial",
+            "value": "Pailune",
+            "detail": "O conflito inicial começa em Pailune, onde facções rivais mantinham um equilíbrio frágil."
+          }
+        ],
+        "items": [
+          {
+            "title": "Kliff",
+            "detail": "Um sobrevivente Greymane que parte para reunir seus companheiros, reconstruir o grupo caído e recuperar o que foi perdido.",
+            "tag": "Protagonista"
+          },
+          {
+            "title": "Oongka",
+            "detail": "Um dos companheiros confirmados de Kliff na página oficial da história e um dos personagens destacados nos materiais oficiais do elenco.",
+            "tag": "Companheiro Greymane"
+          },
+          {
+            "title": "Yann",
+            "detail": "Listado no site oficial como um dos Greymanes que estava ao lado de Kliff antes do ataque dos Black Bears.",
+            "tag": "Companheiro Greymane"
+          },
+          {
+            "title": "Naira",
+            "detail": "Listada no site oficial como uma das aliadas Greymane próximas de Kliff na configuração inicial da história.",
+            "tag": "Companheiro Greymane"
+          },
+          {
+            "title": "Damiane",
+            "detail": "Apresentado em materiais oficiais do elenco e referenciado posteriormente em notas de patch ligadas a atualizações de habilidades de espada montante.",
+            "tag": "Personagem Nomeado"
+          },
+          {
+            "title": "Myurdin",
+            "detail": "O líder dos Black Bears e a figura por trás do ataque que deixou os Greymanes mortos ou dispersos.",
+            "tag": "Líder dos Black Bears"
+          }
+        ],
+        "note": "Este módulo mantém a identidade do elenco e das facções explícita para que os usuários possam pular dos nomes para páginas de história e relacionamentos mais profundas.",
+        "ctaLabel": "Ver a central de personagens",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=60"
+      },
+      {
+        "id": "open-world-regions",
+        "icon": "Map",
+        "layout": "regions",
+        "title": "Mundo Aberto e Regiões de Crimson Desert",
+        "summary": "Explore Pywel através de suas cidades, áreas selvagens, ruínas, mistérios flutuantes e centros de assentamento que moldam a jornada principal e o conteúdo secundário do jogo.",
+        "cards": [
+          {
+            "title": "Nome do mundo",
+            "value": "Pywel",
+            "detail": "Pywel é o mundo contínuo onde cidades, fronteiras, ruínas e zonas de alto conflito se conectam em um ciclo de viagem."
+          },
+          {
+            "title": "Tipo de mundo oficial",
+            "value": "Um vasto mundo aberto contínuo",
+            "detail": "Materiais oficiais descrevem o mundo como amplo, contíguo e construído para exploração entre regiões."
+          },
+          {
+            "title": "Área de cidade inicial",
+            "value": "Hernand",
+            "detail": "Hernand é identificada como uma área urbana movimentada inicial, repleta de missões, encontros e atividades secundárias."
+          },
+          {
+            "title": "Região de origem ligada aos Greymanes",
+            "value": "Pailune",
+            "detail": "Pailune está ligada aos Greymanes e ao conflito inicial que impulsiona a campanha."
+          },
+          {
+            "title": "Localização do acampamento",
+            "value": "Howling Hill",
+            "detail": "Howling Hill é um local de acampamento nomeado ligado a despachos, melhorias e rotinas de recursos."
+          },
+          {
+            "title": "Grande reino além da superfície",
+            "value": "O Abismo",
+            "detail": "O Abismo é apresentado como um reino de mistério flutuante ligado a artefatos, travessia e elementos de quebra-cabeça."
+          }
+        ],
+        "items": [
+          {
+            "title": "Hernand",
+            "detail": "Uma cidade movimentada na área inicial onde missões, redutos de bandidos e atividades secundárias se abrem rapidamente.",
+            "tag": "Cidade Inicial"
+          },
+          {
+            "title": "Howling Hill",
+            "detail": "Localização do acampamento Greymane, uma base central ligada a despachos, melhorias e ciclos de recursos.",
+            "tag": "Base do Acampamento"
+          },
+          {
+            "title": "Pailune",
+            "detail": "Uma região central no conflito da história e a região de origem dos Greymanes, ligada posteriormente à reconstrução.",
+            "tag": "Terra Natal do Norte"
+          },
+          {
+            "title": "O Abismo",
+            "detail": "Um reino de ilhas flutuantes, tecnologia estranha, artefatos mágicos, quebra-cabeças e poderes focados em travessia.",
+            "tag": "Reino de Mistério"
+          },
+          {
+            "title": "Demeniss e Delesyia",
+            "detail": "Destinos nomeados referenciados em guias de jogo publicados e rotas de localização de itens.",
+            "tag": "Assentamentos e Rotas"
+          },
+          {
+            "title": "Tomasso, Varnia e Urdavah",
+            "detail": "Locais confirmados adicionais ligados a livros, referências de equipamentos e caminhos de exploração mais amplos.",
+            "tag": "Alvos de Exploração"
+          }
+        ],
+        "note": "Este módulo fornece uma estrutura regional clara para Pywel, para que os leitores possam passar do contexto de nível mundial para guias específicos de locais.",
+        "ctaLabel": "Navegar pelas regiões de Pywel",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=57"
+      },
+      {
+        "id": "combat-guide",
+        "icon": "Swords",
+        "layout": "guide",
+        "title": "Guia de Combate de Crimson Desert",
+        "summary": "Crimson Desert usa um combate corpo a corpo rápido e de alta pressão, construído em torno de tempo, escolha de armas, habilidades encadeadas e leitura de inimigos poderosos em lutas de curto alcance.",
+        "cards": [
+          {
+            "title": "Estilo de combate",
+            "value": "Ação corpo a corpo de ritmo acelerado",
+            "detail": "A cobertura oficial de combate descreve um ritmo rápido e visceral que recompensa a execução decisiva."
+          },
+          {
+            "title": "Ferramentas defensivas principais",
+            "value": "Bloqueio e aparagem",
+            "detail": "O tempo defensivo é crítico quando os inimigos pressionam de vários ângulos."
+          },
+          {
+            "title": "Ferramentas ofensivas principais",
+            "value": "Golpes rápidos, cortes pesados, agarrões, arremessos",
+            "detail": "O conjunto de ferramentas ofensivas suporta tanto pressão encadeada quanto janelas de punição severa."
+          },
+          {
+            "title": "Pressão dos inimigos",
+            "value": "Inimigos podem cercar e sobrecarregar Kliff",
+            "detail": "O posicionamento e o controle de tempo importam porque os encontros escalam rapidamente."
+          },
+          {
+            "title": "Sistema de build",
+            "value": "Sem sistema de build baseado em classes",
+            "detail": "A identidade de combate é impulsionada por armas e escolhas de movimentos, em vez de funções de classe fixas."
+          },
+          {
+            "title": "Foco no combate contra chefes",
+            "value": "Ler habilidades, aparar bem, punir aberturas",
+            "detail": "Encontros com chefes recompensam a leitura de padrões e o contra-ataque preciso sob pressão."
+          }
+        ],
+        "items": [
+          {
+            "title": "Luta sob Pressão",
+            "detail": "O combate recompensa o movimento constante e decisões rápidas porque os inimigos cercam, flanqueiam e pressionam ativamente o jogador.",
+            "tag": "Fluxo de Batalha"
+          },
+          {
+            "title": "Tempo de Aparagem",
+            "detail": "Um bloqueio bem cronometrado pode desequilibrar os inimigos e criar janelas para ataques subsequentes.",
+            "tag": "Defesa"
+          },
+          {
+            "title": "Ofensiva de Forma Livre",
+            "detail": "O combate não está preso a um único ritmo; a escolha da arma, cadeias de habilidades, agarrões e liberdade direcional moldam cada encontro.",
+            "tag": "Ofensiva"
+          },
+          {
+            "title": "Preparação para Chefes",
+            "detail": "Inimigos mais fortes e chefes exigem leitura de padrões, janelas de punição pesadas e confiança contra ataques movidos a artefatos.",
+            "tag": "Jogo Avançado"
+          }
+        ],
+        "note": "Este módulo fornece uma camada de referência focada em combate que ajuda os usuários a passar das mecânicas principais para estratégias mais profundas e específicas de encontros.",
+        "ctaLabel": "Aprenda o básico do combate",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=58"
+      },
+      {
+        "id": "weapons-skills",
+        "icon": "Axe",
+        "layout": "weapons",
+        "title": "Armas e Habilidades de Crimson Desert",
+        "summary": "Armas e habilidades definem como Crimson Desert é jogado: sem classes fixas, um amplo conjunto de ferramentas corpo a corpo, opções à distância, crescimento na árvore de habilidades e progressão do tipo \"aprenda observando\".",
+        "cards": [
+          {
+            "title": "Configuração de arma inicial padrão",
+            "value": "Espada e escudo",
+            "detail": "A configuração básica suporta ofensiva e defensiva equilibradas e um fluxo de combate focado em aparagem."
+          },
+          {
+            "title": "Outras armas corpo a corpo confirmadas",
+            "value": "Espadas montantes, lanças, machados",
+            "detail": "Opções corpo a corpo mudam o alcance, janelas de tempo e perfis de punição entre os encontros."
+          },
+          {
+            "title": "Armas à distância confirmadas",
+            "value": "Arco e armas de fogo",
+            "detail": "Ferramentas à distância adicionam flexibilidade para caça, espaçamento e controle de encontros."
+          },
+          {
+            "title": "Métodos de crescimento de habilidades",
+            "value": "Desbloqueios na árvore de habilidades e Observar e Aprender",
+            "detail": "O crescimento combina desbloqueios de progressão com observação de combate para expandir o conjunto de movimentos de Kliff."
+          },
+          {
+            "title": "Poder de utilidade nomeado",
+            "value": "Corrente de Força",
+            "detail": "Uma habilidade do ramo de Espírito ligada à Força Axioma que auxilia na exploração e utilidade de coleta."
+          },
+          {
+            "title": "Requisito para Corrente de Força",
+            "value": "Força Axioma Nível 2, Palma de Força Nível 2 e 1 Artefato do Abismo",
+            "detail": "Este resumo de requisitos dá aos jogadores um alvo de melhoria prático para desbloquear a habilidade."
+          }
+        ],
+        "items": [
+          {
+            "title": "Espada e Escudo",
+            "detail": "Kliff começa com uma configuração de espada e escudo que suporta jogo equilibrado de ataque, defesa e aparagem.",
+            "tag": "Estilo Básico"
+          },
+          {
+            "title": "Armas Pesadas",
+            "detail": "Espadas montantes, lanças e machados mudam a abordagem de combate para diferentes alcances, tempos e padrões de punição.",
+            "tag": "Estilo de Poder"
+          },
+          {
+            "title": "Utilidade à Distância",
+            "detail": "O arco de Kliff e as armas de fogo de Damiane são opções à distância confirmadas, com a caça especificamente mencionada nos guias atuais.",
+            "tag": "Uso em Campo"
+          },
+          {
+            "title": "Observar e Aprender",
+            "detail": "Kliff pode ganhar movimentos observando outros lutadores, inclusive em combate, adicionando novas ações diretamente ao seu repertório.",
+            "tag": "Crescimento de Habilidades"
+          },
+          {
+            "title": "Corrente de Força",
+            "detail": "Uma habilidade do ramo de Espírito que pode quebrar árvores e depósitos minerais após carregar um ataque pesado de Força Axioma.",
+            "tag": "Habilidade de Força Axioma"
+          }
+        ],
+        "note": "Este módulo é organizado em torno da identidade da arma e do crescimento de habilidades para que os usuários possam mapear rapidamente seu estilo de combate e prioridades de melhoria.",
+        "ctaLabel": "Ver armas e caminhos de habilidades",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=69"
+      },
+      {
+        "id": "boss-guide",
+        "icon": "Skull",
+        "layout": "bosses",
+        "title": "Guia de Chefes de Crimson Desert",
+        "summary": "Crimson Desert revelou oficialmente quatro grandes encontros com chefes, cada um construído em torno de um tema visual e identidade de combate distintos.",
+        "cards": [
+          {
+            "title": "Chefes revelados oficialmente",
+            "value": "4",
+            "detail": "A linha oficial lista atualmente quatro encontros com chefes principais nomeados."
+          },
+          {
+            "title": "Imagens públicas de batalhas contra chefes",
+            "value": "trailers de jogabilidade da gamescom 2024",
+            "detail": "Trailers oficiais de batalhas contra chefes foram publicados durante o ciclo de demonstrações da gamescom 2024."
+          },
+          {
+            "title": "Escalação de chefes",
+            "value": "White Horn, Staglord, Reed Devil, Queen Stoneback Crab",
+            "detail": "Cada chefe confirmado destaca um tom de região e estilo de encontro diferente em Pywel."
+          }
+        ],
+        "panels": [
+          {
+            "title": "White Horn",
+            "subtitle": "Espírito da montanha",
+            "details": [
+              "O primeiro chefe mostrado na série de trailers oficiais de batalhas contra chefes.",
+              "Apresentado como um encontro com um espírito imponente com uma forte sensação de monstro de fantasia."
+            ]
+          },
+          {
+            "title": "Staglord",
+            "subtitle": "Rei caído",
+            "details": [
+              "Descrito pela Pearl Abyss como um rei caído sentado em um trono abandonado.",
+              "Encaixa-se na estética de ruína real mais sombria do jogo e no design de chefes estilo \"set-piece\"."
+            ]
+          },
+          {
+            "title": "Reed Devil",
+            "subtitle": "Exilado de Hernand",
+            "details": [
+              "Introduzido como um morador de favela de Hernand tentando reescrever seu destino.",
+              "Liga a lista de chefes diretamente a uma das principais cidades iniciais de Pywel."
+            ]
+          },
+          {
+            "title": "Queen Stoneback Crab",
+            "subtitle": "Criatura coberta de gemas",
+            "details": [
+              "Apresentada como um monstro adornado com algumas das gemas mais raras de Pywel.",
+              "Adiciona um encontro estilo criatura grande à lista de chefes revelados."
+            ]
+          }
+        ],
+        "note": "O conjunto oficial de chefes atual inclui White Horn, Staglord, Reed Devil e Queen Stoneback Crab.",
+        "ctaLabel": "Assista aos trailers oficiais de batalhas contra chefes",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=28"
+      },
+      {
+        "id": "multiplayer-offline",
+        "icon": "WifiOff",
+        "layout": "qa",
+        "title": "Crimson Desert Multijogador e Offline",
+        "summary": "Crimson Desert foi construído como uma aventura de ação para um jogador. Após a configuração inicial e o patch do primeiro dia, o jogo pode ser jogado offline.",
+        "cards": [
+          {
+            "title": "Tipo de jogo",
+            "value": "Um Jogador",
+            "detail": "As páginas oficiais da loja e do FAQ posicionam o jogo como uma experiência de campanha solo."
+          },
+          {
+            "title": "Jogo offline",
+            "value": "Disponível após a configuração inicial e o patch do primeiro dia",
+            "detail": "Uma conexão com a internet é necessária primeiro, mas a jogabilidade pode continuar offline depois."
+          },
+          {
+            "title": "Cross-save",
+            "value": "Não suportado",
+            "detail": "O progresso não é transferido entre ecossistemas de plataformas suportadas."
+          },
+          {
+            "title": "Suporte para controle no PC",
+            "value": "Controles de Xbox e DualSense via USB",
+            "detail": "Jogadores de PC podem usar controles de Xbox ou uma configuração DualSense com fio."
+          }
+        ],
+        "panels": [
+          {
+            "title": "Posso jogar offline?",
+            "subtitle": "Sim, após a configuração",
+            "details": [
+              "Uma conexão com a internet é necessária para a configuração inicial e o patch do primeiro dia.",
+              "Assim que a instalação for concluída, o jogo pode ser aproveitado offline."
+            ]
+          },
+          {
+            "title": "Existe multijogador ou cooperativo?",
+            "subtitle": "Nenhum multijogador listado",
+            "details": [
+              "A página do produto na Epic Games Store lista Crimson Desert como \"Um Jogador\".",
+              "Materiais oficiais do FAQ focam no jogo solo nas plataformas suportadas."
+            ]
+          },
+          {
+            "title": "Suporta cross-save?",
+            "subtitle": "Não",
+            "details": [
+              "O cross-save não está disponível entre plataformas."
+            ]
+          },
+          {
+            "title": "Onde você pode jogar?",
+            "subtitle": "Lista de plataformas atual",
+            "details": [
+              "PlayStation 5 e PlayStation 5 Pro",
+              "Xbox Series X|S e Xbox no PC",
+              "Steam no PC e Mac, Epic Games Store, Mac App Store e GeForce NOW"
+            ]
+          }
+        ],
+        "note": "Este módulo responde diretamente à pergunta de lançamento mais pesquisada: um jogador primeiro, offline após a configuração e sem cross-save.",
+        "ctaLabel": "Veja o FAQ de lançamento e detalhes das plataformas",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=63"
+      },
+      {
+        "id": "system-requirements",
+        "icon": "MonitorCog",
+        "layout": "comparison",
+        "title": "Requisitos de Sistema e Desempenho de Crimson Desert",
+        "summary": "No PC, Crimson Desert requer 150 GB de armazenamento SSD, 16 GB de RAM e DirectX 12. O FAQ oficial também confirma suporte para DLSS, FSR, PSSR e MetalFX, dependendo da plataforma.",
+        "cards": [
+          {
+            "title": "Armazenamento no PC",
+            "value": "150 GB de SSD necessários",
+            "detail": "O planejamento de armazenamento é simples: é necessário um SSD com pelo menos 150 GB livres."
+          },
+          {
+            "title": "Memória no PC",
+            "value": "16 GB de RAM mínimo e recomendado",
+            "detail": "Tanto os alvos oficiais mínimos quanto os recomendados listam 16 GB de memória do sistema."
+          },
+          {
+            "title": "API Gráfica",
+            "value": "DirectX 12",
+            "detail": "As versões para Windows são especificadas com suporte a DirectX 12."
+          },
+          {
+            "title": "Suporte para Intel Arc",
+            "value": "Não suportado",
+            "detail": "As notas oficiais atuais do FAQ não listam suporte para GPUs Intel Arc."
+          }
+        ],
+        "panels": [
+          {
+            "title": "Mínimo para PC",
+            "subtitle": "Requisito de entrada",
+            "details": [
+              "SO: Windows 10 de 64 bits",
+              "CPU: Ryzen 5 2600X / Intel i5-8500",
+              "Memória: 16 GB de RAM",
+              "GPU: RX 5500 XT / GTX 1060",
+              "DirectX: Versão 12",
+              "Armazenamento: 150 GB de espaço disponível, SSD necessário"
+            ]
+          },
+          {
+            "title": "Recomendado para PC",
+            "subtitle": "Base mais suave",
+            "details": [
+              "SO: Windows 10 de 64 bits",
+              "CPU: Ryzen 5 5600 / Intel i5-11600K",
+              "Memória: 16 GB de RAM",
+              "GPU: RX 6700 XT / RTX 2080",
+              "DirectX: Versão 12",
+              "Armazenamento: 150 GB de espaço disponível, SSD necessário"
+            ]
+          },
+          {
+            "title": "Tecnologia de Desempenho por Plataforma",
+            "subtitle": "Upscaling e geração de quadros",
+            "details": [
+              "PC: FSR 3/4, DLSS 4/4.5, Regeneração de Raios AMD FSR, Reconstrução de Raios NVIDIA DLSS",
+              "PS5 Pro: PSSR Aprimorado",
+              "Modelo base do PS5 e Xbox Series X|S: FSR 3",
+              "Mac: MetalFX Upscaler, Geração de Quadros e Denoiser"
+            ]
+          },
+          {
+            "title": "Notas Extras",
+            "subtitle": "Informações úteis de configuração",
+            "details": [
+              "A geração de quadros é suportada no PC e no Mac.",
+              "Drivers recomendados: AMD 25.9.2+ e NVIDIA 581.29+.",
+              "Recomendação para Mac: macOS 26 Tahoe ou posterior."
+            ]
+          }
+        ],
+        "note": "Este módulo consolida os requisitos básicos de PC e as tecnologias de desempenho de plataforma em um único ponto de verificação de solução de problemas de lançamento.",
+        "ctaLabel": "Verifique as especificações completas de desempenho para PC, console e Mac",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=62"
+      },
+      {
+        "id": "editions-bonuses",
+        "icon": "Package",
+        "layout": "editions",
+        "title": "Edições e Bônus de Crimson Desert",
+        "summary": "Crimson Desert é vendido nos pacotes Standard, Deluxe e Collector's, com bônus de plataforma e pacotes de expansão divididos entre as edições.",
+        "cards": [
+          {
+            "title": "Edições principais",
+            "value": "Standard Edition, Deluxe Edition, Collector's Edition",
+            "detail": "Bônus de pré-venda"
+          },
+          {
+            "title": "Escudo Khaled",
+            "value": "Jogadores que fizerem a pré-venda do jogo podem resgatar o item de bônus Escudo Khaled.",
+            "detail": "Bônus exclusivo de PlayStation"
+          },
+          {
+            "title": "Conjunto de Placas Grotevant",
+            "value": "Os caminhos de compra no PlayStation incluem um bônus de conjunto de armadura exclusivo da plataforma.",
+            "detail": "Expansão separada pós-lançamento"
+          },
+          {
+            "title": "Pacote Deluxe",
+            "value": "Jogadores que possuem o jogo base podem comprar o Pacote Deluxe separadamente após o lançamento.",
+            "detail": "Standard Edition"
+          }
+        ],
+        "panels": [
+          {
+            "title": "Física e digital",
+            "subtitle": "Inclui o jogo completo.",
+            "details": [
+              "Bônus de pré-venda: Escudo Khaled.",
+              "Edições de PlayStation adicionam o Conjunto de Placas Grotevant.",
+              "A versão para Mac está disponível apenas na Digital Standard Edition e não inclui o bônus de pré-venda.",
+              "Deluxe Edition"
+            ]
+          },
+          {
+            "title": "Física e digital",
+            "subtitle": "Inclui o jogo completo mais o Pacote Deluxe.",
+            "details": [
+              "Itens do Pacote Deluxe: Escudo Balgran, Conjunto de Placas Kairos, Conjunto de Arreios de Cavalo Exclaire.",
+              "A Deluxe Edition física também inclui um SteelBook, Mapa de Pywel, Carta do Desenvolvedor, 3 Cartões de Fotos de Personagens, Broche Greymane e 3 Patches.",
+              "Collector's Edition"
+            ]
+          },
+          {
+            "title": "Apenas física",
+            "subtitle": "Inclui o jogo completo, o Pacote Deluxe e o conteúdo do Pacote Ultimate.",
+            "details": [
+              "Itens do Pacote Ultimate: Arco Alma Atormentada, Lança Derictus, Espada Longa Sielos, Lanterna do Sudário, Conjunto de Arreios de Cavalo Hyperion.",
+              "Os itens físicos de colecionador incluem um diorama de 17 x 11 x 10 polegadas, SteelBook Limitado, Mapa de Pywel em Tecido, Carta do Desenvolvedor, 3 Cartões de Fotos de Personagens, Broche Greymane e 3 Patches.",
+              "Notas de Bônus Extras"
+            ]
+          },
+          {
+            "title": "Detalhes de loja e melhoria",
+            "subtitle": "O Pacote Deluxe pode ser adquirido separadamente após o lançamento por jogadores que já possuem o jogo completo.",
+            "details": [
+              "O Pacote Ultimate da Collector's Edition não é vendido separadamente.",
+              "Compradores da Epic Games Store também podem receber o Traje Kliff no Fortnite como uma oferta de brinde na compra mostrada na página da loja.",
+              "Este módulo oferece aos jogadores uma comparação direta dos pacotes antes da compra, incluindo limites de bônus e disponibilidade de expansões."
+            ]
+          }
+        ],
+        "note": "Compare os pacotes e resgate seus itens de bônus",
+        "ctaLabel": "Compare packages and claim your bonus items",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice/Detail?_boardNo=49"
+      },
+      {
+        "id": "crafting-cooking",
+        "icon": "ChefHat",
+        "layout": "specs",
+        "title": "Aprenda receitas, colete materiais, fabrique equipamentos mais fortes e prepare refeições melhores combinando vendedores da cidade, ferramentas de campo e sistemas de suporte do acampamento.",
+        "summary": "Método de aprendizado de receitas",
+        "cards": [
+          {
+            "title": "Livros e pergaminhos",
+            "value": "As receitas são aprendidas principalmente através de livros e pergaminhos, sendo então adicionadas ao menu de Conhecimento após o exame.",
+            "detail": "Ciclo de atualização dos vendedores"
+          },
+          {
+            "title": "Aproximadamente 24 horas no jogo",
+            "value": "O inventário dos vendedores da cidade é atualizado em um ritmo diário no jogo, tornando as rotas de reabastecimento confiáveis.",
+            "detail": "Níveis de qualidade das refeições"
+          },
+          {
+            "title": "Modesta, Saciante, Satisfatória, Nutritiva",
+            "value": "Refeições de recuperação escalam por nível de qualidade e se tornam uma alavanca de progressão prática.",
+            "detail": "Ferramentas de coleta confirmadas"
+          },
+          {
+            "title": "Vara de Pesca, Picareta, Machado de Lenhador",
+            "value": "Estas ferramentas formam o ciclo básico para a coleta de ingredientes e materiais.",
+            "detail": "Vendedores Principais de Equipamentos"
+          }
+        ],
+        "panels": [
+          {
+            "title": "Camada de suprimentos da cidade",
+            "subtitle": "Ferraria",
+            "details": [
+              "Loja de Equipamentos",
+              "Alfaiataria",
+              "Curtume",
+              "Loja de Contribuição",
+              "Fontes Principais de Alimentos"
+            ]
+          },
+          {
+            "title": "Camada de ingredientes",
+            "subtitle": "Açougue",
+            "details": [
+              "Mercearia",
+              "Loja de Pesca",
+              "Lojas de Rua",
+              "Mercadores Ambulantes",
+              "Desbloqueio de Coleta via Corrente de Força"
+            ]
+          },
+          {
+            "title": "Rota de Força Axioma",
+            "subtitle": "Força Axioma Nível 2",
+            "details": [
+              "Palma de Força Nível 2",
+              "1 Artefato do Abismo",
+              "Permite a coleta de árvores e minerais através da Corrente de Força",
+              "Amostras de Receitas Iniciais"
+            ]
+          },
+          {
+            "title": "Entradas práticas",
+            "subtitle": "Mingau de Peixe e Vegetais em Conserva",
+            "details": [
+              "Peixe Cozido e Bolinhos de Arroz Fritos",
+              "Sopa de Bolinhos de Peixe",
+              "Mingau de Carne e Vegetais e Costelas Cozidas",
+              "Mingau de Peixe"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "title": "Opção de recuperação inicial a partir de peixes básicos e ingredientes fundamentais.",
+            "detail": "Peixe Cozido"
+          },
+          {
+            "title": "Um prato cozido mais forte, comumente usado no ciclo de progressão do início ao meio.",
+            "detail": "Sopa de Bolinhos de Peixe"
+          },
+          {
+            "title": "Uma refeição prática para atividade de campo prolongada e rotas de missões.",
+            "detail": "Costelas Cozidas"
+          },
+          {
+            "title": "Uma receita de maior valor que vale a pena acompanhar assim que o suprimento de ingredientes se estabilizar.",
+            "detail": "Este módulo vincula receitas, ferramentas, vendedores e níveis de qualidade em um ciclo prático para que os jogadores possam escalar tanto a sobrevivência quanto o ímpeto de artesanato."
+          }
+        ],
+        "note": "Abrir o guia completo de Artesanato e Culinária",
+        "ctaLabel": "Open the full Crafting and Cooking guide",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-crafting-cooking-recipes"
+      },
+      {
+        "id": "greymane-camp-guide",
+        "icon": "Tent",
+        "layout": "timeline",
+        "title": "Desenvolva Howling Hill, recrute Greymanes dispersos, execute missões de despacho e transforme o acampamento em um motor de recursos e inventário de longo prazo.",
+        "summary": "Capítulo de desbloqueio do acampamento",
+        "cards": [
+          {
+            "title": "Capítulo 3: Howling Hill - Propriedade",
+            "value": "O ciclo do acampamento começa no Capítulo 3 e se torna uma camada de progressão central.",
+            "detail": "Requisito para a primeira expansão"
+          },
+          {
+            "title": "2 recrutas, 100 de comida, 250 de dinheiro, 18 horas de jogo",
+            "value": "Tags de habilidade de despacho",
+            "detail": "14 tags confirmadas"
+          },
+          {
+            "title": "As tags incluem Escolta, Fazendeiro, Pecuarista, Pescador, Ferreiro, Lenhador, Minerador, Artesão, Joalheiro, Engenheiro, Cozinheiro, Explorador, Pintor e Tecelão.",
+            "value": "Cadeia de recompensas de inventário",
+            "detail": "+81 espaços de 27 comissões"
+          },
+          {
+            "title": "As Comissões Greymane podem recompensar com Bolsas Médias que valem +3 espaços cada.",
+            "value": "Abra Howling Hill e garanta a primeira tenda",
+            "detail": "Comece garantindo sua primeira tenda, colocando o estandarte, cozinhando 2 Sopas Claras Modestas e trazendo Marius de volta ao acampamento."
+          }
+        ],
+        "items": [
+          {
+            "title": "Configuração Inicial",
+            "detail": "Trabalhe pelas três abas de facção",
+            "meta": "A progressão do acampamento é estruturada em torno de Brasas Dispersas, Campos do Amanhecer e Comissões Greymane."
+          },
+          {
+            "title": "Estrutura de Missões",
+            "detail": "Estabeleça o ciclo de gerenciamento do acampamento",
+            "meta": "Alterne entre recompensas de Baús de Suprimentos, doações de Provisões do Acampamento, recuperação de recrutas e missões de despacho para manter o crescimento constante."
+          },
+          {
+            "title": "Ciclo Central",
+            "detail": "Escale os despachos por função e tipo de missão",
+            "meta": "Categorias de missões confirmadas incluem Escolta, Colheita e Agricultura, Mineração e Extração de Madeira."
+          },
+          {
+            "title": "Operações de Despacho",
+            "detail": "Impulsione a expansão e melhorias de inventário",
+            "meta": "Conclua comissões para acumular recompensas de Bolsas Médias e atingir metas maiores de crescimento do assentamento."
+          },
+          {
+            "title": "Crescimento",
+            "detail": "Este módulo enquadra o gerenciamento do acampamento como um motor de progressão repetível que fornece materiais, força ao elenco e crescimento de inventário.",
+            "meta": "Veja o guia completo do Acampamento Greymane e Recrutas"
+          }
+        ],
+        "note": "This module frames camp management as a repeatable progression engine that feeds materials, roster strength, and inventory growth.",
+        "ctaLabel": "side-activities-exploration",
+        "ctaHref": "https://store.epicgames.com/en-US/news/crimson-desert-guide-greymane-camp-management-recruits"
+      },
+      {
+        "id": "side-activities-exploration",
+        "icon": "Compass",
+        "layout": "guide",
+        "title": "Impacto da libertação",
+        "summary": "Postos avançados reabrem atividades locais",
+        "cards": [
+          {
+            "title": "Limpar locais dominados por bandidos restaura o acesso civil e desbloqueia novas missões e rotas de atividades.",
+            "value": "Kit de travessia",
+            "detail": "Escalar, planar, nadar, correr"
+          },
+          {
+            "title": "Sistemas de movimento compartilham o gerenciamento de vigor e moldam a rapidez com que os jogadores podem mapear novas rotas.",
+            "value": "Mobilidade de longo alcance",
+            "detail": "Invocação de cavalo sob demanda"
+          },
+          {
+            "title": "A mobilidade da montaria suporta viagens rápidas entre regiões, enquanto o vigor da montaria e do planador melhoram com o tempo.",
+            "value": "Catalisador de melhoria",
+            "detail": "Artefatos do Abismo"
+          },
+          {
+            "title": "Recompensas de exploração alimentam a progressão desbloqueando habilidades e sistemas mais fortes.",
+            "value": "Libertação de Postos Avançados",
+            "detail": "Recupere áreas controladas por bandidos para reabrir locais para os habitantes da cidade e acionar cadeias de atividades adicionais."
+          }
+        ],
+        "items": [
+          {
+            "title": "Estado do Mundo",
+            "detail": "Ciclo de Recuperação do Mercado de Peixes",
+            "tag": "Um mercado de peixes recuperado em Hernand traz os pescadores de volta e abre o caminho para aprender a pescar por observação."
+          },
+          {
+            "title": "Atividade da Cidade",
+            "detail": "Sistemas de Quebra-cabeça do Abismo",
+            "tag": "O Abismo introduz quebra-cabeças baseados em dispositivos, mecânicas de peso, movimento de objetos pesados e caminhos de travessia guiados por planador."
+          },
+          {
+            "title": "Camada de Quebra-cabeças",
+            "detail": "Caça de Encontros de Curta Duração",
+            "tag": "A exploração revela naturalmente resgates em penhascos, baús escondidos e descobertas relacionadas ao comércio durante as viagens normais."
+          },
+          {
+            "title": "Camada de Encontros",
+            "detail": "Descoberta de Mundo Contínuo",
+            "tag": "O posicionamento oficial enfatiza um vasto mundo contínuo que abrange cidades, áreas selvagens, ruínas e rotas do Abismo."
+          },
+          {
+            "title": "Visão Macro",
+            "detail": "Este módulo mostra por que a exploração não é enchimento: cada ciclo de atividade contribui para missões, recursos e opções de progressão a longo prazo.",
+            "tag": "Navegue por guias de exploração, atividades e regiões"
+          }
+        ],
+        "note": "This module shows why exploration is not filler: each activity loop contributes to quests, resources, and long-term progression options.",
+        "ctaLabel": "patch-notes-known-issues",
+        "ctaHref": "https://blog.playstation.com/2026/03/04/crimson-desert-hands-on-report-four-hours-in-the-rpgs-massive-open-world/"
+      },
+      {
+        "id": "patch-notes-known-issues",
+        "icon": "Bug",
+        "layout": "patches",
+        "title": "Patch publicado mais recente",
+        "summary": "Versão 1.00.02",
+        "cards": [
+          {
+            "title": "A entrada de patch pública mais recente é a Versão 1.00.02.",
+            "value": "Data de postagem do patch",
+            "detail": "19 de março de 2026"
+          },
+          {
+            "title": "A Versão 1.00.02 foi publicada em 19 de março de 2026.",
+            "value": "Quadro de problemas atuais",
+            "detail": "10 problemas ativos, 1 item resolvido"
+          },
+          {
+            "title": "O aviso de Problemas Conhecidos rastreia itens abertos atuais e atualizações resolvidas.",
+            "value": "Carimbo de data/hora de Problemas Conhecidos",
+            "detail": "20/03/2026 às 06:15 UTC"
+          },
+          {
+            "title": "A página pública de Problemas Conhecidos exibe este carimbo de data/hora da última atualização.",
+            "value": "Versão 1.00.02 postada com atualizações de lançamento nas plataformas",
+            "detail": "O aviso afirma que a disponibilidade no PlayStation e na Epic Games Store foi atualizada para 20 de março de 2026 às 01:00 UTC, com notas de lançamento rastreadas por plataforma."
+          }
+        ],
+        "items": [
+          {
+            "title": "Cronograma de Patches",
+            "detail": "Conteúdo do patch agrupado em oito áreas de atualização",
+            "meta": "Missões, Conteúdo, Habilidades, Lutas contra Chefes, NPCs e Diálogos de NPCs, Localização, Interface e Desempenho são rastreados como seções de mudanças separadas."
+          },
+          {
+            "title": "Escopo",
+            "detail": "Ajustes de jogabilidade e chefes lançados",
+            "meta": "Os destaques incluem adições de tutoriais de Equipamentos do Abismo, avanço rápido de cenas mais veloz, mudanças de usabilidade em \"Observar e Aprender\" e várias correções no fluxo de chefes."
+          },
+          {
+            "title": "Jogabilidade",
+            "detail": "Problemas Conhecidos rastreia ativamente bloqueadores de desempenho e progressão",
+            "meta": "Entradas abertas atuais incluem quedas de quadros relacionadas ao Abismo, bloqueadores de progressão de missões, travamentos de controle, problemas ao salvar configurações e problemas de resgate específicos de lojas."
+          },
+          {
+            "title": "Quadro de Problemas",
+            "detail": "Este módulo combina as mudanças do patch e o status dos problemas em um único ponto de verificação para que os jogadores possam verificar rapidamente o que mudou e o que ainda está sob investigação.",
+            "meta": "Confira as últimas notas de patch e problemas conhecidos"
+          }
+        ],
+        "note": "This module combines patch deltas and issue status in one checkpoint so players can quickly verify what changed and what is still under investigation.",
+        "ctaLabel": "Perguntas Frequentes de Crimson Desert",
+        "ctaHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
+      }
+    ],
+    "faq": {
+      "title": "Que tipo de jogo é Crimson Desert?",
+      "subtitle": "Crimson Desert é uma aventura de ação em mundo aberto para um jogador centrada em Kliff, nos Greymanes e no continente de Pywel.",
+      "items": [
         {
-          "title": "Tipos de Missão",
-          "icon": "mapa",
-          "description": "Concentre-se nas missões certas para o máximo de XP",
-          "tips": [
-            "Missões verdes = Entrega (conclusão rápida)",
-            "Missões amarelas = Combate (altas recompensas de XP)",
-            "Missões azuis = Coleta (XP moderado)"
-          ]
+          "question": "Quando Crimson Desert foi lançado?",
+          "answer": "Crimson Desert foi lançado em 19 de março de 2026."
         },
         {
-          "title": "Sistema de Comida",
-          "icon": "utensílios",
-          "description": "Use comida para manter HP e farmar eficientemente",
-          "tips": [
-            "Mantenha comida no inventário para regeneração de HP",
-            "Reduz o tempo de inatividade entre encontros de combate",
-            "Essencial para grinding contínuo de missões"
-          ]
+          "question": "Crimson Desert é multijogador ou cooperativo?",
+          "answer": "Crimson Desert não é um jogo multijogador ou cooperativo. Ele foi construído como uma campanha para um jogador."
         },
         {
-          "title": "Rota de Progressão",
-          "icon": "rota",
-          "description": "Siga caminhos de nivelamento ideais",
-          "tips": [
-            "Complete as missões da área inicial primeiro",
-            "Mova-se para zonas de nível superior progressivamente",
-            "Use códigos para XP e giros bônus"
-          ]
+          "question": "Crimson Desert pode ser jogado offline?",
+          "answer": "Crimson Desert suporta jogo offline após a conclusão da configuração inicial e do patch do primeiro dia."
+        },
+        {
+          "question": "Crimson Desert suporta cross-save?",
+          "answer": "Crimson Desert não suporta cross-save entre plataformas."
+        },
+        {
+          "question": "Quem é o personagem principal em Crimson Desert?",
+          "answer": "Kliff é o protagonista central em Crimson Desert, com os Greymanes formando a facção principal ao seu redor."
+        },
+        {
+          "question": "O que devo aprender primeiro no combate de Crimson Desert?",
+          "answer": "Em Crimson Desert, comece aprendendo o ritmo entre ataques rápidos, ataques pesados, bloqueios, aparagens e movimento sob pressão."
+        },
+        {
+          "question": "Onde devo acompanhar as atualizações oficiais de Crimson Desert?",
+          "answer": "Use a página de avisos oficiais, o canal oficial no YouTube, a conta oficial no X e o Discord oficial para atualizações contínuas de Crimson Desert."
+        },
+        {
+          "question": "Recursos Oficiais de Crimson Desert",
+          "answer": "Apenas links externos. Use estes para navegar da página inicial para mídias da editora, avisos e canais da comunidade."
         }
       ]
     },
-    "finalSelection": {
-      "title": "Slayerbound",
-      "titleHighlight": "Seleção Final",
-      "subtitle": "Complete a Seleção Final para se tornar um Slayer oficial",
-      "overview": "A Seleção Final é um marco crucial onde você prova seu valor como um caçador de demônios. Complete este desafio de parkour para ganhar seu uniforme de Slayer e status oficial.",
-      "details": {
-        "location": "Desafio de parkour na área da floresta",
-        "timing": "A cada 1 hora (tempo real)",
-        "maxPlayers": "Até 12 jogadores por sessão",
-        "difficulty": "Médio a Difícil"
-      },
-      "rewards": {
-        "title": "Recompensas",
-        "items": [
-          "Uniforme oficial de Slayer",
-          "Membresia do Corpo de Slayers",
-          "Acesso à mansão do Corpo de Slayers",
-          "Desbloqueie o sistema de treinamento de cabaça"
-        ]
-      },
-      "tips": {
-        "title": "Dicas",
-        "items": [
-          "Pratique parkour antes de tentar",
-          "Espere o evento de hora em hora começar",
-          "Junte-se a outros jogadores para suporte",
-          "Não desista - você pode tentar novamente após cada hora"
-        ]
-      }
-    },
-    "clanSystem": {
-      "title": "Slayerbound",
-      "titleHighlight": "Sistema de Clãs",
-      "subtitle": "Níveis de clãs, buffs e como rerolar seu clã",
-      "overview": "Clãs fornecem buffs e habilidades únicas que aprimoram seu personagem. Cada clã tem raridades e benefícios especiais diferentes.",
-      "tiers": [
+    "resources": {
+      "title": "Site Oficial",
+      "subtitle": "Visão geral principal do jogo, edições e páginas de recursos.",
+      "items": [
         {
-          "tier": "Comum",
-          "color": "cinza",
-          "dropRate": "Alto",
-          "description": "Clãs básicos com buffs padrão"
+          "label": "Official Site",
+          "description": "Anúncios",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/Main"
         },
         {
-          "tier": "Raro",
-          "color": "azul",
-          "dropRate": "Médio",
-          "description": "Buffs e habilidades aprimoradas"
+          "label": "Announcements",
+          "description": "Biblioteca de Mídia",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/News/Notice"
         },
         {
-          "tier": "Épico",
-          "color": "roxo",
-          "dropRate": "Baixo",
-          "description": "Habilidades de clã poderosas"
+          "label": "Media Library",
+          "description": "Canal no YouTube",
+          "href": "https://crimsondesert.pearlabyss.com/en-US/Media"
         },
         {
-          "tier": "Lendário",
-          "color": "dourado",
-          "dropRate": "Muito Baixo",
-          "description": "Clãs de nível superior com buffs excepcionais"
+          "label": "YouTube Channel",
+          "description": "X Oficial",
+          "href": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
+        },
+        {
+          "label": "Official X",
+          "description": "Discord Oficial",
+          "href": "https://x.com/CrimsonDesert_"
+        },
+        {
+          "label": "Official Discord",
+          "description": "Fique por dentro de Crimson Desert",
+          "href": "https://discord.gg/crimsondesert"
         }
-      ],
-      "notableClans": {
-        "title": "Clãs Notáveis",
-        "clans": [
-          {
-            "name": "Tsugikuni",
-            "tier": "Lendário",
-            "benefit": "Buffs de combate excepcionais"
-          },
-          {
-            "name": "Kamado",
-            "tier": "Lendário",
-            "benefit": "Técnicas de respiração aprimoradas"
-          },
-          {
-            "name": "Agatsuma",
-            "tier": "Épico",
-            "benefit": "Bônus de respiração do Trovão"
-          }
-        ]
-      },
-      "howToSpin": {
-        "title": "Como Girar/Rerolar",
-        "steps": [
-          "Use giros obtidos de códigos ou jogabilidade",
-          "Acesse o menu de clã no jogo",
-          "Gaste giros para rerolar para clãs melhores",
-          "Clãs de nível superior têm taxas de drop mais baixas"
-        ]
-      }
+      ]
+    },
+    "cta": {
+      "title": "Abrir Avisos Oficiais",
+      "description": "Use this homepage as the reference layer, then pair it with official announcements, the launch trailer, and community channels to stay aligned with the live game.",
+      "primaryLabel": "Assista no YouTube",
+      "primaryHref": "https://crimsondesert.pearlabyss.com/en-US/News/Notice",
+      "secondaryLabel": "Watch on YouTube",
+      "secondaryHref": "https://www.youtube.com/channel/UCtwZImFOBRy7iNj1EQC4YXA"
     }
   }
 }

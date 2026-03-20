@@ -23,7 +23,7 @@ const CTASection = lazy(() => import('@/components/home/CTASection'))
 
 const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
   <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center`}>
-    <div className="text-muted-foreground">Loading...</div>
+    <div className="text-muted-foreground">Preparing content</div>
   </div>
 )
 
