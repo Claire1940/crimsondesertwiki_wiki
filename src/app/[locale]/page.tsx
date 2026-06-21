@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getMessages } from 'next-intl/server'
+import { getMessages, setRequestLocale } from 'next-intl/server'
 import {
   ArrowRight,
   Axe,
@@ -183,6 +183,7 @@ const moduleIcons: Record<IconName, LucideIcon> = {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = getSiteUrl()
   const canonical = locale === routing.defaultLocale ? '/' : `/${locale}`
   const imageUrl = toAbsoluteUrl(SITE.heroImage)
@@ -467,7 +468,9 @@ function renderModuleSection(module: HomepageModule, index: number) {
   )
 }
 
-export default async function HomePage() {
+export default async function HomePage({ params }: PageProps) {
+  const { locale } = await params
+  setRequestLocale(locale)
   const messages = (await getMessages()) as unknown as RootMessages
   const homepage = messages.homepage
   const siteUrl = getSiteUrl()
